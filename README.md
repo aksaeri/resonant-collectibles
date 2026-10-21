@@ -1,14 +1,18 @@
 # resonant-collectibles
-Collectibles tracker for Control Resonant.
+Tracker for the Control Resonant Archives > Collectibles set.
 
-- `data/collectibles.json`: the database. 67 trophy collectibles across 7 zones and 8 types, with locations, ability requirements and fast travel doors.
-- `data/collectibles.csv`: flat export of the same data.
-- `web/tracker.template.html`: tracker page source.
+- `data/archives.json`: the database. 331 documents, recordings and videos in 31 categories, in in-game menu order, with location, quest, unlock conditions and directions.
+- `data/archives.csv`: flat export of the same data.
+- `data/manual/altered-speakers.json`: hand-entered Altered Speakers set (not covered by the main guide).
+- `data/side-collectibles.json`: earlier list of the 67 trophy secrets (taxis, dogs, cameras, hideouts and so on). Not used by the tracker.
+- `web/tracker.template.html`, `web/tracker.js`: tracker page source.
 - `web/tracker.html`: built page with the data embedded. Published as a claude.ai artifact.
-- `scripts/build.py`: regenerates the CSV and the built page after editing the JSON.
+- `scripts/import_archives.py`: rebuilds `data/archives.json` from saved camzillasmom.com guide pages.
+- `scripts/build.py`: rebuilds the CSV and the page.
 
 ```
+python3 scripts/import_archives.py <dir of saved guide .html pages>
 python3 scripts/build.py
 ```
 
-Sources: PowerPyx zone guides (Oct 2026), allthings.how for the Central taxi.
+Sources: camzillasmom.com Archives guides (Oct 2026), MapMaster for Altered Speakers.
