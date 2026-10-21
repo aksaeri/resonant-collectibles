@@ -1,0 +1,304 @@
+<title>Resonant Collectibles</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: FBC case file. Sticky progress header, filter bar, zone dossiers of checkable rows. */
+:root {
+  --paper: #eef0ee;
+  --sheet: #fbfbf9;
+  --ink: #16191b;
+  --muted: #5d6468;
+  --rule: #cfd4d2;
+  --stamp: #b3261e;
+  --stamp-soft: #f3dcd9;
+  --ok: #2f6b4f;
+  --ok-soft: #dcebe2;
+  --focus: #1f5fa8;
+  --display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111416; --sheet: #191d20; --ink: #e6e8e7; --muted: #9aa2a6; --rule: #2d3337;
+    --stamp: #ef6a5f; --stamp-soft: #3a1f1d; --ok: #74c29a; --ok-soft: #1c3127; --focus: #7fb1ec;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111416; --sheet: #191d20; --ink: #e6e8e7; --muted: #9aa2a6; --rule: #2d3337;
+  --stamp: #ef6a5f; --stamp-soft: #3a1f1d; --ok: #74c29a; --ok-soft: #1c3127; --focus: #7fb1ec;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink); font: 15px/1.5 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 48px;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+.wrap { max-width: 920px; margin: 0 auto; }
+button, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+header.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--paper); padding-block: 16px 12px; border-bottom: 1px solid var(--rule);
+  display: grid; gap: 12px;
+}
+.titlerow { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
+h1 { font: 700 2rem/1 var(--display); letter-spacing: .02em; text-transform: uppercase; margin: 0; text-wrap: balance; }
+h1 small { display: block; font: 500 .72rem/1.4 var(--mono); letter-spacing: .12em; color: var(--muted); margin-bottom: 4px; }
+.tally { font: 600 1.6rem/1 var(--display); font-variant-numeric: tabular-nums; }
+.tally span { color: var(--muted); font-weight: 500; }
+.tally b { color: var(--stamp); font-weight: 700; }
+.bar { height: 6px; background: var(--rule); border-radius: 3px; overflow: hidden; }
+.bar > i { display: block; height: 100%; background: var(--ink); transition: width .3s; }
+
+.cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px; }
+.cat {
+  display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; align-items: center;
+  text-align: left; background: var(--sheet); border: 1px solid var(--rule); border-radius: 4px;
+  padding: 6px 10px; cursor: pointer;
+}
+.cat[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.cat .n { font: 500 .8rem var(--mono); font-variant-numeric: tabular-nums; color: var(--muted); }
+.cat.done .n { color: var(--ok); }
+.cat .nm { font-size: .85rem; font-weight: 500; }
+.cat .bar { grid-column: 1 / -1; height: 3px; }
+.cat.done .bar > i { background: var(--ok); }
+
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; background: var(--sheet); }
+.seg button { border: 0; background: none; padding: 6px 12px; cursor: pointer; font-size: .85rem; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--sheet); }
+input[type="search"] {
+  flex: 1 1 180px; min-width: 0; padding: 6px 10px; border: 1px solid var(--rule);
+  border-radius: 4px; background: var(--sheet);
+}
+.sync { font: .72rem var(--mono); color: var(--muted); letter-spacing: .04em; }
+.sync.warn { color: var(--stamp); }
+
+main { display: grid; gap: 20px; margin-top: 20px; }
+section.zone { display: grid; gap: 0; }
+.zhead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; border-bottom: 2px solid var(--ink); padding-bottom: 4px; flex-wrap: wrap; }
+.zhead h2 { font: 700 1.35rem/1.1 var(--display); text-transform: uppercase; letter-spacing: .03em; margin: 0; }
+.zhead h2 em { font: 500 .72rem var(--mono); font-style: normal; color: var(--muted); letter-spacing: .1em; margin-right: 8px; }
+.zmeta { display: flex; gap: 10px; align-items: baseline; font: .8rem var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.zmeta .clear { color: var(--ok); }
+.linkbtn { background: none; border: 0; padding: 0; color: var(--muted); text-decoration: underline; cursor: pointer; font: .75rem var(--mono); }
+.confirm { display: inline-flex; gap: 8px; align-items: baseline; font: .75rem var(--mono); }
+.confirm button { font: .75rem var(--mono); border: 1px solid var(--ink); background: var(--ink); color: var(--sheet); border-radius: 3px; padding: 1px 8px; cursor: pointer; }
+.ft { font: .72rem var(--mono); color: var(--muted); padding: 6px 0 2px; }
+
+ul.items { list-style: none; margin: 0; padding: 0; }
+li.item { border-bottom: 1px solid var(--rule); }
+li.item label { display: grid; grid-template-columns: 28px 1fr; gap: 4px 10px; padding: 10px 4px; cursor: pointer; }
+li.item input { width: 20px; height: 20px; margin: 2px 0 0; accent-color: var(--stamp); cursor: pointer; }
+.ihead { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; min-width: 0; }
+.iname { font-weight: 600; }
+.tag { font: 500 .68rem/1.6 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.req { font: .68rem/1.6 var(--mono); padding: 0 6px; border-radius: 3px; background: var(--stamp-soft); color: var(--stamp); }
+.loc { grid-column: 2; color: var(--muted); font-size: .9rem; min-width: 0; max-width: 68ch; }
+li.item.found .iname { text-decoration: line-through; text-decoration-color: var(--muted); color: var(--muted); }
+li.item.found .loc, li.item.found .req { display: none; }
+li.item.found label { padding-block: 6px; }
+.stampbadge { font: 700 .7rem var(--display); letter-spacing: .14em; color: var(--ok); border: 1.5px solid var(--ok); padding: 0 5px; border-radius: 2px; transform: rotate(-3deg); }
+
+.empty { text-align: center; padding: 40px 16px; background: var(--sheet); border: 1px dashed var(--rule); border-radius: 4px; }
+.empty strong { display: block; font: 700 1.6rem var(--display); text-transform: uppercase; color: var(--ok); }
+footer { margin-top: 32px; font-size: .8rem; color: var(--muted); display: grid; gap: 6px; }
+footer a { color: inherit; }
+@media (max-width: 520px) { h1 { font-size: 1.6rem; } .cats { grid-template-columns: 1fr 1fr; } }
+@media (prefers-reduced-motion: reduce) { .bar > i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="titlerow">
+      <h1><small>FBC // ASSET RECOVERY LOG</small>Resonant Collectibles</h1>
+      <div class="tally" id="tally" aria-live="polite"></div>
+    </div>
+    <div class="bar"><i id="totalbar"></i></div>
+    <div class="cats" id="cats"></div>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Show">
+        <button id="show-missing" type="button" aria-pressed="true">Missing</button>
+        <button id="show-all" type="button" aria-pressed="false">All</button>
+      </div>
+      <div class="seg" role="group" aria-label="Group by">
+        <button id="group-zone" type="button" aria-pressed="true">By zone</button>
+        <button id="group-cat" type="button" aria-pressed="false">By type</button>
+      </div>
+      <input type="search" id="q" placeholder="Search name or location" aria-label="Search">
+      <span class="sync" id="sync">Loading saved progress…</span>
+    </div>
+  </header>
+  <main id="list"></main>
+  <footer>
+    <div>Requirement tags: <span id="legend"></span></div>
+    <div>Nothing is missable. Every item is reachable in free roam after the story. Locations compiled from PowerPyx zone guides, October 2026.</div>
+  </footer>
+</div>
+
+<script type="application/json" id="data">{"game":"Control Resonant","total":67,"sources":["https://www.powerpyx.com/control-resonant-all-collectible-locations-guide/","https://www.powerpyx.com/control-resonant-popes-research-locations-walkthrough/","https://www.powerpyx.com/control-resonant-all-taxi-locations-the-last-taxi-walkthrough/","https://allthings.how/control-resonant-the-last-taxi-walkthrough/"],"zones":[{"id":"downtown","name":"Downtown","order":1,"fastTravel":["Gravity Town","Oldest House: Central Executive","Outside the Oldest House","The Chasm"]},{"id":"central","name":"Central","order":2,"fastTravel":["Central Frontline","Field Office","Patterned Factory","Watchtower"]},{"id":"west","name":"West Incursion Zone","order":3,"fastTravel":["Empire Avenue","House of Mirrors","Theater Vista"]},{"id":"evac","name":"Evacuation Zone","order":4,"fastTravel":["Main Street","Patterned Metro Tunnels","Railyard Street","Survivalist's Bunker"]},{"id":"park","name":"The Park","order":5,"fastTravel":["FBC Base","Mold Factory","Park Valley"]},{"id":"underpass","name":"Underpass","order":6,"fastTravel":["Deepest Underpass","Fault","Halfway Trail","Research Stations","Sinkhole","The Spire"]},{"id":"unknown","name":"The Unknown","order":7,"fastTravel":["Oldest House Rooftop","Twisted Rooftops","Patterned Evac Building"]}],"categories":[{"id":"taskboard","name":"FBC Taskboards","count":7,"reward":"Diligent Consultant (also complete 20 of 42 FBC Tasks)"},{"id":"sketchbook","name":"Dylan's Sketchbooks","count":11,"reward":"Work-Life Balance; Unfinished Lollipop artifact"},{"id":"dog","name":"Dogs","count":8,"reward":"Every Dog Has Her Day; Trusted Spanner artifact"},{"id":"hideout","name":"Secret Hideouts","count":6,"reward":"Backroom Espionage; Health Upgrade each"},{"id":"testing","name":"Testing Facilities","count":6,"reward":"Threshold Researcher (part); Scrunchie artifact; Power Upgrade each"},{"id":"taxi","name":"Taxis","count":7,"reward":"Threshold Researcher (part); Coffee Cup artifact"},{"id":"camera","name":"Freeze Frame Cameras","count":14,"reward":"Panopticon Intern (part); Shiny Pebbles artifact"},{"id":"balloon","name":"Pope's Research Balloons","count":8,"reward":"Budding Analyst; Resonant Token"}],"abilities":{"shift":"Shift. Jesse Sightings: The Incursion Fault","reach":"Reach. Jesse Sightings: The Subway Fault","slam":"Ground Slam. The West Incursion Zone Resonant","ignite":"Ignite/Inferno. The Central Zone Resonant","popes":"Side Quest: Pope's Research progress","central-board":"Central taskboard unlocked first"},"items":[{"id":"dt-taskboard","zone":"downtown","category":"taskboard","name":"Oldest House taskboard","location":"Inside the Oldest House.","requires":["central-board"]},{"id":"dt-hideout","zone":"downtown","category":"hideout","name":"Atlantis Restaurant (green entrance)","location":"Enter Atlantis Restaurant from the street through the green entrance. Interact in order: wall box back right corner, radio on the left as you enter, dark coffee maker on the counter, white coffee maker on the metal shelf behind the counter, soda machine, microwave, fridge in the corner. Wall opens to a Health Upgrade.","requires":[]},{"id":"dt-sketch-rooftop","zone":"downtown","category":"sketchbook","name":"Rooftop Oasis","location":"Northwest corner, rooftop marked \"Dense Patterning\". Inspect the table. Put the 3 swans closest to the table on the spots without stones, the 3 plants farthest from the table on the spots with stones.","requires":["reach"]},{"id":"dt-camera-1","zone":"downtown","category":"camera","name":"Camera under ability barrier","location":"Ground Slam the ability barrier on the roof above the camera. Approach from the street slightly northwest and Shift up the side of the roof to stay unseen.","requires":["slam","shift"]},{"id":"dt-dog","zone":"downtown","category":"dog","name":"Southwest rooftop dog","location":"On a roof in the southwest corner. The toy is on the next roof to the left of the dog.","requires":[]},{"id":"dt-sketch-beach","zone":"downtown","category":"sketchbook","name":"Beach Day","location":"Northeast, construction site at \"Lookout Point\". Inspect the blue tarp on the ground. Fetch the beach umbrella and chairs from behind the \"A New You Awaits\" sign at the end of the alley. Chairs side by side facing forward, umbrella behind them on the tarp.","requires":[]},{"id":"dt-testing","zone":"downtown","category":"testing","name":"Deserted Area construction site","location":"Inside the construction site in the Deserted Area. On the ground floor drop into the pipe, it leads east. Transform all 5 objects into soda machines by carrying them across the lines, place them on the middle squares, hit the switch by the computer.","requires":[]},{"id":"dt-taxi","zone":"downtown","category":"taxi","name":"Deserted road taxi","location":"North of the deserted road checkpoint on the main road. Inspect the taxi, then the right passenger door. Cycle 1: cab with roof TAXI light on. Cycle 2: taxi whose light goes off as you approach. Cycle 3: taxi whose top light is lit (it flickers).","requires":[]},{"id":"dt-camera-2","zone":"downtown","category":"camera","name":"Camera behind powered door","location":"Carry electricity from the Power Core Station north of the camera to the roof slightly northeast of it, then on to the door behind the camera.","requires":[]},{"id":"ce-camera-1","zone":"central","category":"camera","name":"Watchtower storage room camera","location":"From the Watchtower fast travel door go all the way downstairs into the open storage room. Climb the scaffolds, pull up through the hole in the ceiling just before the camera, drop down behind it.","requires":[]},{"id":"ce-taskboard","zone":"central","category":"taskboard","name":"Field Office NPC (unlocks the rest)","location":"Outside the Field Office entrance, near the \"O\" of \"Office\" on the map. Unmarked NPC with a red prompt (\"hey, got a minute?\"). If absent, advance the story.","requires":[]},{"id":"ce-camera-2","zone":"central","category":"camera","name":"Rooftop camera (respawn trick)","location":"On a rooftop behind an open door. Let it spot you, go down through the building, exit the bottom door to the street until you hear a click, then go back upstairs and get behind it.","requires":["reach"]},{"id":"ce-sketch-stage","zone":"central","category":"sketchbook","name":"Live on Stage","location":"Southwest corner. Apartment door behind a black FBC vehicle, up the first stairs, first door on the left. Blue guitar left, keyboard middle, drum right corner, brown guitar right side, microphone on the stand.","requires":[]},{"id":"ce-hideout","zone":"central","category":"hideout","name":"Wear'Em & Wash'Em laundromat","location":"Enter the laundromat (destroy the red-line objects if a barrier blocks it). Columns 1 to 6 from left: col 1 turn on its 1 machine, col 2 both on, col 3 both on, col 4 all off, col 5 all off, col 6 only the machine closest to the door on.","requires":[]},{"id":"ce-dog","zone":"central","category":"dog","name":"Eastern rooftop dog","location":"On a rooftop in eastern Central. The toy is at the end of the alley below, in the direction the dog faces.","requires":[]},{"id":"ce-sketch-cat","zone":"central","category":"sketchbook","name":"The Cat Picnic","location":"Eastern half, tarp in the corner of a yard at a blue house. Basket left, black cat back right, ginger cat back middle.","requires":[]},{"id":"ce-testing","zone":"central","category":"testing","name":"Pit southeast of Patterned Factory","location":"Pipe in an open pit southeast of the Patterned Factory. Charge puzzle, 4 cores: hit the switch, move charges from blinking blue spots to blinking red spots for 60 seconds.","requires":[]},{"id":"ce-taxi","zone":"central","category":"taxi","name":"Northwest alley taxi","location":"West of the Patterned Factory, across the rooftops, in the northwesternmost alleyway. Cycle answers vary: look for the cab whose lights differ (roof light only, or headlights + taillights + top light).","requires":[]},{"id":"wi-sketch-halloween","zone":"west","category":"sketchbook","name":"Halloween Party","location":"Rooftops directly after the West Incursion Zone Checkpoint. Small pumpkin front left, ghost back left, big pumpkins back right, skeleton front right.","requires":["reach"]},{"id":"wi-taxi","zone":"west","category":"taxi","name":"Upside-down wall taxi","location":"Southwest of the Empire Avenue door, in the upside-down section, stuck to a wall. Cycle 1: taxi under the flashing streetlight. Cycle 2: under the streetlight that is not flashing. Cycle 3: streetlight flashing when the others are not.","requires":["shift"]},{"id":"wi-taskboard","zone":"west","category":"taskboard","name":"House of Mirrors taskboard","location":"Inside the House of Mirrors.","requires":["central-board"]},{"id":"wi-hideout","zone":"west","category":"hideout","name":"Urban Fresh mart","location":"Enter the \"Urban Fresh\" mart. Code 1213 on the cash register.","requires":[]},{"id":"wi-camera-1","zone":"west","category":"camera","name":"Flying platform camera","location":"On a platform on the side of a building behind flying platforms. At the end of the street just west, Shift Gravity, jump toward the nearby flying platform while inverted, fall onto it, then take the second platform that spawns.","requires":["shift"]},{"id":"wi-testing","zone":"west","category":"testing","name":"Central construction pit","location":"Pipe in a construction pit along the road in the centre of the zone. Turn all 5 objects into soda machines, place them, hit the switch.","requires":[]},{"id":"wi-dog","zone":"west","category":"dog","name":"Northwest rooftop dog","location":"Northwest corner, on a roof climbed with Shift. The toy is on the next roof, where the dog is looking.","requires":["shift"]},{"id":"wi-camera-2","zone":"west","category":"camera","name":"Sideways building camera","location":"Far northwest corner on a building flipped sideways. Tucked in a corner, look for the red light. Reach the roof above and drop onto it unseen.","requires":["shift","reach"]},{"id":"ev-taskboard","zone":"evac","category":"taskboard","name":"Evac Building taskboard","location":"Outside the Evac Building.","requires":["central-board"]},{"id":"ev-sketch-robotics","zone":"evac","category":"sketchbook","name":"Robotics","location":"Southwest corner inside a building, via the door at the end of the street-level alley or the roof door. Inspect the vending machine, connect the 4 pipes plus the head on top.","requires":[]},{"id":"ev-testing","zone":"evac","category":"testing","name":"Below Survivalist's Bunker","location":"Pipe directly below the Survivalist's Bunker door, reached through the parking garage near \"Unauthorized mines?\". Turn all 5 objects into soda machines, place them, hit the switch.","requires":[]},{"id":"ev-taxi","zone":"evac","category":"taxi","name":"Laser alley taxi","location":"Centre of the area west of the Evac Building, in the alley between three streets with a group of lasers. Cycle 1: lights flash differently. Cycle 2: flashes twice in a row. Cycle 3: does not flash with the others.","requires":[]},{"id":"ev-camera-1","zone":"evac","category":"camera","name":"Powered rooftop camera","location":"Carry electricity from the southeast Power Core Station west past \"Unauthorized mines?\", via the street box then the box below the elevator. Reach up to the roof and use it on the cube behind the camera.","requires":["reach"]},{"id":"ev-hideout","zone":"evac","category":"hideout","name":"Art gallery pillars","location":"Enter the art gallery. Pillar lights: front left middle, back left left, back right left, front right middle. Door in the left corner opens.","requires":[]},{"id":"ev-dog","zone":"evac","category":"dog","name":"North rooftop dog","location":"North of the zone on a rooftop. The toy is on the upside-down roof directly above. Shift up to it and Shift back.","requires":["shift"]},{"id":"ev-sketch-dream","zone":"evac","category":"sketchbook","name":"Dream House","location":"North, roof of the Railyard Street Station building, via the stairs inside the mold-infested building. Assemble the 6 playhouse pieces; roof and front wall differ in colour and texture.","requires":[]},{"id":"ev-camera-2","zone":"evac","category":"camera","name":"Elevator camera (respawn trick)","location":"On a roof. Let it spot you, walk past into the building, take the elevator down, exit the front door until you hear a click, then ride back up behind it.","requires":[]},{"id":"pk-camera-1","zone":"park","category":"camera","name":"Nomand Avenue Station camera","location":"Underground station, enter at \"Nomand Avenue Station\" just north of the icon. Take the left path and burn the web wall to get behind the camera.","requires":["ignite"]},{"id":"pk-sketch-dragon","zone":"park","category":"sketchbook","name":"The Dragon and the Knight","location":"Northwest, underground in Park Valley Station. Inspect the dragon-shaped mold at the end. Two tools in the mouth, two benches on the sides, two cones on the back.","requires":[]},{"id":"pk-taxi","zone":"park","category":"taxi","name":"Parking garage taxi (build the car)","location":"Southwest of Mold Factory, top of the parking garage. Climb blue mold at the northwest corner to the vendor truck roof, drop one floor. Cycles: destroy mold and attach parts (yellow hood, not blue).","requires":[]},{"id":"pk-dog","zone":"park","category":"dog","name":"Northeast lift dog (timed)","location":"Northeast corner. Toy on a roof with a yellow lift behind the dog. Carry electricity from the Power Core Station, stop at the power box on the midway roof, then power the lift.","requires":[]},{"id":"pk-testing","zone":"park","category":"testing","name":"Sewer Route facility","location":"East side, Sewer Route, follow the path southeast to the lava room, jump to the path northeast at lava level. Charge puzzle, 5 cores, 60 seconds.","requires":[]},{"id":"pk-camera-2","zone":"park","category":"camera","name":"Above the sewer entrance","location":"Platform on a building above the sewer entrance. Take electricity from the cube on the street to the south (near the jacket icon) to the elevator just west, ride up and jump across.","requires":[]},{"id":"pk-taskboard","zone":"park","category":"taskboard","name":"FBC Base rooftop taskboard","location":"Rooftop of the FBC Base.","requires":["central-board"]},{"id":"pk-hideout","zone":"park","category":"hideout","name":"Atlantis restaurant (code)","location":"Enter the \"Atlantis\" restaurant. Code BDAC on the cash register.","requires":[]},{"id":"up-camera-1","zone":"underpass","category":"camera","name":"Yellow corridor camera","location":"North-east island, yellow-lit corridor. Hug the left edge, Reach the grapple point below, drop through the floor hole behind the camera.","requires":["reach"]},{"id":"up-camera-2","zone":"underpass","category":"camera","name":"Mold wall camera","location":"Island south of Tubes Island, high in a mold-covered wall. Shift along the red floor in the opposite opening, drop through and fall into the camera opening. Alternative: jump-dash from a pillar with midair attacks.","requires":["shift"]},{"id":"up-sketch-space","zone":"underpass","category":"sketchbook","name":"Space Adventure","location":"Top of an island reached by jumping from the Research Site area. Antenna on the yellow X, alien figurine on the wooden box, boy in white on the lowest podium, person in brown on the tallest, US flag on the middle.","requires":[]},{"id":"up-dog","zone":"underpass","category":"dog","name":"Halfway Trail dog","location":"Platform between Halfway Trail and the Research Site. Toy is on the inverted floor above. From the radiator on the orange-pipe pillar jump to the ceiling, Shift to the toy, drop it so it falls up to the dog, Reach back via the side ledge.","requires":["shift","reach"]},{"id":"up-taxi","zone":"underpass","category":"taxi","name":"Mold room taxi","location":"Far southeast, after the story cable car ride, northeast corner of a large mold room. Cycle 1: lights don't turn off with the rest. Cycle 2: headlights and taillights turn off on flicker. Cycle 3: no lights when the streetlights come on.","requires":[]},{"id":"up-taskboard","zone":"underpass","category":"taskboard","name":"Past the cable car","location":"Past the cable car, reached during Main Quest: Recursions and Iterations.","requires":["central-board"]},{"id":"un-taskboard","zone":"unknown","category":"taskboard","name":"Oldest House Rooftop taskboard","location":"Near the Oldest House Rooftop fast travel door.","requires":["central-board"]},{"id":"un-hideout","zone":"unknown","category":"hideout","name":"Pulse Fitness","location":"Shop with a purple sign. If the marker leads to an art gallery you are on the wrong side, flip gravity 180°.","requires":["shift"]},{"id":"un-sketch-art","zone":"unknown","category":"sketchbook","name":"Art Exhibition","location":"Art gallery (use Shift to switch levels if needed). Bowl far left, toilet second, laptop third, vacuum far right.","requires":["shift"]},{"id":"un-testing","zone":"unknown","category":"testing","name":"West of Twisted Rooftops","location":"Pipe in a construction pit on ground level west of the Twisted Rooftops door. Charge puzzle, 5 cores, 60 seconds.","requires":[]},{"id":"un-camera-1","zone":"unknown","category":"camera","name":"Construction site camera","location":"Construction site main building, downstairs. Defeat the mold ambush, then reach the camera from behind through a small hole in the blue mold. Flip gravity if no site is at the marker.","requires":["shift"]},{"id":"un-dog","zone":"unknown","category":"dog","name":"Northwest island dog","location":"Northwest island. Toy near the top of the skyscraper the dog looks at. Shift up the neighbouring building and jump across.","requires":["popes","shift"]},{"id":"un-camera-2","zone":"unknown","category":"camera","name":"Shop garage camera","location":"Inside a shop. Let it spot you, go through to the garage, press the red garage door button, walk away until it respawns, re-enter via the garage.","requires":[]},{"id":"un-sketch-game","zone":"unknown","category":"sketchbook","name":"Game Night","location":"Southeast island, under-construction building bottom floor. 3 figurines in the middle, candle (supermarket left shelf) on the left, pizza (pizzeria) right corner, mannequin (laundromat, Shift via the road) on the right.","requires":["popes","shift"]},{"id":"un-taxi","zone":"unknown","category":"taxi","name":"Evac Building island taxi","location":"Evac Building island, north of the building. Each cycle: shine the light on the cars and enter the one whose shadow matches the target.","requires":["popes"]},{"id":"un-dog-gap","zone":"unknown","category":"dog","name":"The Gap (8th dog)","location":"Spawns in The Gap after the first seven dogs are found. Hold down on the d-pad to teleport there.","requires":[]},{"id":"un-balloon-1","zone":"unknown","category":"balloon","name":"Balloon 1, Starting Island","location":"Starting island. 2 relays: one directly next to the balloon, one a floor up.","requires":[]},{"id":"un-balloon-2","zone":"unknown","category":"balloon","name":"Balloon 2, North-West island","location":"North-west island. 2 relays.","requires":["popes"]},{"id":"un-balloon-3","zone":"unknown","category":"balloon","name":"Balloon 3, North-East island","location":"North-east island. 2 relays.","requires":["popes"]},{"id":"un-balloon-4","zone":"unknown","category":"balloon","name":"Balloon 4, Central island","location":"Central island. 2 relays.","requires":["popes"]},{"id":"un-balloon-5","zone":"unknown","category":"balloon","name":"Balloon 5, South-West island","location":"South-west island. 2 relays.","requires":["popes"]},{"id":"un-balloon-6","zone":"unknown","category":"balloon","name":"Balloon 6, South-East island","location":"South-east island. 2 relays.","requires":["popes"]},{"id":"un-balloon-7","zone":"unknown","category":"balloon","name":"Balloon 7, South island","location":"South island. 3 relays.","requires":["popes"]},{"id":"un-balloon-8","zone":"unknown","category":"balloon","name":"Balloon 8, Central (final)","location":"Central island, second balloon. 4 relays. Then Investigate Point 0 at the southern Gravity Well.","requires":["popes"]}]}</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const zones = Object.fromEntries(D.zones.map(z => [z.id, z]));
+  const cats = Object.fromEntries(D.categories.map(c => [c.id, c]));
+  const REQ_LABEL = { shift: "Shift", reach: "Reach", slam: "Ground Slam", ignite: "Ignite", popes: "Pope's Research", "central-board": "After Central board" };
+  const LS = "rc-found-v1", UI = "rc-ui-v1";
+
+  let found = new Set();
+  let ui = { showAll: false, group: "zone", cat: null, q: "" };
+  let mode = "local";        // "db" when the shared store is live
+  let canWrite = true;
+  let dbRef = null;
+  let pendingZone = null;
+
+  try { ui = Object.assign(ui, JSON.parse(localStorage.getItem(UI) || "{}"), { q: "" }); } catch (e) {}
+  try { found = new Set(JSON.parse(localStorage.getItem(LS) || "[]")); } catch (e) {}
+
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const saveUI = () => { try { localStorage.setItem(UI, JSON.stringify({ showAll: ui.showAll, group: ui.group, cat: ui.cat })); } catch (e) {} };
+  const saveLocal = () => { try { localStorage.setItem(LS, JSON.stringify([...found])); } catch (e) {} };
+
+  $("legend").textContent = Object.entries(D.abilities).map(([k, v]) => REQ_LABEL[k] + ": " + v.replace(/^[^.]+\.\s*/, "")).join(" · ");
+
+  function setSync(text, warn) { const s = $("sync"); s.textContent = text; s.classList.toggle("warn", !!warn); }
+
+  function renderHeader() {
+    const n = found.size, t = D.items.length;
+    $("tally").innerHTML = "<b>" + n + "</b><span> / " + t + "</span>";
+    $("totalbar").style.width = (100 * n / t) + "%";
+    $("cats").innerHTML = D.categories.map(c => {
+      const items = D.items.filter(i => i.category === c.id);
+      const f = items.filter(i => found.has(i.id)).length;
+      return '<button type="button" class="cat' + (f === items.length ? " done" : "") + '" data-cat="' + c.id + '" aria-pressed="' + (ui.cat === c.id) + '" title="' + esc(c.reward) + '">' +
+        '<span class="nm">' + esc(c.name) + '</span><span class="n">' + f + "/" + items.length + "</span>" +
+        '<span class="bar"><i style="width:' + (100 * f / items.length) + '%"></i></span></button>';
+    }).join("");
+    $("show-missing").setAttribute("aria-pressed", !ui.showAll);
+    $("show-all").setAttribute("aria-pressed", ui.showAll);
+    $("group-zone").setAttribute("aria-pressed", ui.group === "zone");
+    $("group-cat").setAttribute("aria-pressed", ui.group === "cat");
+  }
+
+  function itemRow(i) {
+    const f = found.has(i.id);
+    const sub = ui.group === "zone" ? cats[i.category].name : zones[i.zone].name;
+    const reqs = i.requires.map(r => '<span class="req">' + esc(REQ_LABEL[r] || r) + "</span>").join("");
+    return '<li class="item' + (f ? " found" : "") + '"><label>' +
+      '<input type="checkbox" id="cb-' + i.id + '" data-id="' + i.id + '"' + (f ? " checked" : "") + (canWrite ? "" : " disabled") + ">" +
+      '<span class="ihead"><span class="iname">' + esc(i.name) + '</span><span class="tag">' + esc(sub) + "</span>" + reqs +
+      (f ? '<span class="stampbadge">FOUND</span>' : "") + "</span>" +
+      '<span class="loc">' + esc(i.location) + "</span></label></li>";
+  }
+
+  function renderList() {
+    const q = ui.q.trim().toLowerCase();
+    const visible = D.items.filter(i =>
+      (ui.showAll || !found.has(i.id)) &&
+      (!ui.cat || i.category === ui.cat) &&
+      (!q || (i.name + " " + i.location + " " + zones[i.zone].name).toLowerCase().includes(q)));
+
+    const groups = ui.group === "zone"
+      ? D.zones.map(z => ({ key: z.id, title: z.name, num: String(z.order).padStart(2, "0"), all: D.items.filter(i => i.zone === z.id), ft: z.fastTravel }))
+      : D.categories.map((c, n) => ({ key: c.id, title: c.name, num: String(n + 1).padStart(2, "0"), all: D.items.filter(i => i.category === c.id), reward: c.reward }));
+
+    let html = "";
+    for (const g of groups) {
+      const rows = visible.filter(i => g.all.includes(i));
+      if (!rows.length) continue;
+      const f = g.all.filter(i => found.has(i.id)).length;
+      const missing = g.all.length - f;
+      let action = "";
+      if (canWrite && ui.group === "zone" && missing > 0) {
+        action = pendingZone === g.key
+          ? '<span class="confirm">Tick all ' + missing + '? <button type="button" data-confirm="' + g.key + '">Yes</button><button type="button" data-cancel="1">No</button></span>'
+          : '<button type="button" class="linkbtn" data-tickall="' + g.key + '">tick all</button>';
+      }
+      html += '<section class="zone"><div class="zhead"><h2><em>' + g.num + "</em>" + esc(g.title) + "</h2>" +
+        '<span class="zmeta"><span class="' + (missing ? "" : "clear") + '">' + f + "/" + g.all.length + "</span>" + action + "</span></div>" +
+        (g.ft ? '<div class="ft">Doors: ' + esc(g.ft.join(", ")) + "</div>" : "") +
+        (g.reward ? '<div class="ft">Reward: ' + esc(g.reward) + "</div>" : "") +
+        '<ul class="items">' + rows.map(itemRow).join("") + "</ul></section>";
+    }
+    if (!html) {
+      html = found.size === D.items.length
+        ? '<div class="empty"><strong>All 67 recovered</strong>Every collectible is ticked off.</div>'
+        : '<div class="empty"><strong>Nothing missing here</strong>No missing items match this filter. Switch to All to see found items.</div>';
+    }
+    $("list").innerHTML = html;
+  }
+
+  function render() { renderHeader(); renderList(); }
+
+  async function setFound(ids, value) {
+    for (const id of ids) value ? found.add(id) : found.delete(id);
+    saveLocal();
+    render();
+    if (mode !== "db") return;
+    try {
+      for (const id of ids) {
+        const ref = dbRef.collection("found").doc(id);
+        if (value) await ref.set({ found: true, at: new Date().toISOString() });
+        else await ref.delete();
+      }
+    } catch (e) {
+      if (e && e.code === "invalid_argument") { canWrite = false; setSync("Read only. You can't change this log.", true); render(); }
+      else setSync("Couldn't save to the shared log. Saved on this device.", true);
+    }
+  }
+
+  document.addEventListener("change", e => {
+    const id = e.target.dataset && e.target.dataset.id;
+    if (id) setFound([id], e.target.checked);
+  });
+  document.addEventListener("click", e => {
+    const t = e.target.closest("button");
+    if (!t) return;
+    if (t.dataset.cat) { ui.cat = ui.cat === t.dataset.cat ? null : t.dataset.cat; saveUI(); render(); }
+    else if (t.id === "show-missing" || t.id === "show-all") { ui.showAll = t.id === "show-all"; saveUI(); render(); }
+    else if (t.id === "group-zone" || t.id === "group-cat") { ui.group = t.id === "group-zone" ? "zone" : "cat"; saveUI(); render(); }
+    else if (t.dataset.tickall) { pendingZone = t.dataset.tickall; renderList(); }
+    else if (t.dataset.cancel) { pendingZone = null; renderList(); }
+    else if (t.dataset.confirm) {
+      const z = t.dataset.confirm; pendingZone = null;
+      setFound(D.items.filter(i => i.zone === z && !found.has(i.id)).map(i => i.id), true);
+    }
+  });
+  $("q").addEventListener("input", e => { ui.q = e.target.value; renderList(); });
+
+  render();
+
+  (async function connect() {
+    const db = window.claude && window.claude.use ? await window.claude.use("db") : null;
+    if (!db) { setSync("Saved on this device only."); return; }
+    const user = await window.claude.use("user");
+    if (user) {
+      const w = await user.can("data.write");
+      if (w === false) canWrite = false;
+    }
+    dbRef = db;
+    let first = true;
+    db.collection("found").onSnapshot(snap => {
+      const remote = new Set(snap.docs.filter(d => d.exists).map(d => d.id));
+      if (first && remote.size === 0 && found.size > 0 && canWrite) {
+        // First run with the shared log: carry over ticks made on this device.
+        first = false; mode = "db";
+        setFound([...found], true);
+        setSync("Synced to your account.");
+        return;
+      }
+      first = false; mode = "db";
+      found = remote; saveLocal(); render();
+      setSync(canWrite ? "Synced to your account." : "Read only.");
+    }, () => { mode = "local"; setSync("Sync stopped. Saving on this device.", true); });
+  })();
+})();
+</script>

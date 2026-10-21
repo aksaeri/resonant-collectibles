@@ -1,0 +1,304 @@
+<title>Resonant Collectibles</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: FBC case file. Sticky progress header, filter bar, zone dossiers of checkable rows. */
+:root {
+  --paper: #eef0ee;
+  --sheet: #fbfbf9;
+  --ink: #16191b;
+  --muted: #5d6468;
+  --rule: #cfd4d2;
+  --stamp: #b3261e;
+  --stamp-soft: #f3dcd9;
+  --ok: #2f6b4f;
+  --ok-soft: #dcebe2;
+  --focus: #1f5fa8;
+  --display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111416; --sheet: #191d20; --ink: #e6e8e7; --muted: #9aa2a6; --rule: #2d3337;
+    --stamp: #ef6a5f; --stamp-soft: #3a1f1d; --ok: #74c29a; --ok-soft: #1c3127; --focus: #7fb1ec;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111416; --sheet: #191d20; --ink: #e6e8e7; --muted: #9aa2a6; --rule: #2d3337;
+  --stamp: #ef6a5f; --stamp-soft: #3a1f1d; --ok: #74c29a; --ok-soft: #1c3127; --focus: #7fb1ec;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--paper); color: var(--ink); font: 15px/1.5 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 48px;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+.wrap { max-width: 920px; margin: 0 auto; }
+button, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+header.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--paper); padding-block: 16px 12px; border-bottom: 1px solid var(--rule);
+  display: grid; gap: 12px;
+}
+.titlerow { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 16px; }
+h1 { font: 700 2rem/1 var(--display); letter-spacing: .02em; text-transform: uppercase; margin: 0; text-wrap: balance; }
+h1 small { display: block; font: 500 .72rem/1.4 var(--mono); letter-spacing: .12em; color: var(--muted); margin-bottom: 4px; }
+.tally { font: 600 1.6rem/1 var(--display); font-variant-numeric: tabular-nums; }
+.tally span { color: var(--muted); font-weight: 500; }
+.tally b { color: var(--stamp); font-weight: 700; }
+.bar { height: 6px; background: var(--rule); border-radius: 3px; overflow: hidden; }
+.bar > i { display: block; height: 100%; background: var(--ink); transition: width .3s; }
+
+.cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px; }
+.cat {
+  display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; align-items: center;
+  text-align: left; background: var(--sheet); border: 1px solid var(--rule); border-radius: 4px;
+  padding: 6px 10px; cursor: pointer;
+}
+.cat[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.cat .n { font: 500 .8rem var(--mono); font-variant-numeric: tabular-nums; color: var(--muted); }
+.cat.done .n { color: var(--ok); }
+.cat .nm { font-size: .85rem; font-weight: 500; }
+.cat .bar { grid-column: 1 / -1; height: 3px; }
+.cat.done .bar > i { background: var(--ok); }
+
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; background: var(--sheet); }
+.seg button { border: 0; background: none; padding: 6px 12px; cursor: pointer; font-size: .85rem; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--sheet); }
+input[type="search"] {
+  flex: 1 1 180px; min-width: 0; padding: 6px 10px; border: 1px solid var(--rule);
+  border-radius: 4px; background: var(--sheet);
+}
+.sync { font: .72rem var(--mono); color: var(--muted); letter-spacing: .04em; }
+.sync.warn { color: var(--stamp); }
+
+main { display: grid; gap: 20px; margin-top: 20px; }
+section.zone { display: grid; gap: 0; }
+.zhead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; border-bottom: 2px solid var(--ink); padding-bottom: 4px; flex-wrap: wrap; }
+.zhead h2 { font: 700 1.35rem/1.1 var(--display); text-transform: uppercase; letter-spacing: .03em; margin: 0; }
+.zhead h2 em { font: 500 .72rem var(--mono); font-style: normal; color: var(--muted); letter-spacing: .1em; margin-right: 8px; }
+.zmeta { display: flex; gap: 10px; align-items: baseline; font: .8rem var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.zmeta .clear { color: var(--ok); }
+.linkbtn { background: none; border: 0; padding: 0; color: var(--muted); text-decoration: underline; cursor: pointer; font: .75rem var(--mono); }
+.confirm { display: inline-flex; gap: 8px; align-items: baseline; font: .75rem var(--mono); }
+.confirm button { font: .75rem var(--mono); border: 1px solid var(--ink); background: var(--ink); color: var(--sheet); border-radius: 3px; padding: 1px 8px; cursor: pointer; }
+.ft { font: .72rem var(--mono); color: var(--muted); padding: 6px 0 2px; }
+
+ul.items { list-style: none; margin: 0; padding: 0; }
+li.item { border-bottom: 1px solid var(--rule); }
+li.item label { display: grid; grid-template-columns: 28px 1fr; gap: 4px 10px; padding: 10px 4px; cursor: pointer; }
+li.item input { width: 20px; height: 20px; margin: 2px 0 0; accent-color: var(--stamp); cursor: pointer; }
+.ihead { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; min-width: 0; }
+.iname { font-weight: 600; }
+.tag { font: 500 .68rem/1.6 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.req { font: .68rem/1.6 var(--mono); padding: 0 6px; border-radius: 3px; background: var(--stamp-soft); color: var(--stamp); }
+.loc { grid-column: 2; color: var(--muted); font-size: .9rem; min-width: 0; max-width: 68ch; }
+li.item.found .iname { text-decoration: line-through; text-decoration-color: var(--muted); color: var(--muted); }
+li.item.found .loc, li.item.found .req { display: none; }
+li.item.found label { padding-block: 6px; }
+.stampbadge { font: 700 .7rem var(--display); letter-spacing: .14em; color: var(--ok); border: 1.5px solid var(--ok); padding: 0 5px; border-radius: 2px; transform: rotate(-3deg); }
+
+.empty { text-align: center; padding: 40px 16px; background: var(--sheet); border: 1px dashed var(--rule); border-radius: 4px; }
+.empty strong { display: block; font: 700 1.6rem var(--display); text-transform: uppercase; color: var(--ok); }
+footer { margin-top: 32px; font-size: .8rem; color: var(--muted); display: grid; gap: 6px; }
+footer a { color: inherit; }
+@media (max-width: 520px) { h1 { font-size: 1.6rem; } .cats { grid-template-columns: 1fr 1fr; } }
+@media (prefers-reduced-motion: reduce) { .bar > i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="titlerow">
+      <h1><small>FBC // ASSET RECOVERY LOG</small>Resonant Collectibles</h1>
+      <div class="tally" id="tally" aria-live="polite"></div>
+    </div>
+    <div class="bar"><i id="totalbar"></i></div>
+    <div class="cats" id="cats"></div>
+    <div class="controls">
+      <div class="seg" role="group" aria-label="Show">
+        <button id="show-missing" type="button" aria-pressed="true">Missing</button>
+        <button id="show-all" type="button" aria-pressed="false">All</button>
+      </div>
+      <div class="seg" role="group" aria-label="Group by">
+        <button id="group-zone" type="button" aria-pressed="true">By zone</button>
+        <button id="group-cat" type="button" aria-pressed="false">By type</button>
+      </div>
+      <input type="search" id="q" placeholder="Search name or location" aria-label="Search">
+      <span class="sync" id="sync">Loading saved progress…</span>
+    </div>
+  </header>
+  <main id="list"></main>
+  <footer>
+    <div>Requirement tags: <span id="legend"></span></div>
+    <div>Nothing is missable. Every item is reachable in free roam after the story. Locations compiled from PowerPyx zone guides, October 2026.</div>
+  </footer>
+</div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const zones = Object.fromEntries(D.zones.map(z => [z.id, z]));
+  const cats = Object.fromEntries(D.categories.map(c => [c.id, c]));
+  const REQ_LABEL = { shift: "Shift", reach: "Reach", slam: "Ground Slam", ignite: "Ignite", popes: "Pope's Research", "central-board": "After Central board" };
+  const LS = "rc-found-v1", UI = "rc-ui-v1";
+
+  let found = new Set();
+  let ui = { showAll: false, group: "zone", cat: null, q: "" };
+  let mode = "local";        // "db" when the shared store is live
+  let canWrite = true;
+  let dbRef = null;
+  let pendingZone = null;
+
+  try { ui = Object.assign(ui, JSON.parse(localStorage.getItem(UI) || "{}"), { q: "" }); } catch (e) {}
+  try { found = new Set(JSON.parse(localStorage.getItem(LS) || "[]")); } catch (e) {}
+
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const saveUI = () => { try { localStorage.setItem(UI, JSON.stringify({ showAll: ui.showAll, group: ui.group, cat: ui.cat })); } catch (e) {} };
+  const saveLocal = () => { try { localStorage.setItem(LS, JSON.stringify([...found])); } catch (e) {} };
+
+  $("legend").textContent = Object.entries(D.abilities).map(([k, v]) => REQ_LABEL[k] + ": " + v.replace(/^[^.]+\.\s*/, "")).join(" · ");
+
+  function setSync(text, warn) { const s = $("sync"); s.textContent = text; s.classList.toggle("warn", !!warn); }
+
+  function renderHeader() {
+    const n = found.size, t = D.items.length;
+    $("tally").innerHTML = "<b>" + n + "</b><span> / " + t + "</span>";
+    $("totalbar").style.width = (100 * n / t) + "%";
+    $("cats").innerHTML = D.categories.map(c => {
+      const items = D.items.filter(i => i.category === c.id);
+      const f = items.filter(i => found.has(i.id)).length;
+      return '<button type="button" class="cat' + (f === items.length ? " done" : "") + '" data-cat="' + c.id + '" aria-pressed="' + (ui.cat === c.id) + '" title="' + esc(c.reward) + '">' +
+        '<span class="nm">' + esc(c.name) + '</span><span class="n">' + f + "/" + items.length + "</span>" +
+        '<span class="bar"><i style="width:' + (100 * f / items.length) + '%"></i></span></button>';
+    }).join("");
+    $("show-missing").setAttribute("aria-pressed", !ui.showAll);
+    $("show-all").setAttribute("aria-pressed", ui.showAll);
+    $("group-zone").setAttribute("aria-pressed", ui.group === "zone");
+    $("group-cat").setAttribute("aria-pressed", ui.group === "cat");
+  }
+
+  function itemRow(i) {
+    const f = found.has(i.id);
+    const sub = ui.group === "zone" ? cats[i.category].name : zones[i.zone].name;
+    const reqs = i.requires.map(r => '<span class="req">' + esc(REQ_LABEL[r] || r) + "</span>").join("");
+    return '<li class="item' + (f ? " found" : "") + '"><label>' +
+      '<input type="checkbox" id="cb-' + i.id + '" data-id="' + i.id + '"' + (f ? " checked" : "") + (canWrite ? "" : " disabled") + ">" +
+      '<span class="ihead"><span class="iname">' + esc(i.name) + '</span><span class="tag">' + esc(sub) + "</span>" + reqs +
+      (f ? '<span class="stampbadge">FOUND</span>' : "") + "</span>" +
+      '<span class="loc">' + esc(i.location) + "</span></label></li>";
+  }
+
+  function renderList() {
+    const q = ui.q.trim().toLowerCase();
+    const visible = D.items.filter(i =>
+      (ui.showAll || !found.has(i.id)) &&
+      (!ui.cat || i.category === ui.cat) &&
+      (!q || (i.name + " " + i.location + " " + zones[i.zone].name).toLowerCase().includes(q)));
+
+    const groups = ui.group === "zone"
+      ? D.zones.map(z => ({ key: z.id, title: z.name, num: String(z.order).padStart(2, "0"), all: D.items.filter(i => i.zone === z.id), ft: z.fastTravel }))
+      : D.categories.map((c, n) => ({ key: c.id, title: c.name, num: String(n + 1).padStart(2, "0"), all: D.items.filter(i => i.category === c.id), reward: c.reward }));
+
+    let html = "";
+    for (const g of groups) {
+      const rows = visible.filter(i => g.all.includes(i));
+      if (!rows.length) continue;
+      const f = g.all.filter(i => found.has(i.id)).length;
+      const missing = g.all.length - f;
+      let action = "";
+      if (canWrite && ui.group === "zone" && missing > 0) {
+        action = pendingZone === g.key
+          ? '<span class="confirm">Tick all ' + missing + '? <button type="button" data-confirm="' + g.key + '">Yes</button><button type="button" data-cancel="1">No</button></span>'
+          : '<button type="button" class="linkbtn" data-tickall="' + g.key + '">tick all</button>';
+      }
+      html += '<section class="zone"><div class="zhead"><h2><em>' + g.num + "</em>" + esc(g.title) + "</h2>" +
+        '<span class="zmeta"><span class="' + (missing ? "" : "clear") + '">' + f + "/" + g.all.length + "</span>" + action + "</span></div>" +
+        (g.ft ? '<div class="ft">Doors: ' + esc(g.ft.join(", ")) + "</div>" : "") +
+        (g.reward ? '<div class="ft">Reward: ' + esc(g.reward) + "</div>" : "") +
+        '<ul class="items">' + rows.map(itemRow).join("") + "</ul></section>";
+    }
+    if (!html) {
+      html = found.size === D.items.length
+        ? '<div class="empty"><strong>All 67 recovered</strong>Every collectible is ticked off.</div>'
+        : '<div class="empty"><strong>Nothing missing here</strong>No missing items match this filter. Switch to All to see found items.</div>';
+    }
+    $("list").innerHTML = html;
+  }
+
+  function render() { renderHeader(); renderList(); }
+
+  async function setFound(ids, value) {
+    for (const id of ids) value ? found.add(id) : found.delete(id);
+    saveLocal();
+    render();
+    if (mode !== "db") return;
+    try {
+      for (const id of ids) {
+        const ref = dbRef.collection("found").doc(id);
+        if (value) await ref.set({ found: true, at: new Date().toISOString() });
+        else await ref.delete();
+      }
+    } catch (e) {
+      if (e && e.code === "invalid_argument") { canWrite = false; setSync("Read only. You can't change this log.", true); render(); }
+      else setSync("Couldn't save to the shared log. Saved on this device.", true);
+    }
+  }
+
+  document.addEventListener("change", e => {
+    const id = e.target.dataset && e.target.dataset.id;
+    if (id) setFound([id], e.target.checked);
+  });
+  document.addEventListener("click", e => {
+    const t = e.target.closest("button");
+    if (!t) return;
+    if (t.dataset.cat) { ui.cat = ui.cat === t.dataset.cat ? null : t.dataset.cat; saveUI(); render(); }
+    else if (t.id === "show-missing" || t.id === "show-all") { ui.showAll = t.id === "show-all"; saveUI(); render(); }
+    else if (t.id === "group-zone" || t.id === "group-cat") { ui.group = t.id === "group-zone" ? "zone" : "cat"; saveUI(); render(); }
+    else if (t.dataset.tickall) { pendingZone = t.dataset.tickall; renderList(); }
+    else if (t.dataset.cancel) { pendingZone = null; renderList(); }
+    else if (t.dataset.confirm) {
+      const z = t.dataset.confirm; pendingZone = null;
+      setFound(D.items.filter(i => i.zone === z && !found.has(i.id)).map(i => i.id), true);
+    }
+  });
+  $("q").addEventListener("input", e => { ui.q = e.target.value; renderList(); });
+
+  render();
+
+  (async function connect() {
+    const db = window.claude && window.claude.use ? await window.claude.use("db") : null;
+    if (!db) { setSync("Saved on this device only."); return; }
+    const user = await window.claude.use("user");
+    if (user) {
+      const w = await user.can("data.write");
+      if (w === false) canWrite = false;
+    }
+    dbRef = db;
+    let first = true;
+    db.collection("found").onSnapshot(snap => {
+      const remote = new Set(snap.docs.filter(d => d.exists).map(d => d.id));
+      if (first && remote.size === 0 && found.size > 0 && canWrite) {
+        // First run with the shared log: carry over ticks made on this device.
+        first = false; mode = "db";
+        setFound([...found], true);
+        setSync("Synced to your account.");
+        return;
+      }
+      first = false; mode = "db";
+      found = remote; saveLocal(); render();
+      setSync(canWrite ? "Synced to your account." : "Read only.");
+    }, () => { mode = "local"; setSync("Sync stopped. Saving on this device.", true); });
+  })();
+})();
+</script>
