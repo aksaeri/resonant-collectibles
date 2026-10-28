@@ -4,7 +4,8 @@
  "total": 331,
  "sources": [
   "https://camzillasmom.com/control-resonant-game-guides-collectibles-hub/",
-  "https://mapmaster.io/games/control-resonant/guides/Altered%20Speakers%20Collectible"
+  "https://mapmaster.io/games/control-resonant/guides/Altered%20Speakers%20Collectible",
+  "https://docs.google.com/spreadsheets/d/1Frm8FKQm6QdoGvSIMyh3rT-DXXHFGS1g"
  ],
  "zones": [
   "Downtown",
@@ -217,7 +218,13 @@
    "quest": "Orientation",
    "unlocks": "",
    "how": "I Have to Go is picked up automatically during Orientation, while you search for Jesse and complete the ritual.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Downtown",
+    "location": "Automatically upon completing first Dimensional Fault",
+    "notes": ""
+   }
   },
   {
    "id": "jesse-faden-02",
@@ -229,7 +236,13 @@
    "quest": "Search For Jesse",
    "unlocks": "",
    "how": "I Feel It is picked up automatically in The Incursion Fault, the part of Search For Jesse where you learn to use Shift on vertical walls.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Evacuation Zone",
+    "location": "Automatically upon completing The Subway Fault",
+    "notes": ""
+   }
   },
   {
    "id": "jesse-faden-03",
@@ -241,7 +254,13 @@
    "quest": "Search For Jesse",
    "unlocks": "",
    "how": "Repeating, Refracting is picked up automatically in The Subway Fault, where you learn to use Reach on orbs to get to higher and further areas.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "West Incursion Zone",
+    "location": "Automatically upon completing The Incursion Fault",
+    "notes": ""
+   }
   },
   {
    "id": "jesse-faden-04",
@@ -253,7 +272,13 @@
    "quest": "Search For Jesse",
    "unlocks": "",
    "how": "Before I Leave is picked up automatically after you complete The Underpass Fault.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Underpass",
+    "location": "Automatically upon completing The Underpass Fault",
+    "notes": ""
+   }
   },
   {
    "id": "jesse-faden-05",
@@ -265,7 +290,13 @@
    "quest": "The House In Distress",
    "unlocks": "",
    "how": "I’m Sorry is picked up automatically after you complete The House In Distress, when Jesse and Dylan fail to close the Fault in the Oldest House.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Downtown",
+    "location": "Automatically upon completing The House In Distress",
+    "notes": ""
+   }
   },
   {
    "id": "jesse-faden-06",
@@ -277,7 +308,13 @@
    "quest": "Orientation",
    "unlocks": "",
    "how": "On your way to leave the Oldest House, Jesse’s ID is on the desk next to Dimensional Research: Slide Repairs, one of the Ordinary AWE collectibles.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Director's Office",
+    "notes": ""
+   }
   },
   {
    "id": "jesse-faden-07",
@@ -289,7 +326,13 @@
    "quest": "Welcome to Manhattan",
    "unlocks": "",
    "how": "Complete Welcome to Manhattan at the Central Field Office to get the Security Level 01 keycard. Use the fast travel door at the Field Office to return to the Oldest House. On the same level as the fast travel door, open the Security Level 01 door. Memo On The Role Of The Director is on the main desk to the left.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive - office right from Thomas Street Exit",
+    "notes": "Level 01 Security Door"
+   }
   },
   {
    "id": "jesse-faden-08",
@@ -301,7 +344,13 @@
    "quest": "Evacuation Procedures",
    "unlocks": "",
    "how": "Complete the story quest Evacuation Procedures to get the Level 02 keycard. Open the Security Level 02 door next to the Oldest House: Central Executive fast travel door. Contingency Protocol For HRAs is on the table inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive, Office to right of Thomas Street Exit",
+    "notes": "Level 02 Security Door"
+   }
   },
   {
    "id": "jesse-faden-09",
@@ -313,7 +362,13 @@
    "quest": "Orientation",
    "unlocks": "",
    "how": "After you leave P6 Holding, you reach a security checkpoint and take the elevator down to the executive office. Before you head to the Thomas Street Exit, enter the Director’s Office, which is Jesse’s office. Jesse’s Notes To Self is on the white couch to the right.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Director's Office",
+    "notes": ""
+   }
   },
   {
    "id": "jesse-faden-10",
@@ -325,7 +380,13 @@
    "quest": "Orientation",
    "unlocks": "",
    "how": "A Letter From Emily Pope To The Director is on the bookshelf near the desk in Jesse’s office, in the same room as Jesse’s Notes To Self.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Director's Office",
+    "notes": ""
+   }
   },
   {
    "id": "jesse-faden-11",
@@ -337,7 +398,13 @@
    "quest": "",
    "unlocks": "After the credits",
    "how": "After the credits, go to the P6 Containment section. Notes on <redacted> is in the room next to the couch.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, P6 Holding",
+    "notes": "After The End"
+   }
   },
   {
    "id": "jesse-faden-12",
@@ -349,7 +416,13 @@
    "quest": "",
    "unlocks": "After the credits",
    "how": "After the credits, return to the street entrance of the Oldest House. Medical Report On The Director is on top of a table.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Downtown",
+    "location": "Oldest House lobby, on a desk",
+    "notes": "After The End"
+   }
   },
   {
    "id": "jesse-faden-13",
@@ -361,7 +434,13 @@
    "quest": "",
    "unlocks": "After the credits",
    "how": "After the credits, go to the P6 Containment section. Incident Report: Jesse and Dylan Faden is on top of an equipment rack, in the same section as Notes on <redacted>.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, P6 Holding",
+    "notes": "After The End"
+   }
   },
   {
    "id": "dylan-faden-01",
@@ -373,7 +452,13 @@
    "quest": "Orientation – Leave the Oldest House",
    "unlocks": "",
    "how": "After you leave the P6 Holding, you reach a security checkpoint with two offices at Executive Research. The Medical Report is on the console in the first checkpoint office.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, security checkpoint outside P6 Holding",
+    "notes": ""
+   }
   },
   {
    "id": "dylan-faden-02",
@@ -385,7 +470,13 @@
    "quest": "Orientation – Leave the Oldest House",
    "unlocks": "",
    "how": "The memo is in the second checkpoint office at Executive Research, right next to the office with the Medical Report.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, security checkpoint outside P6 Holding",
+    "notes": ""
+   }
   },
   {
    "id": "dylan-faden-03",
@@ -397,7 +488,13 @@
    "quest": "Orientation – Leave the Oldest House",
    "unlocks": "",
    "how": "Go through the security checkpoint into the open, red-lit area. The note is on one of the bunk beds in the shelter between the elevator to Central Executive and the locked Clearance Level SR door.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Executive Research, inside Shelter",
+    "notes": ""
+   }
   },
   {
    "id": "dylan-faden-04",
@@ -409,7 +506,13 @@
    "quest": "",
    "unlocks": "",
    "how": "One of the green FBC container rooms is on ground level just southwest of the Oldest House. The Written Warning is on the table inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Mobile office, near orientation point south of Oldest House",
+    "notes": ""
+   }
   },
   {
    "id": "dylan-faden-05",
@@ -421,7 +524,13 @@
    "quest": "Welcome to Manhattan",
    "unlocks": "",
    "how": "Complete Welcome to Manhattan at the Central Field Office to get the Security Level 01 keycard. Take the fast travel door at the Field Office back into the Oldest House. On the same level as the fast travel door, open the door that needs Security Level 01. Binding Resonants is on the main desk to the left.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive - office right from Thomas Street Exit",
+    "notes": "Level 01 Security Door"
+   }
   },
   {
    "id": "dylan-faden-06",
@@ -433,7 +542,13 @@
    "quest": "Welcome to Manhattan",
    "unlocks": "",
    "how": "The Psych Eval is in the same Security Level 01 office as Binding Resonants, on the desk near the entrance.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive - right from Thomas Street Exit",
+    "notes": "Level 01 Security Door"
+   }
   },
   {
    "id": "ordinary-awe-01",
@@ -445,7 +560,13 @@
    "quest": "Orientation",
    "unlocks": "",
    "how": "The game starts with Dylan, Jesse’s brother from the first Control game, waking up in his surveillance chamber in P6 Holding. Before you leave the Oldest House, Notes On The Ordinary AWE Case File is on the floor between the chamber and the couch.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, P6 Holding",
+    "notes": ""
+   }
   },
   {
    "id": "ordinary-awe-02",
@@ -457,7 +578,13 @@
    "quest": "Orientation",
    "unlocks": "",
    "how": "A Photo of Dylan and Jesse is in the same room as Notes On The Ordinary AWE Case File, on the coffee table in P6 Holding.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "Downtown",
+    "location": "Oldest House, P6 Holding",
+    "notes": ""
+   }
   },
   {
    "id": "ordinary-awe-03",
@@ -469,7 +596,13 @@
    "quest": "Orientation",
    "unlocks": "",
    "how": "Before you leave the Oldest House through the Thomas Street Exit, go to Jesse’s office, the Director’s Office. Dimensional Research: Slide Repairs is on her desk, next to Jesse’s ID (Jesse Faden).",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Director's Office",
+    "notes": ""
+   }
   },
   {
    "id": "ordinary-awe-04",
@@ -481,7 +614,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "During the story quest The House in Distress, you enter the Level 18 Security area Prime Candidate Training, the same area as the Prime Candidate Program collectibles. At the first checkpoint, go into the security office. Hugo Stamp is on top of a table.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, first room on the left",
+    "notes": ""
+   }
   },
   {
    "id": "ordinary-awe-05",
@@ -493,19 +632,31 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Go into the room next to the security office at the first checkpoint. Neil Hosenberg is at the messaging tubes.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, open office to the left when entering",
+    "notes": ""
+   }
   },
   {
    "id": "ordinary-awe-06",
    "category": "ordinary-awe",
    "n": 6,
    "title": "Letter From Grandma",
-   "zone": "Other",
+   "zone": "The Unknown",
    "place": "",
    "quest": "Rebuild",
    "unlocks": "",
    "how": "During the mission Rebuild, Dylan relives his past in a top-down 2D pixel art game. Letter From Grandma is in the mailbox of Dylan’s house. Once Dylan is out of the game, the letter is in your Archives.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Unknown",
+    "location": "Mailbox outside Faden home, during Rebuild",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-01",
@@ -517,7 +668,13 @@
    "quest": "Contain the Crisis – Welcome to Manhattan",
    "unlocks": "",
    "how": "This log plays automatically during the game’s intro, after you defeat the Artist boss.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Downtown",
+    "location": "Automatically upon completing Orientation",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-02",
@@ -529,7 +686,13 @@
    "quest": "Enemy of My Enemy",
    "unlocks": "",
    "how": "This log plays after you complete the story quest Enemy of My Enemy and goes straight into your Archives.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Evacuation Zone",
+    "location": "Automatically upon completing The Enemy Of My Enemy",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-03",
@@ -541,7 +704,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Restore power in the Interactions Lab and this video starts playing.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, automatically upon finishing breaker room puzzle",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-04",
@@ -553,7 +722,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Enter one of the upper rooms in Director Training and this video plays. The Prime Candidate Program letter P6 Behavior & Testing is on the desk right next to it.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, Director Training, automatically upon entering southwest office",
+    "notes": "Screenshot"
+   }
   },
   {
    "id": "dr-darling-05",
@@ -565,7 +740,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "There is a meeting room on the upper floor of Director Training. This video starts playing when you get close to the front screen.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, Director Training, automatically upon entering southeast office",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-06",
@@ -577,7 +758,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Dylan and Zoe cross the Classrooms to reach the Main Test Chamber. This video is playing in the first classroom on the right.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, automatically when entering room across from playroom",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-07",
@@ -591,7 +778,13 @@
    "how": "This video is added to your Archives when Dylan goes through the Level 18 Security door into Prime Candidate Training in the Oldest House, as part of the main story.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Video",
+    "region": "Downtown",
+    "location": "Oldest House, automatically upon entering Prime Candidate Program",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-08",
@@ -603,7 +796,13 @@
    "quest": "Rebuild",
    "unlocks": "",
    "how": "During Rebuild, Dylan relives his past in a top-down pixel art section, the same one that holds the Ordinary AWE collectible Letter From Grandma. Once the section ends, this video plays.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "The Unknown",
+    "location": "Automatically upon completing Rebuild",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-09",
@@ -617,35 +816,53 @@
    "how": "Complete the main story. Back in Dylan’s Apartment, this recording is by the door.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Video",
+    "region": "The Unknown",
+    "location": "Dylan's Apartment",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-10",
    "category": "dr-darling",
    "n": 10,
    "title": "More Qualified",
-   "zone": "Other",
+   "zone": "Downtown",
    "place": "",
    "quest": "Game+, after the opening credits",
    "unlocks": "",
    "how": "After you finish the game, start Game+ by interacting with the mural in the Gap. This video plays right after the opening credits.",
    "flags": [
     "game-plus"
-   ]
+   ],
+   "sheet": {
+    "type": "Video",
+    "region": "Downtown",
+    "location": "Automatically upon completing Orientation",
+    "notes": "New Game +"
+   }
   },
   {
    "id": "dr-darling-11",
    "category": "dr-darling",
    "n": 11,
    "title": "Failure",
-   "zone": "Other",
+   "zone": "Evacuation Zone",
    "place": "",
    "quest": "Enemy of My Enemy (Game+)",
    "unlocks": "",
    "how": "In Game+, complete the story quest Enemy of My Enemy and this video plays.",
    "flags": [
     "game-plus"
-   ]
+   ],
+   "sheet": {
+    "type": "Video",
+    "region": "Evacuation Zone",
+    "location": "Automatically upon completing Enemy Of My Enemy",
+    "notes": "New Game +"
+   }
   },
   {
    "id": "dr-darling-12",
@@ -658,8 +875,10 @@
    "unlocks": "",
    "how": "In Game+, complete The Hedron Link, which ends in a 2D pixel art section. When that section is done, you get this video.",
    "flags": [
-    "game-plus"
-   ]
+    "game-plus",
+    "not-in-sheet"
+   ],
+   "sheet": null
   },
   {
    "id": "dr-darling-13",
@@ -672,8 +891,10 @@
    "unlocks": "",
    "how": "In Game+, defeat the Hedron in Fight the Core at the end of the game. This entry is added to your Archives automatically.",
    "flags": [
-    "game-plus"
-   ]
+    "game-plus",
+    "not-in-sheet"
+   ],
+   "sheet": null
   },
   {
    "id": "dr-darling-14",
@@ -686,8 +907,10 @@
    "unlocks": "",
    "how": "Play the whole story again in Game+. After the credits, Dylan is back in his apartment, and the last Dr. Darling video is right by the entrance.",
    "flags": [
-    "game-plus"
-   ]
+    "game-plus",
+    "not-in-sheet"
+   ],
+   "sheet": null
   },
   {
    "id": "dr-darling-15",
@@ -699,7 +922,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "One of the upper rooms in the Interactions Lab is an examination room. Intake Summary is on the floor next to the bed.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, room running on emergency power, back-left office",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-16",
@@ -711,7 +940,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "On the way through the Classrooms to the Main Test Chamber, enter the Playroom, the first classroom on the left. Afraid To Hit, Afraid To Get Hit is on the table.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, Playroom",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-17",
@@ -723,7 +958,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Restore power to the Interactions Lab. Unrealized Potential is on the table next to the Perfect video.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, room running on emergency power, left office with power core",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-18",
@@ -735,7 +976,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Go upstairs in the Interactions Lab. Psychic Endurance Test is on the table in the room with the camera.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, room running on emergency power, right office",
+    "notes": ""
+   }
   },
   {
    "id": "dr-darling-19",
@@ -747,7 +994,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Institutionalization is on the ground floor of the Interactions Lab, near the room with the speakers.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, room running on emergency power, lower level on desk",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-01",
@@ -759,7 +1012,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "A Worthy Candidate is in the center of the Interactions Lab, on top of the round table.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, room running on emergency power, center table",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-02",
@@ -771,7 +1030,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "There is a meeting room on the upper floor of Director Training. The Director And Diplomacy is on the table.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, Director Training, southeast office",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-03",
@@ -783,7 +1048,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Dylan and Zoe cross the Classrooms to reach the Main Test Chamber. On P6’s Potential is on the desk in the Playroom, the first classroom on the left.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, Playroom",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-04",
@@ -795,7 +1066,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "After the first checkpoint in Prime Candidate Training, Summary of Prime Candidates is on top of one of the tables near the sliced brain exhibit.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, desk on the right when entering",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-05",
@@ -807,7 +1084,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Restore power to the Interactions Lab and head upstairs. Faden Residence is at the entrance of a small room with mannequins and a power upgrade box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, room running on emergency power, in front of back right office",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-06",
@@ -819,7 +1102,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "On the way through the Classrooms to the Main Test Chamber, enter the first classroom on the right, where Dr. Darling’s Smart Boy video is playing. Jigsaw Puzzle Experiment is on the desk.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, room across from playroom, on a desk",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-07",
@@ -831,7 +1120,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Selection Criteria is on the main front desk at Main Observation.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, room with patterned bodies, on a desk towards the front",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-08",
@@ -843,7 +1138,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "The TAD Course is on the ground floor of Director Training, lying on the floor in front of the room with the books.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, Director Training, next to western office",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-09",
@@ -855,7 +1156,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "P6 Behavior & Testing is in one of the upper rooms of Director Training, on the desk next to Dr. Darling’s video A Weapon.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, Director Training, southwest office",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-10",
@@ -867,7 +1174,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Leave the Interactions Lab towards the High Risk Chamber. In the first room, a door leads to a small monitoring room with P6 & Roberts: A Transcript inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "",
+    "location": "Oldest House, Prime Candidate Program, after two heavy bulkhead doors, back office",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-11",
@@ -879,7 +1192,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Restore power to the Interactions Lab and head upstairs. A Glimpse is in the room with the pile of clocks.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "",
+    "location": "Oldest House, Prime Candidate Program, room running on emergency power, left open office",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-12",
@@ -891,7 +1210,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "On the ground floor of Director Training is a room with a red phone. Notes On The MCD is in front of this room, next to the mailing tubes.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, Director Training, outside Eastern Office",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-13",
@@ -903,7 +1228,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Enter the High Risk Chamber area from the Interactions Lab. Objects Of Power is on top of a table in the first room behind the massive door.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, after two heavy bulkhead doors, desk against wall",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-14",
@@ -915,7 +1246,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "In the entrance hall of Prime Candidate Training, enter the room next to the security checkpoint office. Andrew Laine Log 1 is on top of a table at the far side of the room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, open office to the left when entering",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-15",
@@ -927,7 +1264,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Upstairs in the Interactions Lab is a room full of monitors, with a door to a staged lounge. Andrew Laine Log 2 is right by the monitors.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, room running on emergency power, back right office",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-16",
@@ -939,7 +1282,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Enter the High Risk Chamber area from the Interactions Lab. Andrew Laine Log 3 is to the right of the massive door.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, after two heavy bulkhead doors, on the left",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-17",
@@ -951,7 +1300,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Andrew Laine Log 4 is lying on the floor in Main Observation.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, room with patterned bodies, on the floor",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-18",
@@ -963,7 +1318,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Andrew Laine Log 5 is on the upper floor of Director Training, by the pipes next to the target practice room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, Director Training, outside firing range",
+    "notes": ""
+   }
   },
   {
    "id": "prime-candidate-program-19",
@@ -975,7 +1336,13 @@
    "quest": "The House in Distress",
    "unlocks": "",
    "how": "Termination Report is on the upper floor of Director Training, on the other side of target practice.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Prime Candidate Program, Director Training, southeast mail kiosk",
+    "notes": ""
+   }
   },
   {
    "id": "zoes-mixtape-01",
@@ -987,7 +1354,13 @@
    "quest": "Evacuation Procedures",
    "unlocks": "",
    "how": "Say What is your reward for the main quest Evacuation Procedures in the Evac Building at the Evacuation Zone. The song unlocks at the end of the quest, when you escape the building.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Song",
+    "region": "Evacuation Zone",
+    "location": "Automatically upon completing Evacuation Procedures",
+    "notes": ""
+   }
   },
   {
    "id": "zoes-mixtape-02",
@@ -999,7 +1372,13 @@
    "quest": "Into the Sinkhole",
    "unlocks": "",
    "how": "Another World by Frida Amundsen and Sakima unlocks when you complete the story quest Into the Sinkhole. The Sinkhole is also where the Underpass Accounts collectibles start.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Song",
+    "region": "Evacuation Zone",
+    "location": "Automatically upon completing Into The Sinkhole",
+    "notes": ""
+   }
   },
   {
    "id": "zoes-mixtape-03",
@@ -1013,7 +1392,13 @@
    "how": "During the main story quest Search for Jesse, you head into the West Incursion Zone, home of the West Incursion Records collectibles. Right after you find Jesse, Zoe contacts Dylan and plays No Chains Can Last Forever, which keeps you company on the climb up the vertical parking.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Song",
+    "region": "West Incursion Zone",
+    "location": "Automatically upon completing The Incursion Fault",
+    "notes": ""
+   }
   },
   {
    "id": "zoes-mixtape-04",
@@ -1027,7 +1412,13 @@
    "how": "After the main story quest The Hedron Link, Dylan can reach the rooftops of the Unknown by jumping down from Poe’s balloon. Fight For Control (We Go To War) by Heviteemu starts playing as he jumps.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Song",
+    "region": "The Unknown",
+    "location": "Automatically upon jumping into first Gravity Well",
+    "notes": ""
+   }
   },
   {
    "id": "zoes-mixtape-05",
@@ -1041,7 +1432,13 @@
    "how": "During the main story quest Rebuild, Dylan relives his childhood in a top-down pixel art game, the same memory where you find Letter From Grandma for the Ordinary AWE collectibles. Once you complete Rebuild, Zoe contacts Dylan and plays A World I’m Ready To Live And Die For by Costee and Frida Amundsen.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Song",
+    "region": "The Unknown",
+    "location": "Automatically upon completing Rebuild",
+    "notes": ""
+   }
   },
   {
    "id": "zoes-mixtape-06",
@@ -1055,7 +1452,13 @@
    "how": "Manalan Mailla by Vilma Jää is the last song on Zoe’s Mixtape. It unlocks when you finish the main story of Control Resonant.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Song",
+    "region": "The Unknown",
+    "location": "Automatically upon completing The End",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-01",
@@ -1067,7 +1470,13 @@
    "quest": "Evacuation Procedures",
    "unlocks": "",
    "how": "During the story quest Evacuation Procedures, you follow the Source of the Tremors into the Evac Building. On the 15th floor, the note is lying on one of the stretchers in the evacuation area.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Evac Building, 15th floor, room with cots",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-02",
@@ -1079,7 +1488,13 @@
    "quest": "",
    "unlocks": "",
    "how": "East of the Oldest House is an unnamed subway station. Head inside and burn the Mold barrier below with Dylan’s Inferno ability. This is the ability door that shows on the map at the checkpoint. The letter is at the far end of the subway platform.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Subway station near Watchtower checkpoint",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-03",
@@ -1091,7 +1506,13 @@
    "quest": "",
    "unlocks": "",
    "how": "In the west of the West Incursion Zone is a map marker that reads Singing Reported. The subway entrance there is surrounded by Mold. Head down and burn the Mold barrier with Inferno. On the platform, the letter is lying on top of the Mold at the bottom of the stairs.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Mold-Infested Subway Station",
+    "notes": "Requires Ignite/Inferno"
+   }
   },
   {
    "id": "civilian-records-04",
@@ -1103,7 +1524,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This note is on the same platform as Dead Letter: Sasquatch, on the opposite side.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Mold-Infested Subway Station",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-05",
@@ -1115,7 +1542,13 @@
    "quest": "Urban Survival",
    "unlocks": "",
    "how": "During the side story Urban Survival, Dylan enters an apartment building in the northeast of the Evacuation Zone to rescue Granny. You can listen to this recording in the hallway of the apartment building.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Evacuation Zone",
+    "location": "Survivalist's Apartment, upper floor",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-06",
@@ -1127,7 +1560,13 @@
    "quest": "",
    "unlocks": "",
    "how": "West of the Oldest House is an area of Dense Patterning. Just south of the Gravity Town Fast Travel Door, inside the Dense Patterning (unscouted) map marker, a person is hovering next to a blue dumpster. They dropped this notebook.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Southeast of Gravity Town Fast Travel door, on table in alley (beneath Gravity Town Altered Camera)",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-07",
@@ -1139,7 +1578,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This page is inside an Atlantis coffee shop east of the Central Field Office. The shop is between the Field Office Station and Patterned Factory and the East Park Station.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Atlantis Café north of East Park Station",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-08",
@@ -1151,7 +1596,13 @@
    "quest": "Urban Survival",
    "unlocks": "",
    "how": "The log is on the ground floor of the Survivalist’s bunker, in the room that looks like a cafeteria. This door only opens during the side story Urban Survival, so grab the log while you are there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Survivalist's Bunker, room with car keyfob",
+    "notes": "Accessible as part of Urban Survival"
+   }
   },
   {
    "id": "civilian-records-09",
@@ -1163,7 +1614,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This note is inside the Könstig gallery in the southwest of the Park.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Konstig west of Nomad Avenue station",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-10",
@@ -1175,7 +1632,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This complaint is on the ground in front of the vendor truck in Downtown.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "In front of Vendor",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-11",
@@ -1187,7 +1650,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Near the Empire Avenue Fast Travel Door in the West Incursion Zone is a barricaded restaurant with a Shüm arcade challenge inside. Break through the entrance to find this document next to the arcade machine.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Next to West Incursion Zone Shum (southwest of Theater Chasm fast-travel door on map)",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-12",
@@ -1199,7 +1668,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This note is inside a barricaded Atlantis coffee shop south of the Laundromat Path to Sinkhole. One of the Evacuation Zone Freeze Frame cameras is just above this shop.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Atlantis Café, northwest of Unauthorized Mines on map",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-13",
@@ -1211,7 +1686,13 @@
    "quest": "",
    "unlocks": "",
    "how": "There is a Könstig gallery in the northwest of the West Incursion Zone. The note is on the bench inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Konsig, Inverted Street west of Parking Garage",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-14",
@@ -1223,7 +1704,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This note is on the upside-down roof north of the Parking Garage in the northwest of the West Incursion Zone. It is just below the Street Crossing Freeze Frame camera.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Northwest of Parking Garage (rooftop below Altered Camera)",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-15",
@@ -1235,7 +1722,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Once you have Shift, which unlocks after the Finding Jesse – Incursion Fault story quest, use it to reach the laser alley above the ice cream vendor. The note is on top of a box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "North of House of Mirrors, rooftop above laundromat, surrounded by lasers",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-16",
@@ -1247,19 +1740,31 @@
    "quest": "",
    "unlocks": "",
    "how": "In the northeast of the West Incursion Zone, a dead person next to the vertical road is holding this note.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Next to dead body, pinned to wall northeast of House of Mirrors (also accessible via gravity shift)",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-17",
    "category": "civilian-records",
    "n": 17,
    "title": "Taxi Receipt",
-   "zone": "Other",
+   "zone": "The Unknown",
    "place": "Side story reward",
    "quest": "The Last Taxi",
    "unlocks": "",
    "how": "Complete the side story The Last Taxi to get this taxi receipt as the completion reward.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Unknown",
+    "location": "Automatically upon completion of The Last Taxi",
+    "notes": ""
+   }
   },
   {
    "id": "civilian-records-18",
@@ -1271,7 +1776,13 @@
    "quest": "",
    "unlocks": "",
    "how": "South of the Central Field Office and southwest of Perimeter Station is a dead end. The red building by the dead end has a terrace with a yellow and blue umbrella. Cross over from the building to the east, and the letter is right underneath the umbrella.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Rooftop terrace south of Perimeter Station, on border of Field Office perimeter",
+    "notes": "Map/Location"
+   }
   },
   {
    "id": "civilian-records-19",
@@ -1283,7 +1794,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This note is inside the Urban Fresh Mart on Factory Island.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Unknown",
+    "location": "Southwest island, Urban Fresh Mart at southwest end",
+    "notes": ""
+   }
   },
   {
    "id": "oldest-house-lockdown-01",
@@ -1295,7 +1812,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The After Action Report is in the backroom of a laundromat northeast of the Oldest House in Downtown.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Laundromat, northwest of Oldest House, back room",
+    "notes": ""
+   }
   },
   {
    "id": "oldest-house-lockdown-02",
@@ -1307,7 +1830,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Jump over the wall at Lookout Point on the map to reach the Deserted Area east of Downtown. Head down to the abandoned checkpoint. The Operations Directive is on the ground floor, next to a victim.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Deserted Area, near Power Core Station",
+    "notes": ""
+   }
   },
   {
    "id": "oldest-house-lockdown-03",
@@ -1319,7 +1848,13 @@
    "quest": "",
    "unlocks": "Security Level 2 Keycard (Evacuation Procedures)",
    "how": "Past the Southeast Gate in the southeast of Central is a small checkpoint with two offices, one on the ground floor and one on top of it. Open the ground floor office with the Security Level 2 Keycard. Inside is a charged electric cube. Transport its electricity to the entrance of the upper office, where the AWE Summaries are on the desk.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Lab between Southeast Gate and Evacuation Zone Checkpoint",
+    "notes": "Level 02 Security Door"
+   }
   },
   {
    "id": "oldest-house-lockdown-04",
@@ -1331,7 +1866,13 @@
    "quest": "",
    "unlocks": "Security Level 2 Keycard (Evacuation Procedures)",
    "how": "Letter To A Colleague is behind the Security Level 2 door on the top level of the Central Executive. You get the keycard during the Evacuation Procedures story quest, after you help Arish escape with the elevator (see the Evacuation Efforts Collectibles). Lockdown Stress (6) is behind the same door, so you can grab both in one go.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive, Office to Right of Executive Affairs",
+    "notes": "Level 02 Security Door"
+   }
   },
   {
    "id": "oldest-house-lockdown-05",
@@ -1343,7 +1884,13 @@
    "quest": "Orientation – Leave the Oldest House",
    "unlocks": "",
    "how": "On your way from the P6 Holding Cell, the Complaint Letter is on a lit desk right after the security checkpoint.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Executive Research, near central pillar",
+    "notes": ""
+   }
   },
   {
    "id": "oldest-house-lockdown-06",
@@ -1355,7 +1902,13 @@
    "quest": "",
    "unlocks": "Security Level 2 Keycard (Evacuation Procedures)",
    "how": "Lockdown Stress is in the same room as Letter To A Colleague (4), behind the Security Level 2 door on the top level of the Central Executive.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive, Office to Right of Executive Affairs",
+    "notes": "Level 02 Security Door"
+   }
   },
   {
    "id": "oldest-house-lockdown-07",
@@ -1367,7 +1920,13 @@
    "quest": "Welcome to Manhattan",
    "unlocks": "",
    "how": "At the Central Field Office, look for the Staging Lab with the Security Level 1 lock. The Incident Report: HRAs is inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Staging Lab, Field Office",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-01",
@@ -1379,7 +1938,13 @@
    "quest": "Welcome to Manhattan – Move the Charge to the Central Checkpoint",
    "unlocks": "",
    "how": "During Move the Charge to the Central Checkpoint, check inside both checkpoint rooms. Baker’s HR Complaints are on a desk in the southern checkpoint room. The northern room has Baker’s Hiss Complaint from the FBC Logistics collectibles, so grab both while you are there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Lower level of mobile office, east of Oldest House",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-02",
@@ -1391,7 +1956,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The request is on the table at the dead end of the southwestern road in Downtown.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "At the far south end of the street directly out front of the Oldest House",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-03",
@@ -1403,7 +1974,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Head to the south of the Deserted Area in the east of Downtown. You can cross over at the spot marked Lookout Point. The Safety Alert is on a desk surrounded by Hiss Spikes.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Deserted Area, amidst hiss spikes, south of Testing Facility Reade on map",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-04",
@@ -1415,7 +1992,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Go to the West Supply Route Station entrance in the northwest of Downtown and head downstairs. The Warning is on top of a table in the first room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "West Supply Route Station",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-05",
@@ -1427,7 +2010,13 @@
    "quest": "Welcome to Manhattan",
    "unlocks": "",
    "how": "After Welcome to Manhattan you own Security Keycard 01. Use it on the bottom door of the Security Station at the Central Field Office. The FBC Policy Update is on the table inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Security Station, Second Floor",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-06",
@@ -1439,7 +2028,13 @@
    "quest": "",
    "unlocks": "",
    "how": "In the center of Downtown, east of the vendor, is a crossroads with a checkpoint. Notice To Supervisors is in the ground floor room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Lower level of mobile office, east of Outside The Oldest House Fast Travel Door",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-07",
@@ -1451,7 +2046,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This poetry draft is at the Central Field Office, right next to the Field Panopticon station where you can talk to an “Important Person”.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Next to Langston, Field Office",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-08",
@@ -1463,7 +2064,13 @@
    "quest": "",
    "unlocks": "",
    "how": "On the road to the Central Checkpoint, east of the Oldest House, is a big checkpoint with four container rooms. The note is in the northern top floor room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Higher level of mobile office, east of Oldest House",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-09",
@@ -1475,7 +2082,13 @@
    "quest": "Power Lines",
    "unlocks": "",
    "how": "Complete the story quest Power Lines and save Dr. Florez and the survivors in the subway. She then joins the Field Office, and the FBC Welcome Letter is on a table just underneath the Field Hospital.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Desk outside ER Medical Unit",
+    "notes": "Complete Power Lines"
+   }
   },
   {
    "id": "crisis-containment-10",
@@ -1487,7 +2100,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The report is on the top level of the building north of the Perimeter Station and east of the Field Office.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Inside warehouse southeast of Dig Site Threshold on map, near FBC Rangers",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-11",
@@ -1499,7 +2118,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Hiss Brief is in a ground level garage protected by Hiss lasers, at the back of the big red brick building in this part of Central.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Garage, southeast of West Incursion Zone Checkpoint, located behind a Pulse Fitness",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-12",
@@ -1511,7 +2136,13 @@
    "quest": "",
    "unlocks": "",
    "how": "You need to enter the Sinkhole for the story quest Recursions and Iterations and the side story Into the Valley of Death. These guidelines are at the security checkpoint at the Laundromat.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Laundromat Entrance to Sinkhole, near Metal Detector",
+    "notes": "Complete Enemy Of My Enemy"
+   }
   },
   {
    "id": "crisis-containment-13",
@@ -1523,7 +2154,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The transcript is in the first area after you exit the Evacuation Zone Checkpoint coming from Central.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "On a desk upon exiting the Evacuation Zone checkpoint",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-14",
@@ -1535,7 +2172,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This recording is right next to the Map Kit Antenna and its fast travel door in the Evacuation Zone.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Evacuation Zone",
+    "location": "Near Evacuation Zone Map Pylon",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-15",
@@ -1547,7 +2190,13 @@
    "quest": "",
    "unlocks": "",
    "how": "In front of the Evac Building is an elevated, orange container. The PR Guidance is inside on the desk. The Evac Building is also where you find most of the Evacuation Efforts collectibles.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Elevated boardroom outside Evac Building (when facing Evac Building, on your right)",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-16",
@@ -1559,7 +2208,13 @@
    "quest": "Welcome to Manhattan – Clear the Supply Route",
    "unlocks": "",
    "how": "Reach the Watchtower and talk to Zoe. She gives you the key to the Underground Supply Lines elevator. The Status Enquiry is on a desk at the bottom of the elevator.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Watchtower, at the bottom of the Underground Supply Route elevator",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-17",
@@ -1571,7 +2226,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Investigation Order is in front of a parking garage in the southwest of the Evacuation Zone, where the map shows Unauthorized Mines. Reading it starts the Urban Survival side story.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Outside of mined parking garage (\"Unauthorized Mines?\" on map)",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-18",
@@ -1583,7 +2244,13 @@
    "quest": "",
    "unlocks": "",
    "how": "These notes are on the roof opposite the parking garage with the Unauthorized Mines from the Urban Survival side story.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Roof southwest of Main Street Fast Travel Door, near Orientation Point",
+    "notes": ""
+   }
   },
   {
    "id": "crisis-containment-19",
@@ -1595,7 +2262,13 @@
    "quest": "The Unknown Resonant",
    "unlocks": "",
    "how": "This Patterned document is on the main desk at Field Office Command in the Unknown.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Unknown",
+    "location": "Patterned Field Command, on desk",
+    "notes": ""
+   }
   },
   {
    "id": "evacuation-efforts-01",
@@ -1607,7 +2280,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Evacuation Intake Form is on the table in front of the Evac Building entrance in the Evacuation Zone.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Outside the Evac Building, entrance area",
+    "notes": ""
+   }
   },
   {
    "id": "evacuation-efforts-02",
@@ -1619,7 +2298,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Go inside the Evac Building. The Evacuation Pamphlet is on a desk near the reception desk on the ground floor.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Evac Building, near front desk",
+    "notes": ""
+   }
   },
   {
    "id": "evacuation-efforts-03",
@@ -1631,7 +2316,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Mission Notes 1 are on top of a box near the Evac Building entrance.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "On a crate near a van in front of the Evac Building",
+    "notes": ""
+   }
   },
   {
    "id": "evacuation-efforts-04",
@@ -1643,7 +2334,13 @@
    "quest": "Evacuation Procedures – Escape the Building",
    "unlocks": "",
    "how": "This is probably the last Evacuation Efforts document you can collect. After you help Arish escape with the elevator, you own the Security Level 2 Keycard. Open the top door in the big staircase room on the 12th floor of the Evac Building to find Mission Notes 2.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Evac Building, Large Construction Room with Hiss Node",
+    "notes": "Level 02 Security Door"
+   }
   },
   {
    "id": "evacuation-efforts-05",
@@ -1655,7 +2352,13 @@
    "quest": "Evacuation Procedures – Find the Source of the Tremors",
    "unlocks": "",
    "how": "During Find the Source of the Tremors on the 12th floor of the Evac Building, Dylan reaches a corridor with dead civilians hovering in it and reports back to Zoe. He then relives a piece of this past in the Oldest House. After this segment, back on the 12th floor, follow the red cord to a Hiss inside a room. Mission Notes 3 are in this room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Evac Building, office with Hiss Node in it",
+    "notes": ""
+   }
   },
   {
    "id": "evacuation-efforts-06",
@@ -1667,7 +2370,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Reach the 15th floor of the Evac Building. Mission Notes 4 are in the evacuation area on this floor.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Evac Building, 15th floor, room with cots",
+    "notes": ""
+   }
   },
   {
    "id": "evacuation-efforts-07",
@@ -1679,7 +2388,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Head to the 12th floor of the Evac Building. In the big room with staircases to the left and right, one of the passages is lit in blue. Follow it to the scaffolding at the end and traverse to the right, following the light. It leads to a room at the bottom of the scaffolding with a loot box and the letter on top of a table.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Evac Building, office accessible via scaffolding",
+    "notes": ""
+   }
   },
   {
    "id": "evacuation-efforts-08",
@@ -1691,7 +2406,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Formal Complaint is in the corridor of the Evacuation Zone Checkpoint at Central.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Evacuation Zone Checkpoint",
+    "notes": ""
+   }
   },
   {
    "id": "evacuation-efforts-09",
@@ -1703,7 +2424,13 @@
    "quest": "",
    "unlocks": "",
    "how": "In front of the Evac Building is a small container on the ground floor that you can enter. The PR Video Screenplay is on the shelf inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Outside Evac Building, small lab on right (when approaching Evac Building)",
+    "notes": ""
+   }
   },
   {
    "id": "evacuation-efforts-10",
@@ -1715,7 +2442,13 @@
    "quest": "",
    "unlocks": "",
    "how": "In front of the Evac Building is an elevated, orange container. The Daily Comms Log is inside on the computer desk.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Elevated boardroom outside Evac Building (when facing Evac Building, on your right)",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-research-records-01",
@@ -1729,7 +2462,13 @@
    "how": "This document only appears after the credits. Visit the P6 Containment section in the Oldest House, where Aberrant is on the table in the darker part of the room.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, P6 Holding",
+    "notes": "After The End"
+   }
   },
   {
    "id": "fbc-research-records-02",
@@ -1741,7 +2480,13 @@
    "quest": "Welcome to Manhattan",
    "unlocks": "",
    "how": "Finish Welcome to Manhattan at the Central Field Office to get the Security Level 01 keycard. Take the fast travel door at the Field Office back into the Oldest House. On the same level as the fast travel door, open the Security Level 01 door. Notes On The Board are on the coffee table to the left.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive - office right from Thomas Street Exit",
+    "notes": "Level 01 Security Door"
+   }
   },
   {
    "id": "fbc-research-records-03",
@@ -1753,7 +2498,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Go to the 12th floor of the Evac Building in the Evacuation Zone, the same floor as several Evacuation Efforts collectibles. The study is in one of the cubicles in the computer room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Evac Building 12th Floor - Cubicle Room",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-research-records-04",
@@ -1765,7 +2516,13 @@
    "quest": "",
    "unlocks": "",
    "how": "In the southwest of Downtown, head south from the vendor to a dead end covered in Hiss Spikes. The report is on the table there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "South of vendor, amidst Hiss Spikes",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-research-records-05",
@@ -1777,7 +2534,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The file is on the floor next to the fast travel door at the Central Field Office.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Next to the Field Office Fast Travel Door",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-research-records-06",
@@ -1789,7 +2552,13 @@
    "quest": "",
    "unlocks": "",
    "how": "West of the Central Field Office is a Patterned Road. Use Shift on it to reach the table in the middle of the road, where you find the report.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Next to Orientation Point, east of West Incursion Zone Checkpoint",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-research-records-07",
@@ -1801,7 +2570,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Enter the Evac Building in the Evacuation Zone and take the small corridor to the right. The report is on top of a desk.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "South courtyard near Evac Building (near power station), behind fence",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-research-records-08",
@@ -1813,7 +2588,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Go to the building north of the Perimeter Station and east of the Central Field Office. The report is on the ground floor inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Inside warehouse southeast of Dig Site Threshold on map, near FBC Rangers",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-research-records-09",
@@ -1825,7 +2606,13 @@
    "quest": "",
    "unlocks": "",
    "how": "East of the House of Mirrors in the West Incursion Zone is a construction site with three floors. Head down to the bottom floor, where a minefield waits around the desk with the field notes. For more documents in this area, see the West Incursion Records collectibles.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Basement of Construction Site near House of Mirrors fast travel door",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-research-records-10",
@@ -1837,7 +2624,13 @@
    "quest": "",
    "unlocks": "Hot dog conversation in the Evacuation Zone",
    "how": "The report is on one of the tables in the Watchtower, in the same room as Zoe. If it is not there yet, travel to the Survivalist’s Bunker in the south of the Evacuation Zone, the area from the Urban Survival side story. Walk around near the hot dog food trucks to trigger a conversation between Dylan and Zoe about hot dogs. Afterwards, the report shows up in the Watchtower.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Watchtower, Zoe's Office",
+    "notes": "After Reporting Hot Dog Stand"
+   }
   },
   {
    "id": "fbc-research-records-11",
@@ -1849,7 +2642,13 @@
    "quest": "Enemy of My Enemy",
    "unlocks": "",
    "how": "Complete Enemy of My Enemy. The report then appears on the center command desk at the Central Field Office.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Command, on desk",
+    "notes": "Complete Enemy of My Enemy"
+   }
   },
   {
    "id": "fbc-research-records-12",
@@ -1861,7 +2660,13 @@
    "quest": "A New Directive (side story)",
    "unlocks": "",
    "how": "Complete the A New Directive side story and put Fra in the containment unit next to Langston at the Central Field Office. Come back later to find the report near Langston.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Field Office, next to Langston",
+    "notes": "Complete A New Directive"
+   }
   },
   {
    "id": "fbc-research-records-13",
@@ -1873,7 +2678,13 @@
    "quest": "The Hedron Link",
    "unlocks": "",
    "how": "After the main quest The Hedron Link, Dylan can reach the rooftop of the Oldest House. The document is up there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Unknown",
+    "location": "Oldest House rooftop, southwest corner",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-research-records-14",
@@ -1885,7 +2696,13 @@
    "quest": "",
    "unlocks": "Security Level 01 keycard",
    "how": "There is a second Security Level 01 door on the same level as the Oldest House fast travel door, near the Executive Affairs corridor. The notes are on the desk inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive - office to the right from Executive Affairs",
+    "notes": "Level 01 Security Door"
+   }
   },
   {
    "id": "fbc-research-records-15",
@@ -1897,7 +2714,13 @@
    "quest": "Rebuild",
    "unlocks": "",
    "how": "This document shows up at the Thomas Street exit of the Oldest House after Rebuild, once all Probe Relays in the Unknown are set up.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House lobby, on a desk",
+    "notes": "May vanish if not found before end of game. Exact method to spawn is unclear, may involve:\n-Completing Pope's Research\n-Severing at least one of the Hedron Links in the Unknown"
+   }
   },
   {
    "id": "fbc-research-records-16",
@@ -1909,7 +2732,13 @@
    "quest": "",
    "unlocks": "Defeat the Hedron in the story",
    "how": "Defeat the Hedron in the story, then return to the Central Field Office Command to find this report.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Field Office, Field Command, on desk",
+    "notes": "After Pope's Research"
+   }
   },
   {
    "id": "fbc-logistics-01",
@@ -1921,7 +2750,13 @@
    "quest": "Welcome to Manhattan",
    "unlocks": "",
    "how": "The complaint is next to the rooftop power core. Pick it up while you move the charge to the Central Checkpoint in Welcome to Manhattan.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "On roof, near power core southeast of Oldest House",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-logistics-02",
@@ -1933,7 +2768,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Head to the checkpoint in the southeast of Downtown, on the border to the Deserted Area. The diagram is on the table at the back.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Automatically obtained during Welcome To Manhattan",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-logistics-03",
@@ -1945,7 +2786,13 @@
    "quest": "Welcome to Manhattan",
    "unlocks": "",
    "how": "During Welcome to Manhattan – Move the Charge to the Central Checkpoint, check inside both checkpoint rooms. The complaint is on a desk in the northern room. The southern room has a Crisis Containment document, so grab that while you are there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Mobile office near Watchtower checkpoint, lower level.",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-logistics-04",
@@ -1957,7 +2804,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The note is at the same southeast checkpoint on the border to the Deserted Area as the Power Core Servicing Diagram. It is on a chair.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Automatically obtained during Welcome To Manhattan",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-logistics-05",
@@ -1969,7 +2822,13 @@
    "quest": "",
    "unlocks": "",
    "how": "East of the Central Checkpoint is a small courtyard surrounded by Pattern Barriers. The report is on the desk there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Alley immediately east of entrance to Central Checkpoint, on a table",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-logistics-06",
@@ -1981,7 +2840,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The report is at the checkpoint in the south of Downtown, near the Deserted Area.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "At the far east end of the street southeast of the Vendor, near minefield",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-logistics-07",
@@ -1993,7 +2858,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The check list is on one of the desks near the Central Field Office entrance.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Command, on desk",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-logistics-08",
@@ -2005,7 +2876,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Outside, but still on the Field Office grounds, is a small testing area with an orange tarp and orange balloons. The briefing is on the tarp.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, south of Staging Lab",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-logistics-09",
@@ -2017,7 +2894,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The note is in the same balloon testing area as Balloon Deployment, on top of an FBC box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, slightly west of Staging Lab, near forklift",
+    "notes": ""
+   }
   },
   {
    "id": "fbc-logistics-10",
@@ -2029,7 +2912,13 @@
    "quest": "",
    "unlocks": "Security Level 06 keycard",
    "how": "The report is behind one of the Security Level 06 doors at Central Executive. To get the keycard, head to the Park and follow the New Growth side story. It sends you to a Research Site in the south of the Park, where you pick up Dr. Underhill’s Resignation Letter. The keycard comes with the letter. Once you have the keycard, open the Security Level 06 door. The report is on the desk in the room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive, Office to right of Fast Travel Door",
+    "notes": "Level 06 Security Door"
+   }
   },
   {
    "id": "fbc-logistics-11",
@@ -2041,7 +2930,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The document is in the elevated office behind Field Office Command and the Cafeteria.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, northeast orange building",
+    "notes": ""
+   }
   },
   {
    "id": "subway-maintenance-01",
@@ -2053,7 +2948,13 @@
    "quest": "Power Lines",
    "unlocks": "",
    "how": "Head down to Perimeter Station in the northeast of the Central district. Maintenance Recording #1 is on one of the benches on the platform by the trains.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Perimeter Station, Room with Tuning Device, on a bench",
+    "notes": "Begin Power Lines"
+   }
   },
   {
    "id": "subway-maintenance-02",
@@ -2065,7 +2966,13 @@
    "quest": "Power Lines",
    "unlocks": "",
    "how": "Maintenance Recording #2 is on the same Perimeter Station platform as Maintenance Recording #1, over by the tracks.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Perimeter Station, next to Calibration Unit",
+    "notes": "Begin Power Lines"
+   }
   },
   {
    "id": "subway-maintenance-03",
@@ -2077,7 +2984,13 @@
    "quest": "Power Lines",
    "unlocks": "",
    "how": "Head down to Factory Station in the center of the Central district. Maintenance Recording #3 is on one of the benches on the platform by the trains.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Factory Station, Room with Tuning Device",
+    "notes": "Begin Power Lines"
+   }
   },
   {
    "id": "subway-maintenance-04",
@@ -2089,31 +3002,49 @@
    "quest": "Power Lines",
    "unlocks": "",
    "how": "Maintenance Recording #4 is on the same Factory Station platform as Maintenance Recording #3, just further back.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Factory Station, Room with Tuning Device",
+    "notes": "Begin Power Lines"
+   }
   },
   {
    "id": "subway-maintenance-05",
    "category": "subway-maintenance",
    "n": 5,
    "title": "Maintenance Recording #5",
-   "zone": "The Park",
+   "zone": "Central",
    "place": "East Park Station, Central",
    "quest": "Power Lines",
    "unlocks": "",
    "how": "Head down to East Park Station in the east of the Central district. Maintenance Recording #5 is on one of the benches down on the platform.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "East Park Station, Room with Tuning Device",
+    "notes": "Begin Power Lines"
+   }
   },
   {
    "id": "subway-maintenance-06",
    "category": "subway-maintenance",
    "n": 6,
    "title": "Maintenance Recording #6",
-   "zone": "The Park",
+   "zone": "Central",
    "place": "East Park Station, Central",
    "quest": "Power Lines",
    "unlocks": "",
    "how": "Maintenance Recording #6 is on the same East Park Station platform as Maintenance Recording #5, on the floor next to the stairs.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "East Park Station, Room with Tuning Device",
+    "notes": "Begin Power Lines"
+   }
   },
   {
    "id": "subway-maintenance-07",
@@ -2125,7 +3056,13 @@
    "quest": "Power Lines – Reroute the Vanished Station",
    "unlocks": "",
    "how": "After you activate all three power stations, every subway station entrance is blocked and Dylan has to find another way to the surface. Follow the train tracks past the spot where a big turbine blocked the way before, which is now gone. The tracks lead to the Vanished Station. Head upstairs to find Maintenance Recording #7 in the corridor.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Vanished Station, up the stairs",
+    "notes": "Begin Power Lines"
+   }
   },
   {
    "id": "subway-maintenance-08",
@@ -2137,7 +3074,13 @@
    "quest": "Power Lines – Reroute the Vanished Station",
    "unlocks": "",
    "how": "Maintenance Recording #8 is down on the Vanished Station platform.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Vanished Station, room with Tuning Device",
+    "notes": "Begin Power Lines"
+   }
   },
   {
    "id": "subway-maintenance-09",
@@ -2149,19 +3092,31 @@
    "quest": "Power Lines – Reroute the Vanished Station",
    "unlocks": "",
    "how": "In the upper part of the Vanished Station is a flood light with mold that keeps growing while the light is on. Hit the electric cube and run to the nearby shop that also has a cube, then transfer the power to it. The shutters open and Maintenance Recording #9 is inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Vanished Station, room with Calibration Unit",
+    "notes": "Begin Power Lines"
+   }
   },
   {
    "id": "subway-maintenance-10",
    "category": "subway-maintenance",
    "n": 10,
    "title": "Clarke’s ID Badge",
-   "zone": "The Park",
+   "zone": "Central",
    "place": "East Park Station, Central",
    "quest": "Power Lines – Head to the Surface",
    "unlocks": "",
    "how": "After you activate all three power stations and the subway station entrances are blocked, follow the train tracks past the spot where the big turbine used to block the way. There is a corpse in the corridor. Interact with it to pick up Clarke’s ID Badge.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Tunnel en route to Vanished Station, next to dead body",
+    "notes": "Begin Power Lines"
+   }
   },
   {
    "id": "the-patterning-01",
@@ -2173,7 +3128,13 @@
    "quest": "Welcome to Manhattan",
    "unlocks": "",
    "how": "Complete the Welcome to Manhattan quest to get the Security Level 1 Keycard. It unlocks the small office next to the personnel entrance of the Central Field Office. Zone Conditions is on the desk, next to a loot box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Mobile Lab, South of Field Office",
+    "notes": "Level 01 Security Door"
+   }
   },
   {
    "id": "the-patterning-02",
@@ -2185,7 +3146,13 @@
    "quest": "",
    "unlocks": "",
    "how": "In the center of Downtown, east of the vendor, is a crossroads with a checkpoint. Go up to the room on the top floor of the checkpoint to find the Pattern Barrier report.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Mobile office, upper level - near Outside The Oldest House Fast Travel Door",
+    "notes": ""
+   }
   },
   {
    "id": "the-patterning-03",
@@ -2199,7 +3166,13 @@
    "how": "South of the Central Field Office, at the personnel entrance, is a Konstig Gallery with a Security Level 2 lock. You get the keycard when you complete the main quest Evacuation Procedures (see the Evacuation Efforts Collectibles). The Incident Report: Pattern Barrier is inside the gallery.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Konstig near Personnel Access, South of Field Office",
+    "notes": "Level 02 Security Door"
+   }
   },
   {
    "id": "the-patterning-04",
@@ -2211,7 +3184,13 @@
    "quest": "Power Lines",
    "unlocks": "",
    "how": "Complete the story quest Power Lines and save the survivors and Dr. Florez in the subway (all 10 Subway Maintenance Collectibles are on the same quest). Dr. Florez then joins the Field Office and writes this report. Notes On Pattern Victims is in front of the ER Medical Unit.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Hospital. near Dr. Florez",
+    "notes": "After The House In Distress"
+   }
   },
   {
    "id": "the-patterning-05",
@@ -2223,7 +3202,13 @@
    "quest": "Power Lines",
    "unlocks": "",
    "how": "Notes On Ambient Patterning is the second document Dr. Florez writes once Dylan has saved her during Power Lines. It is on one of the desks below the Field Hospital, so you can pick it up together with Notes On Pattern Victims (4).",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Hospital, opposite side from Dr. Florez",
+    "notes": "After The House In Distress"
+   }
   },
   {
    "id": "resonant-entities-01",
@@ -2235,7 +3220,13 @@
    "quest": "",
    "unlocks": "",
    "how": "In the western part of the Central Field Office is a small checkpoint in the road. The Resonant Autopsy is on the table there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Road west of Field Office",
+    "notes": ""
+   }
   },
   {
    "id": "resonant-entities-02",
@@ -2247,7 +3238,13 @@
    "quest": "",
    "unlocks": "Defeat two Resonants",
    "how": "The Observations Report appears at the Central Field Office, in the same spot as the other Resonant reports, once you have defeated two Resonants.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Command, on desk",
+    "notes": "Complete Enemy of My Enemy"
+   }
   },
   {
    "id": "resonant-entities-03",
@@ -2259,7 +3256,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The research on RE-ZD is in the main room on the ground floor of the Central Field Office.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Command, on desk",
+    "notes": ""
+   }
   },
   {
    "id": "resonant-entities-04",
@@ -2271,7 +3274,13 @@
    "quest": "",
    "unlocks": "Defeat the Resonant in the West Incursion Zone",
    "how": "Defeat the Resonant at the dance hall in the West Incursion Zone (the West Incursion Records Collectibles are in the same zone). Then return to the Central Field Office. The report is on one of the desks in the Command room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Command, on desk",
+    "notes": "Complete The West Incursion Zone Resonant"
+   }
   },
   {
    "id": "resonant-entities-05",
@@ -2283,7 +3292,13 @@
    "quest": "",
    "unlocks": "Defeat the Resonant in the Patterned Factory",
    "how": "Defeat the Resonant in the Patterned Factory in Central. Then return to the Central Field Office. The report is on one of the desks in the Command room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Command, on desk",
+    "notes": "Complete The Central Resonant"
+   }
   },
   {
    "id": "resonant-entities-06",
@@ -2295,7 +3310,13 @@
    "quest": "",
    "unlocks": "Defeat the Resonant in The Park",
    "how": "Defeat the Resonant in The Park. Then return to the Central Field Office. The report is on one of the desks in the Command room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Command, on desk",
+    "notes": "Complete The Park Resonant"
+   }
   },
   {
    "id": "resonant-entities-07",
@@ -2307,7 +3328,13 @@
    "quest": "",
    "unlocks": "Defeat the Resonant at the Spire in the Underpass",
    "how": "Defeat the Resonant at the Spire in the Underpass. Then return to the Central Field Office. The report is in the Command room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Command, on desk",
+    "notes": "Complete The Underpass Resonant"
+   }
   },
   {
    "id": "resonant-entities-08",
@@ -2319,7 +3346,13 @@
    "quest": "",
    "unlocks": "Defeat the Resonant in the Unknown Zone",
    "how": "Defeat the Resonant at the Field Office in the Unknown Zone. You find the report later in the Command room of the Central Field Office.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Command, on desk",
+    "notes": "Complete The Unknown Resonant"
+   }
   },
   {
    "id": "simon-arish-01",
@@ -2331,7 +3364,13 @@
    "quest": "",
    "unlocks": "After defeating all Resonant Entities",
    "how": "The Medical Recommendation is usually the last Simon Arish collectible you find. Zoe contacts Dylan to tell him someone dropped off a document about Arish at the Watchtower, and it is then on the desk next to Zoe. For me, it showed up after completing the Notes objective Defeat the Resonant Entities (see the Resonant Entities Collectibles), with the other three Simon Arish collectibles already picked up and every Important Person on the map talked to.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Watchtower, Zoe's Office",
+    "notes": "Exact method to spawn is unclear, may require: \n-Completing The Unknown Resonant\n-Examining memorial in Field Command\n-Exhausting all of Pope's dialogue"
+   }
   },
   {
    "id": "simon-arish-02",
@@ -2343,7 +3382,13 @@
    "quest": "Evacuation Procedures",
    "unlocks": "",
    "how": "Complete the story quest Evacuation Procedures to receive the Level 2 Keycard (see the Evacuation Efforts Collectibles). Arish On Morale is on the main desk behind the Level 02 Security door, next to the Oldest House: Central Executive fast travel door.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive, Office to right of Thomas Street Exit",
+    "notes": "Level 02 Security Door"
+   }
   },
   {
    "id": "simon-arish-03",
@@ -2357,7 +3402,13 @@
    "how": "Arish’s Note only appears once you have completed the main story. Head back to the Central Field Office and you find it on the center command desk.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Field Command, on desk",
+    "notes": "After The House In Distress"
+   }
   },
   {
    "id": "simon-arish-04",
@@ -2369,7 +3420,13 @@
    "quest": "The Unknown Resonant",
    "unlocks": "",
    "how": "Arish’s Private Log is part of the quest The Unknown Resonant. You find it on the main desk at Field Office Command in the Unknown district.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "The Unknown",
+    "location": "Patterned Field Command, on desk",
+    "notes": ""
+   }
   },
   {
    "id": "central-factory-investigation-01",
@@ -2381,7 +3438,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Injury Report: Factory Accident is just below the Field Hospital at the Central Field Office. It is on one of the desks in the little office area.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, bottom floor of Field Hospital",
+    "notes": ""
+   }
   },
   {
    "id": "central-factory-investigation-02",
@@ -2393,7 +3456,13 @@
    "quest": "The Central Resonant",
    "unlocks": "",
    "how": "Take the elevator down in the Patterned Factory and go past the Fast Travel Door. Climb the long staircase, turn around at the top and take the right side tunnel between the two pipes. Keep to the right to reach a dead end room with a loot box and two dead maintenance workers. One of them carries the City Maintenance Observations.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Patterned Factory basement, near dead bodies",
+    "notes": ""
+   }
   },
   {
    "id": "central-factory-investigation-03",
@@ -2405,7 +3474,13 @@
    "quest": "The Central Resonant",
    "unlocks": "",
    "how": "Go back to the save point in the corridor with the pipes and turn left this time. Factory Log #1 is on a table there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Patterned Factory basement",
+    "notes": ""
+   }
   },
   {
    "id": "central-factory-investigation-04",
@@ -2417,7 +3492,13 @@
    "quest": "The Central Resonant",
    "unlocks": "",
    "how": "From Factory Log #1, follow the tunnel to a room full of Hiss. A big pipe blocks one of the corridors. Jump over it to find two tables at the end of the corridor, with Factory Log #2 on one of them.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Patterned Factory basement",
+    "notes": ""
+   }
   },
   {
    "id": "central-factory-investigation-05",
@@ -2429,7 +3510,13 @@
    "quest": "The Central Resonant",
    "unlocks": "",
    "how": "Go back to the big staircase and take the left side tunnel between the two pipes. Find the room with the health upgrade box, where Dylan can report a Makeshift Living Space. Factory Log #3 is on the table next to it.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Patterned Factory basement, makeshift living space",
+    "notes": ""
+   }
   },
   {
    "id": "central-factory-investigation-06",
@@ -2441,7 +3528,13 @@
    "quest": "The Central Resonant",
    "unlocks": "",
    "how": "An Old Journal is in the same room as Factory Log #3, on the other table.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Patterned Factory basement, makeshift living space",
+    "notes": ""
+   }
   },
   {
    "id": "central-factory-investigation-07",
@@ -2453,7 +3546,13 @@
    "quest": "The Central Resonant",
    "unlocks": "",
    "how": "The FBC ID Badge only appears after you defeat the Deserter, the lava Resonant inside the Patterned Factory. It is lying on the round floor, in the same spot where the Deserter falls.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Patterned Factory Basement, Deserter Boss Fight Room",
+    "notes": "Complete The Central Resonant"
+   }
   },
   {
    "id": "west-incursion-records-01",
@@ -2465,7 +3564,13 @@
    "quest": "",
    "unlocks": "Welcome to Manhattan",
    "how": "Complete the quest Welcome to Manhattan to receive the Security Keycard 01. With it, you can unlock the top Security Station door at the Central Field Office. The Operations Recommendation is on the desk inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Office, Security Station, Third Floor",
+    "notes": ""
+   }
   },
   {
    "id": "west-incursion-records-02",
@@ -2477,7 +3582,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The West Incursion Zone Checkpoint Memo is in the corridor of the West Incursion Zone Checkpoint, between Central and the West Incursion Zone.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "West Incursion Zone Checkpoint",
+    "notes": ""
+   }
   },
   {
    "id": "west-incursion-records-03",
@@ -2489,7 +3600,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Enter the West Incursion Zone through the checkpoint coming from Central and follow the road as far as it goes. From there, use the Switch ability to follow the dotted line on the map. Shanower’s Recon Report is on the floor on top of a roof.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "West Incursion Zone",
+    "location": "On rooftop, en route to Theater",
+    "notes": ""
+   }
   },
   {
    "id": "west-incursion-records-04",
@@ -2501,7 +3618,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Shanower’s Final Report is the hardest one to find if you don’t stumble upon it by accident. Follow the annotations on the in-game map. The recording is just below the “E” of Empire Avenue Station, on the ground floor in a dark alley.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "West Incursion Zone",
+    "location": "Theater chasm, alley (below Empire Avenue Station on map)",
+    "notes": ""
+   }
   },
   {
    "id": "west-incursion-records-05",
@@ -2513,7 +3636,13 @@
    "quest": "The Incursion Fault",
    "unlocks": "",
    "how": "In the story quest The Incursion Fault, you have to find the key for the Parking Garage entrance door. A note says the attendant is either at the Laundromat or having a smoke out back. Enter the Laundromat through the back door to find the security guard with the Parking Garage Attendant’s Report on the floor.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "West Incursion Zone",
+    "location": "Laundromat south of Parking Garage, accessible via Back Alley",
+    "notes": ""
+   }
   },
   {
    "id": "west-incursion-records-06",
@@ -2525,7 +3654,13 @@
    "quest": "The West Incursion Zone Resonant",
    "unlocks": "",
    "how": "In the quest The West Incursion Zone Resonant, Dylan follows the tracks of an FBC rescue team to a subway station. The West Incursion Zone Observations are on the floor at the subway entrance.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "At top of stairs leading down to Empire Avenue Station",
+    "notes": ""
+   }
   },
   {
    "id": "west-incursion-records-07",
@@ -2537,7 +3672,13 @@
    "quest": "The West Incursion Zone Resonant",
    "unlocks": "",
    "how": "Keep following the rescue team towards the Resonant’s location. Dylan reports a massive blood mural to Zoe. The Dance Hall Investigation recording is on the floor right there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "West Incursion Zone",
+    "location": "In front of patterned blood arrangement, south of Theater Hall",
+    "notes": ""
+   }
   },
   {
    "id": "west-incursion-records-08",
@@ -2549,7 +3690,13 @@
    "quest": "The West Incursion Zone Resonant",
    "unlocks": "",
    "how": "Right before the fight against the West Incursion Zone Resonant, Dylan is in the dance hall with the green seating rows. The Streamer’s Archive recorder is at the bottom of the rows.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "West Incursion Zone",
+    "location": "Theater Hall, auditorium, on the right before initiating Resonant Fight",
+    "notes": ""
+   }
   },
   {
    "id": "west-incursion-records-09",
@@ -2561,7 +3708,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Werewolf Reinforcements report is inside the House of Mirrors in the West Incursion Zone, near the Player Customization box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Behind desk, House of Mirrors",
+    "notes": ""
+   }
   },
   {
    "id": "astral-plane-breach-01",
@@ -2573,7 +3726,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "Physicist’s Log #1 is right next to The Spire Fast Travel door in the Underpass.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Next to The Spire Fast Travel Door",
+    "notes": ""
+   }
   },
   {
    "id": "astral-plane-breach-02",
@@ -2585,7 +3744,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "On the way to the Underpass Resonant, get past the blocked passage with the spiked floor fight. After the Board, the strange voice that follows Dylan around, speaks to him, Physicist’s Log #2 is on the floor.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Astral Plane, on path leading to locked door",
+    "notes": ""
+   }
   },
   {
    "id": "astral-plane-breach-03",
@@ -2597,7 +3762,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "Reach the corridor with the door and go to the pillar on the left of the door. Follow the red floor to a room with an Astral Key mission marker. Physicist’s Log #3 is next to the TV, in the same room as A Collections Letter.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Astral Plane, branching path to left of locked doors, next to Astral Key",
+    "notes": ""
+   }
   },
   {
    "id": "astral-plane-breach-04",
@@ -2609,7 +3780,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "Physicist’s Log #4 is behind the locked door in the door corridor. You open it with an Astral Key from one of the three pillars around the corridor.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "In between first and second locked doors",
+    "notes": "Requires Astral Key"
+   }
   },
   {
    "id": "astral-plane-breach-05",
@@ -2621,7 +3798,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "This is one of the hardest ones to find. Go to the pillar at the far end of the door corridor and climb to its highest point, where a couple of corridors branch off. Look for the shift downward that takes you onto the ceiling. Physicist’s Log #5 is in a dark area with a TV. The Astral Key box is on the other side of this area, also on the ceiling.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Astral plane, branching path closest to interest, underneath a platform on way to the key",
+    "notes": ""
+   }
   },
   {
    "id": "astral-plane-breach-06",
@@ -2633,7 +3816,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "Physicist’s Log #6 is in the same area as the Investigate the Astral Plane mission marker, where you get an Astral Key, next to the bedroom with the four loot boxes.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Astral Plane, branching path to right of locked doors, next to Astral Key",
+    "notes": ""
+   }
   },
   {
    "id": "astral-plane-breach-07",
@@ -2645,7 +3834,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "Collect the three Astral Keys from the three pillars around the door corridor and open the three doors, one after the other. They lead to the Physicist’s apartment. Physicist’s Log #7 is on the table to the right, together with the Rejection Letter.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Astral Plane, patterned apartment, before Resonant fight",
+    "notes": ""
+   }
   },
   {
    "id": "astral-plane-breach-08",
@@ -2657,7 +3852,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "Physicist’s Log #8 drops after you defeat the Physicist, the Underpass Resonant.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Next to The Physicist's dead body",
+    "notes": "Complete The Underpass Resonant"
+   }
   },
   {
    "id": "astral-plane-breach-09",
@@ -2669,7 +3870,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "Reach the corridor with the door and go to the pillar on the left of the door. Follow the red floor to the room with an Astral Key mission marker. A Collections Letter is on the desk, in the same room as Physicist’s Log #3.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Astral Plane, branching path to left of locked doors, next to Astral Key",
+    "notes": ""
+   }
   },
   {
    "id": "astral-plane-breach-10",
@@ -2681,7 +3888,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "Letter From Howie is on the left side table in the Physicist’s apartment.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Astral Plane, patterned apartment, before Resonant fight",
+    "notes": ""
+   }
   },
   {
    "id": "astral-plane-breach-11",
@@ -2693,7 +3906,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "Rejection Letter is on the right side table in the Physicist’s apartment, together with Physicist’s Log #7.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Astral Plane, patterned apartment, before Resonant fight",
+    "notes": ""
+   }
   },
   {
    "id": "astral-plane-breach-12",
@@ -2705,7 +3924,13 @@
    "quest": "The Underpass Resonant",
    "unlocks": "",
    "how": "After you defeat the Physicist, Astral Plane Observations is at the entrance to the Oldest House in Downtown.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House lobby, on a desk",
+    "notes": "Complete The Underpass Resonant"
+   }
   },
   {
    "id": "park-survey-01",
@@ -2717,7 +3942,13 @@
    "quest": "",
    "unlocks": "",
    "how": "There is an old, overgrown checkpoint between Central and the Park. The way in is a Mold-packed checkpoint elevator in the northeast of Central, east of the Central Vendor. The Mold report is in the checkpoint corridor.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Molded checkpoint, road east of Patterned Factory",
+    "notes": "Requires Ignite/Inferno"
+   }
   },
   {
    "id": "park-survey-02",
@@ -2729,7 +3960,13 @@
    "quest": "",
    "unlocks": "",
    "how": "A Note On Rules is in the corridor of the Park Checkpoint in the northeast of Central.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "The Park Checkpoint",
+    "notes": ""
+   }
   },
   {
    "id": "park-survey-03",
@@ -2741,7 +3978,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Once you have found the new Mold strains nearby during the Park Resonant quest, these notes are at the FBC Base, next to the Ranger you can talk to.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "FBC Base, rooftop, on a desk",
+    "notes": ""
+   }
   },
   {
    "id": "park-survey-04",
@@ -2753,7 +3996,13 @@
    "quest": "",
    "unlocks": "",
    "how": "In the side story New Growth, you get the key to Dr. Raya Underhill’s apartment in the northeast of the Park. The research notes are inside. The rest of the New Growth documents are in the Dr. Raya Underhill collectibles guide.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Underhill's Apartment",
+    "notes": "Part of New Growth"
+   }
   },
   {
    "id": "park-survey-05",
@@ -2765,7 +4014,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Research Memo is on one of the tables at the FBC Base. You have to read it to move the Park Resonant quest forward.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Desk, roof of FBC base",
+    "notes": ""
+   }
   },
   {
    "id": "park-survey-06",
@@ -2777,7 +4032,13 @@
    "quest": "",
    "unlocks": "",
    "how": "During the Park Resonant quest, Dylan has to eat four pieces of Delicious Mold to open the Mold Gate. A Farewell Note is behind the gate, next to a corpse.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Past mold gate, en route to Resonant",
+    "notes": "During The Park Resonant"
+   }
   },
   {
    "id": "park-survey-07",
@@ -2789,7 +4050,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This report only appears after you defeat the Park Resonant. Go to the small lab on street level just below the FBC Base and talk to the lab assistant. Tell them there was a Mold Resonant and things should be quieter now. The assistant then writes the Resonant Entity Report, which you find at the back of the same lab.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Pulse Fitness beneath FBC base",
+    "notes": "Complete The Park Resonant"
+   }
   },
   {
    "id": "park-survey-08",
@@ -2801,7 +4068,13 @@
    "quest": "",
    "unlocks": "",
    "how": "An Angry Note is also at the FBC Base, on the rooftop towards the east. Use Ground Slam on the ability door on the roof to get inside. The note is in the same room as the Player Customization Box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Roof across from FBC Base",
+    "notes": "Ground Slam"
+   }
   },
   {
    "id": "park-survey-09",
@@ -2813,7 +4086,13 @@
    "quest": "",
    "unlocks": "",
    "how": "During the side story Carbon Copy, the Letter To Hannah is on the coffee table in Hannah’s apartment.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Hannah's Apartment, on the desk",
+    "notes": ""
+   }
   },
   {
    "id": "park-survey-10",
@@ -2825,7 +4104,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Medical Report is in the ER Medical Unit at the Central Field Office. You can only pick it up during Carbon Copy Part 2.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "ER Medical Unit",
+    "notes": "During Carbon Copy: Part II"
+   }
   },
   {
    "id": "park-survey-11",
@@ -2837,7 +4122,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Note From Heidi is in the same ER Medical Unit, on one of the beds.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "ER Medical Unit",
+    "notes": "During Carbon Copy: Part II"
+   }
   },
   {
    "id": "dr-raya-underhill-01",
@@ -2849,7 +4140,13 @@
    "quest": "New Growth",
    "unlocks": "",
    "how": "In the Park side story New Growth, you get the Security Level 6 keycard to Dr. Raya Underhill’s office in Central Executive, Downtown. The Welcome Letter is on the big square desk in the office to the right, together with Dr. Underhill’s Apartment Keys.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive, Underhill's Office",
+    "notes": "Level 06 Security Door - Part of New Growth"
+   }
   },
   {
    "id": "dr-raya-underhill-02",
@@ -2861,7 +4158,13 @@
    "quest": "New Growth",
    "unlocks": "",
    "how": "Underhill’s Personal Notes are on the desk inside Dr. Underhill’s office in Central Executive, the office you open with the Security Level 6 keycard from New Growth. The Welcome Letter and Underhill’s Research Notes are in the same office.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive, Underhill's Office",
+    "notes": "Level 06 Security Door - Part of New Growth"
+   }
   },
   {
    "id": "dr-raya-underhill-03",
@@ -2873,7 +4176,13 @@
    "quest": "",
    "unlocks": "",
    "how": "East of the FBC Base in the Park, a gym on ground level by the road has been turned into a lab. Underhill’s Memo is inside, in the same lab as Busken’s Note.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Pulse Fitness beneath FBC base",
+    "notes": ""
+   }
   },
   {
    "id": "dr-raya-underhill-04",
@@ -2885,7 +4194,13 @@
    "quest": "New Growth",
    "unlocks": "",
    "how": "In New Growth, Dylan finds Dr. Raya Underhill in her apartment, and she hands over the Key to Underhill’s Sewer Lab. Response From Pope is on the table in the Sewer Lab, the same lab as The Mold Growth Simulator.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Underhill's Lab",
+    "notes": "Part of New Growth"
+   }
   },
   {
    "id": "dr-raya-underhill-05",
@@ -2897,7 +4212,13 @@
    "quest": "New Growth",
    "unlocks": "",
    "how": "Underhill’s Research Notes are in Dr. Underhill’s office in Central Executive, on the back desk of the office on the right, the same office as the Welcome Letter.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Central Executive, Underhill's Office",
+    "notes": "Level 06 Security Door - Part of New Growth"
+   }
   },
   {
    "id": "dr-raya-underhill-06",
@@ -2909,7 +4230,13 @@
    "quest": "New Growth",
    "unlocks": "",
    "how": "New Growth leads you to a research site on a roof in the south of the Park. Underhill’s Hypothesis is at this rooftop research site, the same spot as Underhill’s Resignation Letter.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Research Site, rooftop",
+    "notes": ""
+   }
   },
   {
    "id": "dr-raya-underhill-07",
@@ -2921,7 +4248,13 @@
    "quest": "New Growth",
    "unlocks": "",
    "how": "The Mold Growth Simulator is on the table in Underhill’s Sewer Lab, which you open with the key Dr. Underhill gives Dylan in her apartment during New Growth. Response From Pope is in the same lab.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Underhill's Lab",
+    "notes": "Part of New Growth"
+   }
   },
   {
    "id": "dr-raya-underhill-08",
@@ -2933,7 +4266,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Busken’s Note is in the gym turned into a lab on ground level east of the FBC Base, the same lab as Underhill’s Memo.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Pulse Fitness beneath FBC base",
+    "notes": ""
+   }
   },
   {
    "id": "dr-raya-underhill-09",
@@ -2945,7 +4284,13 @@
    "quest": "New Growth",
    "unlocks": "",
    "how": "At the rooftop research site in the south of the Park, where New Growth leads you, Underhill’s Resignation Letter is on the table. Underhill’s Hypothesis is at the same research site.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "On table at Research Site",
+    "notes": "Part of New Growth"
+   }
   },
   {
    "id": "underpass-accounts-01",
@@ -2957,7 +4302,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Here Be Dragons is the first document to find in the Underpass. It is right after entering the Underpass coming from the Sinkhole.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "After descending stairs into Underpass, on a crate.",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-02",
@@ -2969,7 +4320,13 @@
    "quest": "",
    "unlocks": "",
    "how": "From the corridor leading into the Underpass in the northeast of the map, where Here Be Dragons is, drop down to a platform with two rows of desks and a save point. In Case Things Go Wrong is on one of the desks.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Desks, first Underpass platform",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-03",
@@ -2981,7 +4338,13 @@
    "quest": "Recursions and Iterations",
    "unlocks": "",
    "how": "In the story quest Recursions and Iterations, Dylan follows the ropes of Agent Schultz past the Underpass vendor to the next save point. The Sheer Scale Of The Underpass is right there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Research tarp, platform above Vendor",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-04",
@@ -2993,7 +4356,13 @@
    "quest": "Recursions and Iterations",
    "unlocks": "",
    "how": "Keep following the rope from The Sheer Scale Of The Underpass. Cross over on the shifting platforms onto a bigger red, square platform with Hiss and defeat them. Then shift onto the ceiling and drop down the square hole in the floor to land on a bigger concrete section. Dylan points out something in the distance and the Underpass Resonant quest activates. Blazing A Trail is on a desk here.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Research tarp, platform north of the Spire",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-05",
@@ -3005,7 +4374,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Ayad Transmission is on the western side of the Underpass location named Research Site on the map. Notes On Team Psychology from the Underpass Exploration collectibles is on the same side.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Research Site, western office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-06",
@@ -3017,7 +4392,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Strange Lights is on the same level as The Spire Fast Travel door, at a small lookout towards the south. Dylan can also report the distant lights to Zoe here.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Southern side of The Spire, near a chair",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-07",
@@ -3029,7 +4410,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Frequent Disagreements is in the same room as the Player Customization Box at Another Research Site. Grist Research Log #2 from the Underpass Exploration collectibles is in this room too.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Southern Research Site (\"Another Research Site?\" on map), eastern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-08",
@@ -3041,7 +4428,13 @@
    "quest": "Recursions and Iterations",
    "unlocks": "",
    "how": "Everybody’s So Damn Tired is at the third research site, Another Research Site, in the center area with the researchers, where Dylan meets Dr. Grist in the story quest Recursions and Iterations. The southern office here holds three Underpass Exploration documents, starting with Steinbeck Psychiatry Report #2.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Southern Research Site (\"Another Research Site?\" on map), on desk near research team",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-09",
@@ -3053,7 +4446,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Note To Self is in the same section near the dead scientists as Everybody’s So Damn Tired, but closer to the stairs.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Southern Research Site (\"Another Research Site?\" on map), railing, near research team",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-10",
@@ -3065,7 +4464,13 @@
    "quest": "Recursions and Iterations – Track the Time Fluctuations",
    "unlocks": "",
    "how": "Grist Hiss Recording is one of the items that need to be picked up during the Track the Time Fluctuations steps in the story quest Recursions and Iterations.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Platform northeast of Radio Tower, near time fluctuation",
+    "notes": "Part of Recursions and Iterations"
+   }
   },
   {
    "id": "underpass-accounts-11",
@@ -3077,7 +4482,13 @@
    "quest": "",
    "unlocks": "",
    "how": "West of the area named Research Site on the map is …Research Site?. Look for a pile of full garbage bags with Waste Disposal on the floor. Schultz Expedition Log #2 from the Underpass Exploration collectibles is at the same garbage bags.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Northwestern Research Site (\"…Research Site?\" on map), northern end",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-12",
@@ -3089,7 +4500,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Final Survivor is at …Research Site?, the same research site as Waste Disposal, just below the dead scientists. Several Underpass Exploration collectibles are here too, including Notes On Patterning/Spacetime in the center and Schultz Expedition Log #3 in the office.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Northwestern Research Site (\"…Research Site?\" on map), immediately left when arriving from south",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-13",
@@ -3101,7 +4518,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Cross the chasm with the cable car to reach Research Site… Again, far east of Research Site. Scrawled Note is in the office with the Character Customization box. Steinbeck Psychiatry Report #3 from the Underpass Exploration collectibles is at this research site too.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Research Site surrounded by mold (\"Research Site… again\" on map), southern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-14",
@@ -3113,7 +4536,13 @@
    "quest": "Recursions and Iterations – Follow the Relays to Grist",
    "unlocks": "",
    "how": "During the Follow the Relays to Grist step in Recursions and Iterations, Dylan comes across a dead Dylan. I Don’t Mind Dying is next to his body.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "East of \"Research Site… again\" on map, next to dead Dylan",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-accounts-15",
@@ -3125,7 +4554,13 @@
    "quest": "Recursions and Iterations – Follow the Relays to Grist",
    "unlocks": "",
    "how": "Follow the relays Grist has set up in the story quest Recursions and Iterations. When Dylan finds her, she gets killed but leaves Grist’s Final Words behind.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Near Deepest Underpass Fast Travel Door, next to dead Grist",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-01",
@@ -3137,7 +4572,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Schultz Expedition Log #1 is at The Spire, in the same area as A Half-Filled Form (number 2), a bit further up to the left.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "The Spire, eastern edge",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-02",
@@ -3149,7 +4590,13 @@
    "quest": "Recursions and Iterations",
    "unlocks": "",
    "how": "Follow the ropes in the story quest Recursions and Iterations to a research area with tents at The Spire, near the Underpass Resonant location. A Half-Filled Form is on the table here.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "The Spire, Research Team Staging Area",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-03",
@@ -3161,7 +4608,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Ayad Engineering Log #1 is just north of the Halfway Trail Fast Travel Door, on top of a computer desk.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Platform south of Spire, near Halfway Trail Fast Travel Door",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-04",
@@ -3173,7 +4626,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Grist Research Log #1 is on the southern side of Research Site, in the same room as the Player Customization box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Research Site, southern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-05",
@@ -3185,7 +4644,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Schultz Expedition Log #2 is at …Research Site?, west of Research Site, near the garbage bags. These are the same garbage bags as Waste Disposal from the Underpass Accounts collectibles, so you can grab both at once.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Research Site, western edge",
+    "notes": "After speaking with Ayad, during Recursions and Iterations"
+   }
   },
   {
    "id": "underpass-exploration-06",
@@ -3197,7 +4662,13 @@
    "quest": "Recursions and Iterations",
    "unlocks": "",
    "how": "Steinbeck Psychiatry Report #1 is right next to the research team Dylan finds at Research Site during the story quest Recursions and Iterations.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Research Site, near dead bodies",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-07",
@@ -3209,7 +4680,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Notes On Team Psychology is on the western side of Research Site. Ayad Transmission from the Underpass Accounts collectibles is on the same side.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Research Site, western office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-08",
@@ -3221,7 +4698,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Initial Findings is on the southern side of Research Site, close to the Player Customization box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Research Site, southern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-09",
@@ -3233,7 +4716,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Grist Research Log #2 is at Another Research Site, south of Research Site, in the same room as the Player Customization box. Frequent Disagreements from the Underpass Accounts collectibles is in this room too.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Southern Research Site (\"Another Research Site?\" on map), eastern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-10",
@@ -3245,7 +4734,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Steinbeck Psychiatry Report #2 is in the southern office at Another Research Site.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Southern Research Site (\"Another Research Site?\" on map), southern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-11",
@@ -3257,7 +4752,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Unable To Contact Pope is in the same southern office at Another Research Site as Steinbeck Psychiatry Report #2.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Southern Research Site (\"Another Research Site?\" on map), southern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-12",
@@ -3269,7 +4770,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Persistent Memory Issues is the third document in the southern office at Another Research Site.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Southern Research Site (\"Another Research Site?\" on map), southern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-13",
@@ -3281,7 +4788,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Ayad Engineering Log #2 is at …Research Site?, west of Research Site, in the same room as the Player Customization box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Northwestern Research Site (\"…Research Site?\" on map), northwestern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-14",
@@ -3293,7 +4806,13 @@
    "quest": "Recursions and Iterations",
    "unlocks": "",
    "how": "After talking to Dr. Grist at Another Research Site in the story quest Recursions and Iterations, return to …Research Site? in the west. Grist Research Log #3 is on the floor in the center. You have to pick it up to advance the story.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Northwestern Research Site (\"…Research Site?\" on map), near time fluctuation",
+    "notes": "Part of Recursions and Iterations"
+   }
   },
   {
    "id": "underpass-exploration-15",
@@ -3305,7 +4824,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Schultz Expedition Log #3 is inside the office on the northern side of …Research Site?.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Northwestern Research Site (\"…Research Site?\" on map), northern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-16",
@@ -3317,7 +4842,13 @@
    "quest": "Recursions and Iterations",
    "unlocks": "",
    "how": "Notes On Patterning/Spacetime is in the center of …Research Site?. This is where Dylan finds Schultz first alive, then dead, during the story quest Recursions and Iterations.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Northwestern Research Site (\"…Research Site?\" on map), on table near Grist",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-17",
@@ -3329,7 +4860,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Morale’s In The Toilet is in the same office as Schultz Expedition Log #3.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Northwestern Research Site (\"…Research Site?\" on map), northern office",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-18",
@@ -3341,7 +4878,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Our Memories Aren’t The Problem is also at …Research Site?, in the same room as the Player Customization box and Ayad Engineering Log #2.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Northwestern Research Site (\"…Research Site?\" on map), northwestern office, after Grist appears",
+    "notes": "Possibly bugged (make sure to pick it up on your first visit)"
+   }
   },
   {
    "id": "underpass-exploration-19",
@@ -3353,7 +4896,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Cross the chasm with the cable car to reach Research Site… Again, far east of Research Site. Steinbeck Psychiatry Report #3 is in the center area, where the researchers usually stand. Scrawled Note from the Underpass Accounts collectibles is at this research site too.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Underpass",
+    "location": "Research Site surrounded by mold (\"Research Site… again\" on map), near center",
+    "notes": ""
+   }
   },
   {
    "id": "underpass-exploration-20",
@@ -3367,7 +4916,13 @@
    "how": "After you finish the main story, Zoe calls Dylan to a briefing at the watchtower. This starts the Maintenance Protocol side story. Enter the Oldest House through the door near the sapling in the Underpass. The Roots Of The Oldest House? is in the first lobby room.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "When entering Oldest House from Deepest Underpass Fast Travel Door, on the left",
+    "notes": "Part of Maintenance Protocol"
+   }
   },
   {
    "id": "underpass-exploration-21",
@@ -3379,7 +4934,13 @@
    "quest": "Maintenance Protocol (Side Story)",
    "unlocks": "",
    "how": "The last Underpass Exploration collectible is just upstairs from The Roots Of The Oldest House?, inside the office with the Power Upgrade box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Underpass",
+    "location": "Oldest House entrance, office on higher floor",
+    "notes": ""
+   }
   },
   {
    "id": "altered-item-reports-01",
@@ -3391,7 +4952,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Field Panopticon Protocol is at the Central Field Office, near the Field Panopticon station where you can talk to an “Important Person”.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Outside Field Panopticon",
+    "notes": ""
+   }
   },
   {
    "id": "altered-item-reports-02",
@@ -3403,7 +4970,13 @@
    "quest": "",
    "unlocks": "",
    "how": "During the side story The Complete Set, Langston gives Dylan the SR keycard for the Oldest House Storage Room. Processing Altered Items is inside the Storage Room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Executive Research, Altered Item Storage Room",
+    "notes": "Accessible during The Complete Set"
+   }
   },
   {
    "id": "altered-item-reports-03",
@@ -3415,7 +4988,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Strip District “Umbrella Guy” is in the same Oldest House Storage Room as Processing Altered Items, so you can grab both at once.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Executive Research, Altered Item Storage Room",
+    "notes": "Accessible during The Complete Set"
+   }
   },
   {
    "id": "altered-item-reports-04",
@@ -3427,7 +5006,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Complete the Panopticon Service Request side story, then return later to pick up the Vintage Radio (AI94-KPE) file.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Panopticon",
+    "notes": "Complete Panopticon Service Request"
+   }
   },
   {
    "id": "altered-item-reports-05",
@@ -3439,7 +5024,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Vintage Radio Hypotheses is the second Vintage Radio file you can pick up after completing the Panopticon Service Request side story.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Panopticon",
+    "notes": "Complete Panopticon Service Request"
+   }
   },
   {
    "id": "altered-item-reports-06",
@@ -3451,7 +5042,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Enter the cafeteria at the Central Field Office. Vintage Radio Supplement is on one of the tables.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Cafeteria, Field Office",
+    "notes": ""
+   }
   },
   {
    "id": "altered-item-reports-07",
@@ -3463,7 +5060,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Complete the side story Freeze Frame to capture the camera causing trouble across all zones. It is then locked up in the Panopticon, and the Instant Camera (AI96-KE) case file is right next to it.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Panopticon",
+    "notes": "Complete Freeze Frame"
+   }
   },
   {
    "id": "altered-item-reports-08",
@@ -3475,7 +5078,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Go up to the outside terrace above the Command Room at the Central Field Office. Rogue Item Alert is on top of a box next to a table.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Highest level of Field Office (float over from rooftop)",
+    "notes": ""
+   }
   },
   {
    "id": "altered-speakers-01",
@@ -3487,31 +5096,49 @@
    "quest": "",
    "unlocks": "",
    "how": "On a bench in the locker room of the Pulse Fitness gym in the south of the zone.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Pulse Fitness, west of Museum of Curiosities",
+    "notes": ""
+   }
   },
   {
-   "id": "altered-speakers-02",
+   "id": "altered-speakers-05",
    "category": "altered-speakers",
    "n": 2,
-   "title": "Museum Workers' Notes",
-   "zone": "West Incursion Zone",
-   "place": "Museum of Curiosities, West Incursion Zone",
-   "quest": "",
+   "title": "There's People In There",
+   "zone": "Downtown",
+   "place": "Auction House, Downtown",
+   "quest": "The Complete Set",
    "unlocks": "",
-   "how": "On top of the Museum of Curiosities front desk, south of the zone. Reading it can start the side story The Complete Set.",
-   "flags": []
+   "how": "Recording next to the brown leather armchair/couch on the middle floor, near the unresponsive person. Listening adds the next mission markers.",
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Downtown",
+    "location": "Auction House, room with paralegal",
+    "notes": ""
+   }
   },
   {
-   "id": "altered-speakers-03",
+   "id": "altered-speakers-07",
    "category": "altered-speakers",
    "n": 3,
-   "title": "Warning Note",
-   "zone": "West Incursion Zone",
-   "place": "Museum of Curiosities, West Incursion Zone",
+   "title": "Mysterious Recording",
+   "zone": "Downtown",
+   "place": "Auction House, Downtown",
    "quest": "",
    "unlocks": "",
-   "how": "On the ground behind the Museum of Curiosities front desk.",
-   "flags": []
+   "how": "On a bench in the ground-floor locker room of the Auction House.",
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Downtown",
+    "location": "Auction House, locker room",
+    "notes": ""
+   }
   },
   {
    "id": "altered-speakers-04",
@@ -3523,48 +5150,216 @@
    "quest": "",
    "unlocks": "",
    "how": "Auction House in the northwest of Downtown (Dense Patterning), enter via the roof. On a table by the Orientation Point.",
-   "flags": []
-  },
-  {
-   "id": "altered-speakers-05",
-   "category": "altered-speakers",
-   "n": 5,
-   "title": "There's People In There",
-   "zone": "Downtown",
-   "place": "Auction House, Downtown",
-   "quest": "The Complete Set",
-   "unlocks": "",
-   "how": "Recording next to the brown leather armchair/couch on the middle floor, near the unresponsive person. Listening adds the next mission markers.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Auction House, room with paralegal",
+    "notes": ""
+   }
   },
   {
    "id": "altered-speakers-06",
    "category": "altered-speakers",
-   "n": 6,
+   "n": 5,
    "title": "Auction House Ledger",
    "zone": "Downtown",
    "place": "Auction House, Downtown",
    "quest": "",
    "unlocks": "",
    "how": "On a table in the large ground-floor kitchen of the Auction House.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Auction House, cafeteria",
+    "notes": ""
+   }
   },
   {
-   "id": "altered-speakers-07",
+   "id": "altered-speakers-03",
    "category": "altered-speakers",
-   "n": 7,
-   "title": "Mysterious Recording",
-   "zone": "Downtown",
-   "place": "Auction House, Downtown",
+   "n": 6,
+   "title": "Warning Note",
+   "zone": "West Incursion Zone",
+   "place": "Museum of Curiosities, West Incursion Zone",
    "quest": "",
    "unlocks": "",
-   "how": "On a bench in the ground-floor locker room of the Auction House.",
-   "flags": []
+   "how": "On the ground behind the Museum of Curiosities front desk.",
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Behind front desk, Museum of Curiosities",
+    "notes": ""
+   }
+  },
+  {
+   "id": "altered-speakers-02",
+   "category": "altered-speakers",
+   "n": 7,
+   "title": "Museum Workers' Notes",
+   "zone": "West Incursion Zone",
+   "place": "Museum of Curiosities, West Incursion Zone",
+   "quest": "",
+   "unlocks": "",
+   "how": "On top of the Museum of Curiosities front desk, south of the zone. Reading it can start the side story The Complete Set.",
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Front Desk, Museum of Curiosities",
+    "notes": ""
+   }
+  },
+  {
+   "id": "altered-speakers-13",
+   "category": "altered-speakers",
+   "n": 8,
+   "title": "Noise Complaint",
+   "zone": "Central",
+   "place": "Central",
+   "quest": "",
+   "unlocks": "",
+   "how": "On a bedroom table in the Auction Buyer's Apartment.",
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Auction Buyer's Apartment",
+    "notes": ""
+   }
+  },
+  {
+   "id": "altered-speakers-12",
+   "category": "altered-speakers",
+   "n": 9,
+   "title": "Exchange Location Note",
+   "zone": "Central",
+   "place": "Central",
+   "quest": "The Complete Set",
+   "unlocks": "",
+   "how": "Auction Buyer's Apartment, east of the Central Field Office, third floor. On a cabinet by the front door.",
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Auction Buyer's Apartment",
+    "notes": ""
+   }
+  },
+  {
+   "id": "altered-speakers-11",
+   "category": "altered-speakers",
+   "n": 10,
+   "title": "Auction Purchase Receipt",
+   "zone": "Central",
+   "place": "Central",
+   "quest": "",
+   "unlocks": "",
+   "how": "On the ground behind the southeastern Atlantis Cafe.",
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Atlantis Café with speaker, west of Auction Buyer's Apartment",
+    "notes": ""
+   }
+  },
+  {
+   "id": "altered-speakers-16",
+   "category": "altered-speakers",
+   "n": 11,
+   "title": "Pete, Nina and Lester",
+   "zone": "Central",
+   "place": "Central",
+   "quest": "",
+   "unlocks": "",
+   "how": "Answering machine by the fridge in the Collector's Apartment, second floor, first door on the left.",
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Collector's Apartment",
+    "notes": ""
+   }
+  },
+  {
+   "id": "altered-speakers-15",
+   "category": "altered-speakers",
+   "n": 12,
+   "title": "Interested In Collectibles?",
+   "zone": "Central",
+   "place": "Central",
+   "quest": "",
+   "unlocks": "",
+   "how": "On the ground at the Collector's Apartment entrance in southwest Central (patterned road west of the Field Office).",
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Collector's Apartment",
+    "notes": ""
+   }
+  },
+  {
+   "id": "altered-speakers-14",
+   "category": "altered-speakers",
+   "n": 13,
+   "title": "Museum Flyer",
+   "zone": "Central",
+   "place": "Central",
+   "quest": "",
+   "unlocks": "",
+   "how": "In a southern back alley next to a green garbage bin.",
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "Central",
+    "location": "Across the street from the Collector's Apartment, near Speaker",
+    "notes": ""
+   }
+  },
+  {
+   "id": "altered-speakers-10",
+   "category": "altered-speakers",
+   "n": 14,
+   "title": "The SINKKI D50 Speaker Set (AI1201-UE)",
+   "zone": "Oldest House",
+   "place": "Oldest House, Downtown",
+   "quest": "The Complete Set",
+   "unlocks": "",
+   "how": "Same SR storage room in Executive Research. On a crate by a cubicle. Needs Langston's keycard.",
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Executive Research, Altered Item Storage Room",
+    "notes": "Accessible during The Complete Set"
+   }
+  },
+  {
+   "id": "altered-speakers-09",
+   "category": "altered-speakers",
+   "n": 15,
+   "title": "False SINKKI Lead",
+   "zone": "Oldest House",
+   "place": "Oldest House, Downtown",
+   "quest": "The Complete Set",
+   "unlocks": "",
+   "how": "Executive Research storage room (SR) in the Oldest House. Get the SR keycard from Langston at the Central Field Office. On a small cabinet by the back wall.",
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Oldest House, Executive Research, Altered Item Storage Room",
+    "notes": "Accessible during The Complete Set"
+   }
   },
   {
    "id": "altered-speakers-08",
    "category": "altered-speakers",
-   "n": 8,
+   "n": 16,
    "title": "Auction House setup note (name unconfirmed)",
    "zone": "Downtown",
    "place": "Auction House, Downtown",
@@ -3572,188 +5367,136 @@
    "unlocks": "",
    "how": "Note near the incapacitated person on the Auction House balcony, explaining how to place 4 speakers and 1 subwoofer. Not confirmed as the 16th Altered Speakers entry; check the in-game list.",
    "flags": [
-    "unverified"
-   ]
-  },
-  {
-   "id": "altered-speakers-09",
-   "category": "altered-speakers",
-   "n": 9,
-   "title": "False SINKKI Lead",
-   "zone": "Oldest House",
-   "place": "Oldest House, Downtown",
-   "quest": "The Complete Set",
-   "unlocks": "",
-   "how": "Executive Research storage room (SR) in the Oldest House. Get the SR keycard from Langston at the Central Field Office. On a small cabinet by the back wall.",
-   "flags": []
-  },
-  {
-   "id": "altered-speakers-10",
-   "category": "altered-speakers",
-   "n": 10,
-   "title": "The SINKKI D50 Speaker Set (AI1201-UE)",
-   "zone": "Oldest House",
-   "place": "Oldest House, Downtown",
-   "quest": "The Complete Set",
-   "unlocks": "",
-   "how": "Same SR storage room in Executive Research. On a crate by a cubicle. Needs Langston's keycard.",
-   "flags": []
-  },
-  {
-   "id": "altered-speakers-11",
-   "category": "altered-speakers",
-   "n": 11,
-   "title": "Auction Purchase Receipt",
-   "zone": "Central",
-   "place": "Central",
-   "quest": "",
-   "unlocks": "",
-   "how": "On the ground behind the southeastern Atlantis Cafe.",
-   "flags": []
-  },
-  {
-   "id": "altered-speakers-12",
-   "category": "altered-speakers",
-   "n": 12,
-   "title": "Exchange Location Note",
-   "zone": "Central",
-   "place": "Central",
-   "quest": "The Complete Set",
-   "unlocks": "",
-   "how": "Auction Buyer's Apartment, east of the Central Field Office, third floor. On a cabinet by the front door.",
-   "flags": []
-  },
-  {
-   "id": "altered-speakers-13",
-   "category": "altered-speakers",
-   "n": 13,
-   "title": "Noise Complaint",
-   "zone": "Central",
-   "place": "Central",
-   "quest": "",
-   "unlocks": "",
-   "how": "On a bedroom table in the Auction Buyer's Apartment.",
-   "flags": []
-  },
-  {
-   "id": "altered-speakers-14",
-   "category": "altered-speakers",
-   "n": 14,
-   "title": "Museum Flyer",
-   "zone": "Central",
-   "place": "Central",
-   "quest": "",
-   "unlocks": "",
-   "how": "In a southern back alley next to a green garbage bin.",
-   "flags": []
-  },
-  {
-   "id": "altered-speakers-15",
-   "category": "altered-speakers",
-   "n": 15,
-   "title": "Interested In Collectibles?",
-   "zone": "Central",
-   "place": "Central",
-   "quest": "",
-   "unlocks": "",
-   "how": "On the ground at the Collector's Apartment entrance in southwest Central (patterned road west of the Field Office).",
-   "flags": []
-  },
-  {
-   "id": "altered-speakers-16",
-   "category": "altered-speakers",
-   "n": 16,
-   "title": "Pete, Nina and Lester",
-   "zone": "Central",
-   "place": "Central",
-   "quest": "",
-   "unlocks": "",
-   "how": "Answering machine by the fridge in the Collector's Apartment, second floor, first door on the left.",
-   "flags": []
+    "unverified",
+    "not-in-sheet"
+   ],
+   "sheet": null
   },
   {
    "id": "dig-site-threshold-01",
    "category": "dig-site-threshold",
    "n": 1,
-   "title": "Medic’s Assessment Recording in the Field Hospital",
+   "title": "Medic’s Assessment Recording",
    "zone": "Central",
    "place": "Central",
    "quest": "Welcome to Manhattan",
    "unlocks": "",
    "how": "Finish the story mission Welcome to Manhattan to get the Security Level 01 keycard. It lets you into the Field Hospital at the Central Field Office. The Medic’s Assessment Recording is on the table inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Field Hospital, Field Office",
+    "notes": ""
+   }
   },
   {
    "id": "dig-site-threshold-02",
    "category": "dig-site-threshold",
    "n": 2,
-   "title": "Dig Site Threshold Quarantine List (Cabinet Code)",
+   "title": "Dig Site Threshold Quarantine List",
    "zone": "Central",
    "place": "Central",
    "quest": "Crossing the Threshold",
    "unlocks": "",
    "how": "While you are in the Field Hospital, report the person without a head and the locked cabinet to Zoe. Zoe sends you to the Security Station for the cabinet code. The Security Station is in the building on the other side of the Field Hospital and has two Security Level 01 doors. Take the top door and use the computer. Select Next Screen until you see a picture of the cabinet to collect the code. Go back to the Field Hospital and open the cabinet. The Quarantine List is inside.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Field Hospital, Field Office, inside locked cabinet",
+    "notes": "Code obtained as part of Crossing The Threshold"
+   }
   },
   {
    "id": "dig-site-threshold-03",
    "category": "dig-site-threshold",
    "n": 3,
-   "title": "Team Lead’s Expedition Log at the Threshold Dig Site",
+   "title": "Team Lead’s Expedition Log",
    "zone": "Central",
    "place": "Central",
    "quest": "Crossing the Threshold",
    "unlocks": "",
    "how": "Head to the Threshold Dig Site northwest of the Central Field Office. The Team Lead’s Expedition Log is on the bottom floor. TE Keycard Location – Mobile Research Station Access Needed for: 4 – Threshold Site Recording and 7 – Dig Site Threshold Note Location: Threshold Dig Site, Central The TE Keycard opens the Mobile Research Station at the Threshold Dig Site, where 2 of the Dig Site Threshold collectibles are. Report the headless person at the Threshold Dig Site to Zoe, then pick up the TE Keycard from the person’s hand.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Dig Site Threshold",
+    "notes": ""
+   }
   },
   {
    "id": "dig-site-threshold-04",
    "category": "dig-site-threshold",
    "n": 4,
-   "title": "Threshold Site Recording in the Mobile Research Station",
+   "title": "Threshold Site Recording",
    "zone": "Central",
    "place": "Central",
    "quest": "Crossing the Threshold",
    "unlocks": "",
    "how": "Use the TE Keycard to open the Mobile Research Station at the Threshold Dig Site. The Threshold Site Recording is right by the entrance.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Dig Site Threshold",
+    "notes": ""
+   }
   },
   {
    "id": "dig-site-threshold-05",
    "category": "dig-site-threshold",
    "n": 5,
-   "title": "Wilson’s ID Badge on the White Lab Coat",
+   "title": "Wilson’s ID Badge",
    "zone": "Central",
    "place": "Central",
    "quest": "Crossing the Threshold",
    "unlocks": "",
    "how": "Report the white lab coat next to the headless body to Zoe. Then interact with the lab coat again to pick up Wilson’s ID Badge.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Dig Site Threshold",
+    "notes": ""
+   }
   },
   {
    "id": "dig-site-threshold-06",
    "category": "dig-site-threshold",
    "n": 6,
-   "title": "Parabiologist’s Notes at the Threshold Dig Site",
+   "title": "Parabiologist’s Notes",
    "zone": "Central",
    "place": "Central",
    "quest": "Crossing the Threshold",
    "unlocks": "",
    "how": "The Parabiologist’s Notes are also at the Threshold Dig Site, on a desk on the other side of the area.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Dig Site Threshold",
+    "notes": ""
+   }
   },
   {
    "id": "dig-site-threshold-07",
    "category": "dig-site-threshold",
    "n": 7,
-   "title": "Dig Site Threshold Note in the Mobile Research Station",
+   "title": "Dig Site Threshold Note",
    "zone": "Central",
    "place": "Central",
    "quest": "Crossing the Threshold",
    "unlocks": "",
    "how": "Go back into the Mobile Research Station with the TE Keycard. The Dig Site Threshold Note is on the table at the far end of the room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Dig Site Threshold",
+    "notes": ""
+   }
   },
   {
    "id": "impermanence-threshold-01",
@@ -3765,7 +5508,13 @@
    "quest": "Unsupervised Science",
    "unlocks": "",
    "how": "In the south of the West Incursion Zone, use the Patterned Road with Shift to reach the higher rooftops. Look for an empty pizza shop you can enter. There is a dug-out construction hole with a sewer pipe at the bottom. Follow the pipe into the sewers. You have to defeat the Hiss in the first room to move on. At the end of the sewers is Testing Facility Broadway, and Dr. Grant’s Voicemail is on the desk.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Central",
+    "location": "Central FBC Testing Facility (accessible via underground entrance at eastern construction site)",
+    "notes": ""
+   }
   },
   {
    "id": "impermanence-threshold-02",
@@ -3777,7 +5526,13 @@
    "quest": "Unsupervised Science",
    "unlocks": "",
    "how": "Reach the Deserted Area in the east of Downtown over the Lookout Point platform. The building site here is full of Hiss. Defeat them all, then look for a square hole in the ground with a pipe down to the sewers. Follow the pipe through the sewers to Testing Facility Reade. The note is in the room at the far back of the higher platform, next to a Power Upgrade box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Downtown FBC Testing Facility",
+    "notes": "Complete Testing Facility puzzle"
+   }
   },
   {
    "id": "impermanence-threshold-03",
@@ -3789,7 +5544,13 @@
    "quest": "Unsupervised Science",
    "unlocks": "",
    "how": "Testing Facility Coordinates is in the same room as A Note From Dr. Milbeck’s Cardiologist. Pick it up early, because it marks all Testing Facilities on your map.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Central FBC Testing Facility (accessible via underground entrance at eastern construction site)",
+    "notes": "Complete Testing Facility puzzle"
+   }
   },
   {
    "id": "impermanence-threshold-04",
@@ -3801,7 +5562,13 @@
    "quest": "Unsupervised Science",
    "unlocks": "",
    "how": "Dr. Janson’s notes are in the back room of the West Incursion Zone Testing Facility, the same facility as Dr. Grant’s Voicemail. The back room only opens after you shut down the experiment. The West Incursion Zone shutdown puzzle is in the Unsupervised Science Walkthrough.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "West Excursion Testing Facility",
+    "notes": "Complete Testing Facility puzzle"
+   }
   },
   {
    "id": "impermanence-threshold-05",
@@ -3813,7 +5580,13 @@
    "quest": "Unsupervised Science",
    "unlocks": "",
    "how": "The access pipe to Testing Facility Platt is at a construction site northeast of the Central Field Office. Follow the pipe to the Testing Facility. Shut down the Testing Facility first by moving the power from two test cubes to the uncharged ones during the shutdown. The back room then opens with a Power Upgrade box and Notes From Dr. Puchalski.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Central FBC Testing Facility (accessible via underground entrance at eastern construction site)",
+    "notes": "Complete Testing Facility puzzle"
+   }
   },
   {
    "id": "impermanence-threshold-06",
@@ -3825,7 +5598,13 @@
    "quest": "Unsupervised Science",
    "unlocks": "",
    "how": "The access pipe to Testing Facility Vesey is in the east of The Park. Shut down the Testing Facility by transferring power to the blinking power cores for 60 seconds. The back room then opens with a Large Resource Crate and Notes From Dr. Roth.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "The Park Testing Facility",
+    "notes": "Complete Testing Facility puzzle"
+   }
   },
   {
    "id": "impermanence-threshold-07",
@@ -3837,7 +5616,13 @@
    "quest": "Unsupervised Science",
    "unlocks": "",
    "how": "The access pipe to Testing Facility Pearl is at the Survivalist’s Bunker Fast Travel Door in the south of the Evacuation Zone. Shut down the Testing Facility by placing five soda dispensers on the yellow squares. The back room then opens with a Power Upgrade box and Notes From Technician Washland.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Evacuation Zone FBC Testing Facility",
+    "notes": "Complete Testing Facility Puzzle"
+   }
   },
   {
    "id": "impermanence-threshold-08",
@@ -3849,7 +5634,13 @@
    "quest": "Unsupervised Science",
    "unlocks": "",
    "how": "The access pipe to Testing Facility Dutch is in the center of the bottom level of the Twisted Rooftops in the Unknown Zone. Shut down the Testing Facility by transferring power to the blinking power cores for 60 seconds. The back room then opens with a Large Resource Crate and Notes From Dr. Grant.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Unknown",
+    "location": "Unknown FBC Testing Facility",
+    "notes": "Complete Testing Facility Puzzle"
+   }
   },
   {
    "id": "impermanence-threshold-09",
@@ -3861,7 +5652,13 @@
    "quest": "Unsupervised Science",
    "unlocks": "",
    "how": "Once all six Testing Facilities are shut down, enter the Threshold and go to the very end of the Puchalski corridor. Dr. Grant and his Final Report are waiting there.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "The Unknown",
+    "location": "Automatically upon completion of Unsupervised Science",
+    "notes": ""
+   }
   },
   {
    "id": "secret-organization-01",
@@ -3873,7 +5670,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Northwest of the Oldest House is an Atlantis Coffee Shop with a secret. Read the Shop Opening Instructions, use the power switch, then turn on all appliances from smallest to biggest: 1: Radio (in the sitting area) 2: Small coffee machine (on the red counter) 3: Big coffee machine 4: Soda machine 5: Microwave 6: Fridge This opens the door to the secret basement. The Report on Unidentified Female Subject is in the second room of the basement.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Atlantis Café hidden bunker, northwest of Oldest House",
+    "notes": "Solve appliance puzzle"
+   }
   },
   {
    "id": "secret-organization-02",
@@ -3885,7 +5688,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This report is in the first room of the Atlantis Coffee Shop basement, the same room as the Health Upgrade box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Atlantis Café hidden bunker, northwest of Oldest House",
+    "notes": "Solve appliance puzzle"
+   }
   },
   {
    "id": "secret-organization-03",
@@ -3897,7 +5706,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This e-mail is also in the first room with the Health Upgrade box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Downtown",
+    "location": "Atlantis Café hidden bunker, northwest of Oldest House",
+    "notes": "Solve appliance puzzle"
+   }
   },
   {
    "id": "secret-organization-04",
@@ -3909,7 +5724,13 @@
    "quest": "",
    "unlocks": "",
    "how": "East of the Central Field Office, near the East Park Station, is a laundromat blocked by the Hiss. Follow the red glows to their sources and destroy them until you can enter the laundromat. Inside, read the pinboard. The puzzle uses zeros and ones, and only the rows with ones are relevant: 0 means out of order, 1 means a working washing machine. Go through the rows, find those washing machines and turn them on. The order does not matter. This opens the back door in the kitchen area. Do Not Leave The Shelter is on a table in the basement backroom with the tables and yellow chairs.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Laundromat Hidden Bunker, west of East Park Station",
+    "notes": "Solve laundromat puzzle"
+   }
   },
   {
    "id": "secret-organization-05",
@@ -3921,7 +5742,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This document is in the same backroom as Do Not Leave The Shelter, on a different table.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Central",
+    "location": "Laundromat Hidden Bunker, west of East Park Station",
+    "notes": "Solve laundromat puzzle"
+   }
   },
   {
    "id": "secret-organization-06",
@@ -3933,7 +5760,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Southwest of the Main Street Fast Travel Door and the Vendor in the Evacuation Zone is the Konstig Gallery at street level. Read the note at the reception desk. It lists four paintings that have been sold: Journey, Windows, Thunder and Tides. Each of the four walls has three paintings and a light switch on the pillar nearby. Use the light switches to light up the paintings from the list, working from left to right (counterclockwise): Journey: Second painting on the left wall, the one with the road. Windows: First painting, the twisted branches forming windows. Thunder: First painting, the tree split in half by thunder. Tides: Second painting, the tree in the water. Light switch solution from left to right (counterclockwise): 2-1-1-2 The After-Action Summary is a red folder in the second room, on the shelf at the back.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Konsig Hidden Bunker, road east of Sinkhole",
+    "notes": "Solve painting puzzle"
+   }
   },
   {
    "id": "secret-organization-07",
@@ -3945,7 +5778,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This document is in the second room of the Konstig Gallery hideout, on the shelf with the weapons.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Konsig Hidden Bunker, road east of Sinkhole",
+    "notes": "Solve painting puzzle"
+   }
   },
   {
    "id": "secret-organization-08",
@@ -3957,7 +5796,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Workshop Journal Entries are in the first room of the Konstig Gallery hideout, on top of a wooden box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "Evacuation Zone",
+    "location": "Konsig Hidden Bunker, road east of Sinkhole",
+    "notes": "Solve painting puzzle"
+   }
   },
   {
    "id": "secret-organization-09",
@@ -3969,7 +5814,13 @@
    "quest": "",
    "unlocks": "",
    "how": "South of the Park, near the Research Site, is an Atlantis Coffee Shop with a secret. Read the instructions and the coffee menu near the counter. Look up what each table on the note ordered and find its letter on the menu: Table 1: Iced Coffee: B Table 5: Spiciest Chai: D Table 4: Espresso: A Table 2: Caramel Latte: C Enter the code BDAC at the checkout to open the secret door to the basement. The Notice Of Decommissioning is on the bed in the same room as the Health Upgrade box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Atlantis Café hidden bunker, northeast of Research Site",
+    "notes": "Solve table reservation puzzle"
+   }
   },
   {
    "id": "secret-organization-10",
@@ -3981,7 +5832,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This note is in the room with the shelves in the same hideout as Notice Of Decommissioning.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Park",
+    "location": "Atlantis Café hidden bunker, northeast of Research Site",
+    "notes": "Solve table reservation puzzle"
+   }
   },
   {
    "id": "secret-organization-11",
@@ -3993,7 +5850,13 @@
    "quest": "",
    "unlocks": "",
    "how": "On the eastern side of the West Incursion Zone is the Urban Fresh Mart. Read the hint document about the soda machine, then interact with the soda machine to see the lights blink 3-1-2-1. The post-it at the checkout counter says the order is reversed, so enter the code 1-2-1-3 at the till. The secret door opens to a basement with two rooms. Steaming Open Envelopes is in the same room as the Health Upgrade box.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Urban Fresh Mart Hidden Bunker, south of House of Mirrors Fast Travel Door",
+    "notes": "Solve soda dispenser puzzle"
+   }
   },
   {
    "id": "secret-organization-12",
@@ -4005,7 +5868,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This document is in the same basement as Steaming Open Envelopes, in the other room.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Urban Fresh Mart Hidden Bunker, south of House of Mirrors Fast Travel Door",
+    "notes": "Solve soda dispenser puzzle"
+   }
   },
   {
    "id": "secret-organization-13",
@@ -4017,7 +5886,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This letter is in the same room as Avoid The French Delegation and Hunka Love.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Urban Fresh Mart Hidden Bunker, south of House of Mirrors Fast Travel Door",
+    "notes": "Solve soda dispenser puzzle"
+   }
   },
   {
    "id": "secret-organization-14",
@@ -4029,7 +5904,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Enter the gym, Pulse Fitness, in the north of the central island in the Unknown Zone. Read the flyer on the pinboard in the locker room, which describes a two-set cardio training. Then:",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "The Unknown",
+    "location": "Pulse Fitness Secret Bunker, north part of Central Island, inverted",
+    "notes": "Solve exercise gear puzzle"
+   }
   },
   {
    "id": "secret-organization-15",
@@ -4041,7 +5922,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This document is in the same room as Avoid The French Delegation and Audit Outcome.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Document",
+    "region": "West Incursion Zone",
+    "location": "Urban Fresh Mart Hidden Bunker, south of House of Mirrors Fast Travel Door",
+    "notes": "Solve soda dispenser puzzle"
+   }
   },
   {
    "id": "secret-organization-16",
@@ -4053,7 +5940,13 @@
    "quest": "",
    "unlocks": "",
    "how": "This recording is in the Atlantis Coffee Shop hideout northwest of the Oldest House (see 1 – Report on Unidentified Female Subject).",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Audio Log",
+    "region": "Downtown",
+    "location": "Atlantis Café hidden bunker, northwest of Oldest House",
+    "notes": "Solve appliance puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-01",
@@ -4065,7 +5958,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Art Exhibition is inside the Konstig Art Gallery on the ground floor, in the north of the central island (Twisted Rooftops). Arrange the four exhibits so the background squares match, in this order: Ball, Toilet, Laptop, Hoover.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "The Unknown",
+    "location": "Konsig along northern road, central island",
+    "notes": "Complete Art Exhibition puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-02",
@@ -4077,7 +5976,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Beach Day sketch is at the Lookout point on the roof east of the Oldest House in Downtown. Look at the scene first, then place the umbrella and the chair as shown in the screenshot. The pieces show up as puzzle piece symbols on your minimap.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "Downtown",
+    "location": "Construction site near Lookout Point on map",
+    "notes": "Complete Beach Day puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-03",
@@ -4089,7 +5994,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Find the picnic blanket in Central and interact with it. Then pick up the basket and the two cats and place them in the highlighted slots (all items are marked on the HUD). Interact with the blanket once more to take The Cat Picnic sketch.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "Central",
+    "location": "Courtyard east of Dig Site Threshold on map, near chessboards",
+    "notes": "Complete Cat Picnic puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-04",
@@ -4101,7 +6012,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The dragon is in the subway station in the northwest of the Park. Place two pizza slices as its teeth, two traffic cones on its back and two benches as its wings to complete The Dragon and The Knight sketch.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "The Park",
+    "location": "Park Valley Station Platform",
+    "notes": "Complete Dragon And The Knight Puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-05",
@@ -4113,7 +6030,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Game Night is one Gravity Well away from Factory Island, in the southeast of the Unknown Zone. It is on the bottom level of a construction site, and you need to walk around a bit to collect all six pieces: 3 pieces for the game board, a candle from the mini-mart, a pizza from the pizza shop and a mannequin from the laundromat.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "The Unknown",
+    "location": "Southeastern island, Construction Site across from Paradise Pizza Place",
+    "notes": "Complete Game Night Puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-06",
@@ -4125,7 +6048,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Dream House is on the roof of the construction site in the north of the Evacuation Zone. There are 6 items to place, all highlighted on the minimap. Of the two boards, the clean one is the roof and the filthy one goes at the entrance. The dog, the cat and the big plant go at the front, and the small plant goes to the left where the white bowl is.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "Evacuation Zone",
+    "location": "On top of construction site east of Railyard Street Station",
+    "notes": "Solve Dream House puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-07",
@@ -4137,7 +6066,13 @@
    "quest": "",
    "unlocks": "",
    "how": "During the side story The Complete Set, Dylan has to find an Altered speaker in a collector’s apartment in Central. Inside the Collector’s Apartment, set up the “One Man Band” by placing 2 guitars, 1 cymbal, 1 keyboard and 1 microphone. All items are visible on the HUD. Then interact with the finished set to sketch it.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "Central",
+    "location": "Collector's Apartment",
+    "notes": "Finish One-Man Band Puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-08",
@@ -4149,7 +6084,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Halloween Party is on the rooftop north of the West Incursion Zone Checkpoint. Four pieces are missing, and all four are shown on the minimap. The setup is symmetrical, so place each piece to mirror the ones already there. The screenshot shows the right placement.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "West Incursion Zone",
+    "location": "Rooftop directly ahead when entering the West Incursion Zone from the checkpoint",
+    "notes": "Finish Halloween Party Puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-09",
@@ -4161,7 +6102,13 @@
    "quest": "",
    "unlocks": "",
    "how": "Fast travel to the Survivalist’s Bunker from the side story Urban Survival. There is a second warehouse right next to the Survivalist’s warehouse. Follow the alley next to the Survivalist’s warehouse south. Before the mines start, enter the second warehouse on the right. Inside is a vending machine leaning against the warehouse shutters. It needs five pieces, a head, two arms and two legs, and they are all shown on the minimap.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "Evacuation Zone",
+    "location": "Warehouse to the right of the Survivalist's Bunker",
+    "notes": "Finish Robotics Puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-10",
@@ -4173,7 +6120,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Rooftop Oasis is in the northwest of Downtown, where the map shows Dense Patterning. Find three ducks and three plants (they are marked on the HUD). Place the ducks around the table and the plants on the white gravel spots around the umbrella, then take the sketch.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "Downtown",
+    "location": "Rooftop north of \"Dense Patterning (Unscouted\" on map",
+    "notes": "Finish Rooftop Oasis Puzzle"
+   }
   },
   {
    "id": "dylans-sketchbook-11",
@@ -4185,7 +6138,13 @@
    "quest": "",
    "unlocks": "",
    "how": "The Space Adventure is on top of the pillar northwest of the Research Site. Interact with it first, and five puzzle pieces show up on the HUD. The antenna goes on the biggest spot, marked “X”. The American flag goes at the top with the two humans around it, and the Alien stands at the back.",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Photo",
+    "region": "Underpass",
+    "location": "Top of platform with Mold (north of \"…research site?\" on map)",
+    "notes": "Finish Space Adventure Puzzle"
+   }
   },
   {
    "id": "seasons-greetings-01",
@@ -4199,7 +6158,13 @@
    "how": "Finish the game and find it by the door in Dylan’s Apartment.",
    "flags": [
     "post-story"
-   ]
+   ],
+   "sheet": {
+    "type": "Photo",
+    "region": "The Unknown",
+    "location": "Dylan's Apartment",
+    "notes": ""
+   }
   },
   {
    "id": "the-nightwatchman-01",
@@ -4211,7 +6176,13 @@
    "quest": "",
    "unlocks": "",
    "how": "In the northwest of the Evacuation Zone is an apartment building you can only enter when you chase away one of the Freeze Frame Cameras. Inside this building is one apartment you can enter. Interact with the TV to receive this Archives collectible. Side Stories Alphabetical Carbon Copy – All 3 Parts Every Dog Has Her Day Freeze Frame – All Camera Locations Into the Valley of Death Maintenance Protocol Panopticon Service Request The Complete Set The Last Taxi The Party Won’t Stop Unsupervised Science Urban Survival More Control Resonant Guides Control Resonant Control Resonant – Into the Valley of Death Side Story Walkthrough Posted on 29 September 2026 Step-by-step walkthrough for the Into the Valley of Death side story in Control Resonant, from Langs… Control Resonant Control Resonant – Panopticon Service Request Side Story Walkthrough Posted on 27 September 2026 Step-by-step walkthrough for the Panopticon Service Request side story in Control Resonant, from rep… Control Resonant Control Resonant – The Complete Set Side Story Walkthrough Posted on 28 September 2026 Step-by-step walkthrough for The Complete Set side story in Control Resonant, from the first speaker… Control Resonant Control Resonant – The Party Won’t Stop Side Story Walkthrough Posted on 27 September 2026 Step-by-step walkthrough for The Party Won't Stop side story in Control Resonant, from reaching the … Control Resonant Control Resonant Altered Item Reports Collectibles – All 8 Archives Locations Posted on 8 October 2026 All 8 Altered Item Reports in Control Resonant, from the Oldest House Storage Room to the Vintage Ra… Control Resonant Control Resonant Astral Plane Breach Collectibles – All 12 Archives Locations Posted on 30 September 2026 All 12 Astral Plane Breach collectibles in Control Resonant, from Physicist's Log #1 at the Spire do… 1 2 3 … 7 Next",
-   "flags": []
+   "flags": [],
+   "sheet": {
+    "type": "Video",
+    "region": "Evacuation Zone",
+    "location": "Apartment Building south of Railyard Street Station, accessible via roof",
+    "notes": ""
+   }
   }
  ]
 }

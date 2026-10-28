@@ -1,7 +1,7 @@
 (function () {
   const D = JSON.parse(document.getElementById("data").textContent);
   const cats = Object.fromEntries(D.categories.map(c => [c.id, c]));
-  const FLAG = { "post-story": "After story", "game-plus": "Game+", unverified: "Unconfirmed" };
+  const FLAG = { "post-story": "After story", "game-plus": "Game+", unverified: "Unconfirmed", "not-in-sheet": "Not in sheet" };
   const ZONE_LABEL = z => z === "Other" ? "No fixed location" : z;
   const LS = "rc-archive-found-v1", UI = "rc-archive-ui-v1", COLL = "archive";
 
@@ -41,19 +41,22 @@
     const flags = i.flags.map(x => '<span class="req">' + esc(FLAG[x] || x) + "</span>").join("");
     const meta = [i.place && "Location: " + i.place, i.quest && "Quest: " + i.quest, i.unlocks && "Unlocks: " + i.unlocks]
       .filter(Boolean).map(x => "<span>" + esc(x) + "</span>").join("");
+    const sh = i.sheet;
+    const shText = sh && [sh.location, sh.region && !sh.location.includes(sh.region) ? "(" + sh.region + ")" : "", sh.notes].filter(Boolean).join(" ");
     return '<li class="item' + (f ? " found" : "") + '"><label>' +
       '<input type="checkbox" id="cb-' + i.id + '" data-id="' + i.id + '"' + (f ? " checked" : "") + (canWrite ? "" : " disabled") + ">" +
       '<span class="ihead"><span class="iname">' + (ui.group === "cat" ? '<span class="tag">' + String(i.n).padStart(2, "0") + "</span> " : "") + esc(i.title) +
-      '</span><span class="tag">' + esc(sub) + "</span>" + flags + (f ? '<span class="stampbadge">FOUND</span>' : "") + "</span>" +
+      '</span><span class="tag">' + esc(sub) + "</span>" + (sh && sh.type ? '<span class="tag">' + esc(sh.type) + "</span>" : "") + flags + (f ? '<span class="stampbadge">FOUND</span>' : "") + "</span>" +
       (meta ? '<span class="meta">' + meta + "</span>" : "") +
-      '<span class="loc">' + esc(i.how) + "</span></label></li>";
+      '<span class="loc">' + esc(i.how) + "</span>" +
+      (shText ? '<span class="loc alt"><b>Sheet:</b> ' + esc(shText) + "</span>" : "") + "</label></li>";
   }
 
   function renderList() {
     const q = ui.q.trim().toLowerCase();
     const visible = D.items.filter(i =>
       (ui.showAll || !found.has(i.id)) && (!ui.cat || i.category === ui.cat) && (!ui.zone || i.zone === ui.zone) &&
-      (!q || (i.title + " " + i.place + " " + i.quest + " " + i.how + " " + cats[i.category].name).toLowerCase().includes(q)));
+      (!q || (i.title + " " + i.place + " " + i.quest + " " + i.how + " " + cats[i.category].name + " " + (i.sheet ? i.sheet.location + " " + i.sheet.type : "")).toLowerCase().includes(q)));
 
     const groups = ui.group === "cat"
       ? D.categories.map(c => ({ key: c.id, title: c.name, num: String(c.order).padStart(2, "0"), all: D.items.filter(i => i.category === c.id) }))

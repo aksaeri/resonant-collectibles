@@ -1,18 +1,104 @@
 [
-  { "title": "$89.45 Spells HIDE", "location": "West Incursion Zone", "how": "On a bench in the locker room of the Pulse Fitness gym in the south of the zone." },
-  { "title": "Museum Workers' Notes", "location": "Museum of Curiosities, West Incursion Zone", "how": "On top of the Museum of Curiosities front desk, south of the zone. Reading it can start the side story The Complete Set." },
-  { "title": "Warning Note", "location": "Museum of Curiosities, West Incursion Zone", "how": "On the ground behind the Museum of Curiosities front desk." },
-  { "title": "The SINKKI D50 Speaker Set", "location": "Auction House, Downtown", "how": "Auction House in the northwest of Downtown (Dense Patterning), enter via the roof. On a table by the Orientation Point." },
-  { "title": "There's People In There", "location": "Auction House, Downtown", "quest": "The Complete Set", "how": "Recording next to the brown leather armchair/couch on the middle floor, near the unresponsive person. Listening adds the next mission markers." },
-  { "title": "Auction House Ledger", "location": "Auction House, Downtown", "how": "On a table in the large ground-floor kitchen of the Auction House." },
-  { "title": "Mysterious Recording", "location": "Auction House, Downtown", "how": "On a bench in the ground-floor locker room of the Auction House." },
-  { "title": "Auction House setup note (name unconfirmed)", "location": "Auction House, Downtown", "quest": "The Complete Set", "how": "Note near the incapacitated person on the Auction House balcony, explaining how to place 4 speakers and 1 subwoofer. Not confirmed as the 16th Altered Speakers entry; check the in-game list.", "unverified": true },
-  { "title": "False SINKKI Lead", "location": "Oldest House, Downtown", "quest": "The Complete Set", "how": "Executive Research storage room (SR) in the Oldest House. Get the SR keycard from Langston at the Central Field Office. On a small cabinet by the back wall." },
-  { "title": "The SINKKI D50 Speaker Set (AI1201-UE)", "location": "Oldest House, Downtown", "quest": "The Complete Set", "how": "Same SR storage room in Executive Research. On a crate by a cubicle. Needs Langston's keycard." },
-  { "title": "Auction Purchase Receipt", "location": "Central", "how": "On the ground behind the southeastern Atlantis Cafe." },
-  { "title": "Exchange Location Note", "location": "Central", "quest": "The Complete Set", "how": "Auction Buyer's Apartment, east of the Central Field Office, third floor. On a cabinet by the front door." },
-  { "title": "Noise Complaint", "location": "Central", "how": "On a bedroom table in the Auction Buyer's Apartment." },
-  { "title": "Museum Flyer", "location": "Central", "how": "In a southern back alley next to a green garbage bin." },
-  { "title": "Interested In Collectibles?", "location": "Central", "how": "On the ground at the Collector's Apartment entrance in southwest Central (patterned road west of the Field Office)." },
-  { "title": "Pete, Nina and Lester", "location": "Central", "how": "Answering machine by the fridge in the Collector's Apartment, second floor, first door on the left." }
+ {
+  "title": "$89.45 Spells HIDE",
+  "location": "West Incursion Zone",
+  "how": "On a bench in the locker room of the Pulse Fitness gym in the south of the zone.",
+  "id": "altered-speakers-01"
+ },
+ {
+  "title": "There's People In There",
+  "location": "Auction House, Downtown",
+  "quest": "The Complete Set",
+  "how": "Recording next to the brown leather armchair/couch on the middle floor, near the unresponsive person. Listening adds the next mission markers.",
+  "id": "altered-speakers-05"
+ },
+ {
+  "title": "Mysterious Recording",
+  "location": "Auction House, Downtown",
+  "how": "On a bench in the ground-floor locker room of the Auction House.",
+  "id": "altered-speakers-07"
+ },
+ {
+  "title": "The SINKKI D50 Speaker Set",
+  "location": "Auction House, Downtown",
+  "how": "Auction House in the northwest of Downtown (Dense Patterning), enter via the roof. On a table by the Orientation Point.",
+  "id": "altered-speakers-04"
+ },
+ {
+  "title": "Auction House Ledger",
+  "location": "Auction House, Downtown",
+  "how": "On a table in the large ground-floor kitchen of the Auction House.",
+  "id": "altered-speakers-06"
+ },
+ {
+  "title": "Warning Note",
+  "location": "Museum of Curiosities, West Incursion Zone",
+  "how": "On the ground behind the Museum of Curiosities front desk.",
+  "id": "altered-speakers-03"
+ },
+ {
+  "title": "Museum Workers' Notes",
+  "location": "Museum of Curiosities, West Incursion Zone",
+  "how": "On top of the Museum of Curiosities front desk, south of the zone. Reading it can start the side story The Complete Set.",
+  "id": "altered-speakers-02"
+ },
+ {
+  "title": "Noise Complaint",
+  "location": "Central",
+  "how": "On a bedroom table in the Auction Buyer's Apartment.",
+  "id": "altered-speakers-13"
+ },
+ {
+  "title": "Exchange Location Note",
+  "location": "Central",
+  "quest": "The Complete Set",
+  "how": "Auction Buyer's Apartment, east of the Central Field Office, third floor. On a cabinet by the front door.",
+  "id": "altered-speakers-12"
+ },
+ {
+  "title": "Auction Purchase Receipt",
+  "location": "Central",
+  "how": "On the ground behind the southeastern Atlantis Cafe.",
+  "id": "altered-speakers-11"
+ },
+ {
+  "title": "Pete, Nina and Lester",
+  "location": "Central",
+  "how": "Answering machine by the fridge in the Collector's Apartment, second floor, first door on the left.",
+  "id": "altered-speakers-16"
+ },
+ {
+  "title": "Interested In Collectibles?",
+  "location": "Central",
+  "how": "On the ground at the Collector's Apartment entrance in southwest Central (patterned road west of the Field Office).",
+  "id": "altered-speakers-15"
+ },
+ {
+  "title": "Museum Flyer",
+  "location": "Central",
+  "how": "In a southern back alley next to a green garbage bin.",
+  "id": "altered-speakers-14"
+ },
+ {
+  "title": "The SINKKI D50 Speaker Set (AI1201-UE)",
+  "location": "Oldest House, Downtown",
+  "quest": "The Complete Set",
+  "how": "Same SR storage room in Executive Research. On a crate by a cubicle. Needs Langston's keycard.",
+  "id": "altered-speakers-10"
+ },
+ {
+  "title": "False SINKKI Lead",
+  "location": "Oldest House, Downtown",
+  "quest": "The Complete Set",
+  "how": "Executive Research storage room (SR) in the Oldest House. Get the SR keycard from Langston at the Central Field Office. On a small cabinet by the back wall.",
+  "id": "altered-speakers-09"
+ },
+ {
+  "title": "Auction House setup note (name unconfirmed)",
+  "location": "Auction House, Downtown",
+  "quest": "The Complete Set",
+  "how": "Note near the incapacitated person on the Auction House balcony, explaining how to place 4 speakers and 1 subwoofer. Not confirmed as the 16th Altered Speakers entry; check the in-game list.",
+  "unverified": true,
+  "id": "altered-speakers-08"
+ }
 ]

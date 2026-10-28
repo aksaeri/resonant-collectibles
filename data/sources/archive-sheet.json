@@ -1,0 +1,2986 @@
+[
+ {
+  "category": "Jesse Faden",
+  "title": "I Have To Go",
+  "type": "Video",
+  "region": "Downtown",
+  "location": "Automatically upon completing first Dimensional Fault",
+  "notes": null
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "I Feel It",
+  "type": "Video",
+  "region": "Evacuation Zone",
+  "location": "Automatically upon completing The Subway Fault",
+  "notes": null
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "Repeating, Refracting",
+  "type": "Video",
+  "region": "West Incursion Zone",
+  "location": "Automatically upon completing The Incursion Fault",
+  "notes": null
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "Before I Leave",
+  "type": "Video",
+  "region": "Underpass",
+  "location": "Automatically upon completing The Underpass Fault",
+  "notes": null
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "I'm Sorry",
+  "type": "Video",
+  "region": "Downtown",
+  "location": "Automatically upon completing The House In Distress",
+  "notes": null
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "Jesse's ID",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Director's Office",
+  "notes": null
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "Memo On The Role Of The Director",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive - office right from Thomas Street Exit",
+  "notes": "Level 01 Security Door"
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "Contingency Protocol For HRAs",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive, Office to right of Thomas Street Exit",
+  "notes": "Level 02 Security Door"
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "Jesse's Notes To Self",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Director's Office",
+  "notes": null
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "A Letter From Emily Pope to The Director",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Director's Office",
+  "notes": null
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "Notes On [REDACTED]",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, P6 Holding",
+  "notes": "After The End"
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "Medical Report On The Director",
+  "type": "Audio Log",
+  "region": "Downtown",
+  "location": "Oldest House lobby, on a desk",
+  "notes": "After The End"
+ },
+ {
+  "category": "Jesse Faden",
+  "title": "Incident Report: Jesse and Dylan Faden",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, P6 Holding",
+  "notes": "After The End"
+ },
+ {
+  "category": "Dylan Faden",
+  "title": "Medical Report",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, security checkpoint outside P6 Holding",
+  "notes": null
+ },
+ {
+  "category": "Dylan Faden",
+  "title": "Containment Guard Note",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Executive Research, inside Shelter",
+  "notes": null
+ },
+ {
+  "category": "Dylan Faden",
+  "title": "A Memo On Dylan Faden",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, security checkpoint outside P6 Holding",
+  "notes": null
+ },
+ {
+  "category": "Dylan Faden",
+  "title": "Written Warning",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Mobile office, near orientation point south of Oldest House",
+  "notes": null
+ },
+ {
+  "category": "Dylan Faden",
+  "title": "Binding Resonants",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive - office right from Thomas Street Exit",
+  "notes": "Level 01 Security Door"
+ },
+ {
+  "category": "Dylan Faden",
+  "title": "Psych Eval: Dylan Faden",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive - right from Thomas Street Exit",
+  "notes": "Level 01 Security Door"
+ },
+ {
+  "category": "Ordinary AWE",
+  "title": "A Photo Of Dylan And Jesse",
+  "type": "Photo",
+  "region": "Downtown",
+  "location": "Oldest House, P6 Holding",
+  "notes": null
+ },
+ {
+  "category": "Ordinary AWE",
+  "title": "Notes On The Ordinary AWE Case File",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, P6 Holding",
+  "notes": null
+ },
+ {
+  "category": "Ordinary AWE",
+  "title": "Dimensional Research: Slide Repairs",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Director's Office",
+  "notes": null
+ },
+ {
+  "category": "Ordinary AWE",
+  "title": "Hugo Stamp",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, first room on the left",
+  "notes": null
+ },
+ {
+  "category": "Ordinary AWE",
+  "title": "Neil Hosenberg",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, open office to the left when entering",
+  "notes": null
+ },
+ {
+  "category": "Ordinary AWE",
+  "title": "Letter From Grandma",
+  "type": "Document",
+  "region": "Unknown",
+  "location": "Mailbox outside Faden home, during Rebuild",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "A Fantastic Opportunity",
+  "type": "Video",
+  "region": "Downtown",
+  "location": "Automatically upon completing Orientation",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Falling Short",
+  "type": "Video",
+  "region": "Evacuation Zone",
+  "location": "Automatically upon completing The Enemy Of My Enemy",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Perfect",
+  "type": "Video",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, automatically upon finishing breaker room puzzle",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "A Weapon",
+  "type": "Video",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, Director Training, automatically upon entering southwest office",
+  "notes": "Screenshot"
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Volatile Paranatural Entity",
+  "type": "Video",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, Director Training, automatically upon entering southeast office",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Smart Boy",
+  "type": "Video",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, automatically when entering room across from playroom",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Extraordinary Individual",
+  "type": "Video",
+  "region": "Downtown",
+  "location": "Oldest House, automatically upon entering Prime Candidate Program",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Something Innate",
+  "type": "Video",
+  "region": "Unknown",
+  "location": "Automatically upon completing Rebuild",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "All I Had",
+  "type": "Video",
+  "region": "Unknown",
+  "location": "Dylan's Apartment",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "More Qualified",
+  "type": "Video",
+  "region": "Downtown",
+  "location": "Automatically upon completing Orientation",
+  "notes": "New Game +"
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Failure",
+  "type": "Video",
+  "region": "Evacuation Zone",
+  "location": "Automatically upon completing Enemy Of My Enemy",
+  "notes": "New Game +"
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Intake Summary",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, room running on emergency power, back-left office",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Afraid To Hit, Afraid To Get Hit",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, Playroom",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Unrealized Potential",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, room running on emergency power, left office with power core",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Psychic Endurance Test",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, room running on emergency power, right office",
+  "notes": null
+ },
+ {
+  "category": "Dr. Darling",
+  "title": "Institutionalization",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, room running on emergency power, lower level on desk",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "A Worthy Candidate",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, room running on emergency power, center table",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "The Director And Diplomacy",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, Director Training, southeast office",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "On P6's Potential",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, Playroom",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Summary Of Prime Candidates",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, desk on the right when entering",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Faden Residence",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, room running on emergency power, in front of back right office",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Jigsaw Puzzle Experiment",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, room across from playroom, on a desk",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Selection Criteria",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, room with patterned bodies, on a desk towards the front",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "The TAD Course",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, Director Training, next to western office",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "P6 Behavior And Testing",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, Director Training, southwest office",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "P6 And Roberts: A Transcript",
+  "type": "Document",
+  "region": "Document",
+  "location": "Oldest House, Prime Candidate Program, after two heavy bulkhead doors, back office",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "A Glimpse",
+  "type": "Document",
+  "region": "Document",
+  "location": "Oldest House, Prime Candidate Program, room running on emergency power, left open office",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Notes On The MCD",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, Director Training, outside Eastern Office",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Objects Of Power",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, after two heavy bulkhead doors, desk against wall",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Andrew Laine Log 1",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, open office to the left when entering",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Andrew Laine Log 2",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, room running on emergency power, back right office",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Andrew Laine Log 3",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, after two heavy bulkhead doors, on the left",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Andrew Laine Log 4",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, room with patterned bodies, on the floor",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Andrew Laine Log 5",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, Director Training, outside firing range",
+  "notes": null
+ },
+ {
+  "category": "Prime Candidate Program",
+  "title": "Termination Report",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Prime Candidate Program, Director Training, southeast mail kiosk",
+  "notes": null
+ },
+ {
+  "category": "Zoe's Mixtape",
+  "title": "\"Say What\"",
+  "type": "Song",
+  "region": "Evacuation Zone",
+  "location": "Automatically upon completing Evacuation Procedures",
+  "notes": null
+ },
+ {
+  "category": "Zoe's Mixtape",
+  "title": "\"Another World\"",
+  "type": "Song",
+  "region": "Evacuation Zone",
+  "location": "Automatically upon completing Into The Sinkhole",
+  "notes": null
+ },
+ {
+  "category": "Zoe's Mixtape",
+  "title": "\"No Chains Can Last Forever\"",
+  "type": "Song",
+  "region": "West Incursion Zone",
+  "location": "Automatically upon completing The Incursion Fault",
+  "notes": null
+ },
+ {
+  "category": "Zoe's Mixtape",
+  "title": "\"Fight For Control (We Go To War)\"",
+  "type": "Song",
+  "region": "Unknown",
+  "location": "Automatically upon jumping into first Gravity Well",
+  "notes": null
+ },
+ {
+  "category": "Zoe's Mixtape",
+  "title": "\"A World I'm Ready To Live And Die For\"",
+  "type": "Song",
+  "region": "Unknown",
+  "location": "Automatically upon completing Rebuild",
+  "notes": null
+ },
+ {
+  "category": "Zoe's Mixtape",
+  "title": "\"Manalan Mailla\"",
+  "type": "Song",
+  "region": "Unknown",
+  "location": "Automatically upon completing The End",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "A Note To Mom",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Evac Building, 15th floor, room with cots",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Dead Letter: RSVP",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Subway station near Watchtower checkpoint",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Dead Letter: Sasquatch",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Mold-Infested Subway Station",
+  "notes": "Requires Ignite/Inferno"
+ },
+ {
+  "category": "Civilian Records",
+  "title": "A Note About A Beautiful Dog",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Mold-Infested Subway Station",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Missing Dog",
+  "type": "Audio Log",
+  "region": "Evacuation Zone",
+  "location": "Survivalist's Apartment, upper floor",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Influencer's Notebook",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Southeast of Gravity Town Fast Travel door, on table in alley (beneath Gravity Town Altered Camera)",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "The Great Copy Battle",
+  "type": "Document",
+  "region": "Central",
+  "location": "Atlantis Café north of East Park Station",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Survivalist's Log",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Survivalist's Bunker, room with car keyfob",
+  "notes": "Accessible as part of Urban Survival"
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Customer Complaint",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "In front of Vendor",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Note From Civilian Looking For Bitsy",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Konstig west of Nomad Avenue station",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "SHUM!!!!!!!",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Next to West Incursion Zone Shum (southwest of Theater Chasm fast-travel door on map)",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Missing Camera Note",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Atlantis Café, northwest of Unauthorized Mines on map",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Birder's Note #1",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Konsig, Inverted Street west of Parking Garage",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Birder's Note #2",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Northwest of Parking Garage (rooftop below Altered Camera)",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Birder's Note #3",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "North of House of Mirrors, rooftop above laundromat, surrounded by lasers",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Birder's Note #4",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Next to dead body, pinned to wall northeast of House of Mirrors (also accessible via gravity shift)",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Taxi Receipt",
+  "type": "Document",
+  "region": "Unknown",
+  "location": "Automatically upon completion of The Last Taxi",
+  "notes": null
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Letter To NYC Newsfeed",
+  "type": "Document",
+  "region": "Central",
+  "location": "Rooftop terrace south of Perimeter Station, on border of Field Office perimeter",
+  "notes": "Map/Location"
+ },
+ {
+  "category": "Civilian Records",
+  "title": "Patterned Note",
+  "type": "Document",
+  "region": "Unknown",
+  "location": "Southwest island, Urban Fresh Mart at southwest end",
+  "notes": null
+ },
+ {
+  "category": "Oldest House Lockdown",
+  "title": "After Action Report",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Laundromat, northwest of Oldest House, back room",
+  "notes": null
+ },
+ {
+  "category": "Oldest House Lockdown",
+  "title": "Operations Directive",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Deserted Area, near Power Core Station",
+  "notes": null
+ },
+ {
+  "category": "Oldest House Lockdown",
+  "title": "AWE Summaries",
+  "type": "Document",
+  "region": "Central",
+  "location": "Lab between Southeast Gate and Evacuation Zone Checkpoint",
+  "notes": "Level 02 Security Door"
+ },
+ {
+  "category": "Oldest House Lockdown",
+  "title": "Letter To A Colleague",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive, Office to Right of Executive Affairs",
+  "notes": "Level 02 Security Door"
+ },
+ {
+  "category": "Oldest House Lockdown",
+  "title": "Complaint Letter",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Executive Research, near central pillar",
+  "notes": null
+ },
+ {
+  "category": "Oldest House Lockdown",
+  "title": "Lockdown Stress",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive, Office to Right of Executive Affairs",
+  "notes": "Level 02 Security Door"
+ },
+ {
+  "category": "Oldest House Lockdown",
+  "title": "Incident Report: HRAs",
+  "type": "Document",
+  "region": "Central",
+  "location": "Staging Lab, Field Office",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Baker's HR Complaints",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Lower level of mobile office, east of Oldest House",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Request: Change Of Post",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "At the far south end of the street directly out front of the Oldest House",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Safety Alert: Hiss Spikes",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Deserted Area, amidst hiss spikes, south of Testing Facility Reade on map",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Warning",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "West Supply Route Station",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "FBC Policy Update: Security",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Security Station, Second Floor",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Notice To Supervisors",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Lower level of mobile office, east of Outside The Oldest House Fast Travel Door",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Langston's Beat Poetry #27",
+  "type": "Document",
+  "region": "Central",
+  "location": "Next to Langston, Field Office",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Note On The Furnace Chamber",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Higher level of mobile office, east of Oldest House",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "FBC Welcome Letter",
+  "type": "Document",
+  "region": "Central",
+  "location": "Desk outside ER Medical Unit",
+  "notes": "Complete Power Lines"
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Encounter Report: Strange Dog",
+  "type": "Document",
+  "region": "Central",
+  "location": "Inside warehouse southeast of Dig Site Threshold on map, near FBC Rangers",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Hiss Brief",
+  "type": "Document",
+  "region": "Central",
+  "location": "Garage, southeast of West Incursion Zone Checkpoint, located behind a Pulse Fitness",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Guidelines To Accessing The Sinkhole",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Laundromat Entrance to Sinkhole, near Metal Detector",
+  "notes": "Complete Enemy Of My Enemy"
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Sinkhole Transcript",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "On a desk upon exiting the Evacuation Zone checkpoint",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "FBC Subway Report",
+  "type": "Audio Log",
+  "region": "Evacuation Zone",
+  "location": "Near Evacuation Zone Map Pylon",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "PR Guidance Re: Patterned Subway Tunnels",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Elevated boardroom outside Evac Building (when facing Evac Building, on your right)",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Status Enquiry",
+  "type": "Document",
+  "region": "Central",
+  "location": "Watchtower, at the bottom of the Underground Supply Route elevator",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Investigation Order",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Outside of mined parking garage (\"Unauthorized Mines?\" on map)",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Ranger's Stakeout Notes",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Roof southwest of Main Street Fast Travel Door, near Orientation Point",
+  "notes": null
+ },
+ {
+  "category": "Crisis Containment",
+  "title": "Patterned Supply Distribution Check List",
+  "type": "Document",
+  "region": "Unknown",
+  "location": "Patterned Field Command, on desk",
+  "notes": null
+ },
+ {
+  "category": "Evacuation Efforts",
+  "title": "Evacuation Intake Form",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Outside the Evac Building, entrance area",
+  "notes": null
+ },
+ {
+  "category": "Evacuation Efforts",
+  "title": "Evacuation Pamphlet",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Evac Building, near front desk",
+  "notes": null
+ },
+ {
+  "category": "Evacuation Efforts",
+  "title": "Missing Notes 1",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "On a crate near a van in front of the Evac Building",
+  "notes": null
+ },
+ {
+  "category": "Evacuation Efforts",
+  "title": "Mission Notes 2",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Evac Building, Large Construction Room with Hiss Node",
+  "notes": "Level 02 Security Door"
+ },
+ {
+  "category": "Evacuation Efforts",
+  "title": "Mission Notes 3",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Evac Building, office with Hiss Node in it",
+  "notes": null
+ },
+ {
+  "category": "Evacuation Efforts",
+  "title": "Mission Notes 4",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Evac Building, 15th floor, room with cots",
+  "notes": null
+ },
+ {
+  "category": "Evacuation Efforts",
+  "title": "An Internal FBC Comms Department Letter",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Evac Building, office accessible via scaffolding",
+  "notes": null
+ },
+ {
+  "category": "Evacuation Efforts",
+  "title": "Formal Complaint",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Evacuation Zone Checkpoint",
+  "notes": null
+ },
+ {
+  "category": "Evacuation Efforts",
+  "title": "PR Video Screenplay",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Outside Evac Building, small lab on right (when approaching Evac Building)",
+  "notes": null
+ },
+ {
+  "category": "Evacuation Efforts",
+  "title": "Daily Comms Log",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Elevated boardroom outside Evac Building (when facing Evac Building, on your right)",
+  "notes": null
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Aberrant",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, P6 Holding",
+  "notes": "After The End"
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Notes On The Board",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive - office right from Thomas Street Exit",
+  "notes": "Level 01 Security Door"
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Sound Bath Sterilization Study",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Evac Building 12th Floor - Cubicle Room",
+  "notes": null
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Hiss Spikes",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "South of vendor, amidst Hiss Spikes",
+  "notes": null
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "ShenyangIMC Door (AI2294-UE)",
+  "type": "Document",
+  "region": "Central",
+  "location": "Next to the Field Office Fast Travel Door",
+  "notes": null
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Orientation Points",
+  "type": "Document",
+  "region": "Central",
+  "location": "Next to Orientation Point, east of West Incursion Zone Checkpoint",
+  "notes": null
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Volatile Floating Hiss",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "South courtyard near Evac Building (near power station), behind fence",
+  "notes": null
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Hiss Imposters",
+  "type": "Document",
+  "region": "Central",
+  "location": "Inside warehouse southeast of Dig Site Threshold on map, near FBC Rangers",
+  "notes": null
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Field Notes: Pattern Anomalies",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Basement of Construction Site near House of Mirrors fast travel door",
+  "notes": null
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "The Hot Dog Incident",
+  "type": "Document",
+  "region": "Central",
+  "location": "Watchtower, Zoe's Office",
+  "notes": "After Reporting Hot Dog Stand"
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "FBC Injury and Accident Report",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Command, on desk",
+  "notes": "Complete Enemy of My Enemy"
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Fra Containment Report",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Field Office, next to Langston",
+  "notes": "Complete A New Directive"
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Acoustic Testing And Observations",
+  "type": "Document",
+  "region": "Unknown",
+  "location": "Oldest House rooftop, southwest corner",
+  "notes": null
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Research Notes: The Former",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive - office to the right from Executive Affairs",
+  "notes": "Level 01 Security Door"
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "Dimensional Faults",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House lobby, on a desk",
+  "notes": "May vanish if not found before end of game. Exact method to spawn is unclear, may involve:\n-Completing Pope's Research\n-Severing at least one of the Hedron Links in the Unknown"
+ },
+ {
+  "category": "FBC Research and Records",
+  "title": "The Nature Of Hedrons",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Field Office, Field Command, on desk",
+  "notes": "After Pope's Research"
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "Power Core Complaint",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "On roof, near power core southeast of Oldest House",
+  "notes": null
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "Power Core Servicing Diagram",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Automatically obtained during Welcome To Manhattan",
+  "notes": null
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "Baker's Hiss Complaint",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Mobile office near Watchtower checkpoint, lower level.",
+  "notes": null
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "A Note From Baker",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Automatically obtained during Welcome To Manhattan",
+  "notes": null
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "Radar Report",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Alley immediately east of entrance to Central Checkpoint, on a table",
+  "notes": null
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "Black Rock Mines",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "At the far east end of the street southeast of the Vendor, near minefield",
+  "notes": null
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "Supply Distribution Check List",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Command, on desk",
+  "notes": null
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "Balloon Deployment",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, south of Staging Lab",
+  "notes": null
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "Field Office Note",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, slightly west of Staging Lab, near forklift",
+  "notes": null
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "Maintenance Report On The NSC",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive, Office to right of Fast Travel Door",
+  "notes": "Level 06 Security Door"
+ },
+ {
+  "category": "FBC Logistics",
+  "title": "The FBC's Funding",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, northeast orange building",
+  "notes": null
+ },
+ {
+  "category": "Subway Maintenance",
+  "title": "Maintenance Recording #1",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Perimeter Station, Room with Tuning Device, on a bench",
+  "notes": "Begin Power Lines"
+ },
+ {
+  "category": "Subway Maintenance",
+  "title": "Maintenance Recording #2",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Perimeter Station, next to Calibration Unit",
+  "notes": "Begin Power Lines"
+ },
+ {
+  "category": "Subway Maintenance",
+  "title": "Maintenance Recording #3",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Factory Station, Room with Tuning Device",
+  "notes": "Begin Power Lines"
+ },
+ {
+  "category": "Subway Maintenance",
+  "title": "Maintenance Recording #4",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Factory Station, Room with Tuning Device",
+  "notes": "Begin Power Lines"
+ },
+ {
+  "category": "Subway Maintenance",
+  "title": "Maintenance Recording #5",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "East Park Station, Room with Tuning Device",
+  "notes": "Begin Power Lines"
+ },
+ {
+  "category": "Subway Maintenance",
+  "title": "Maintenance Recording #6",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "East Park Station, Room with Tuning Device",
+  "notes": "Begin Power Lines"
+ },
+ {
+  "category": "Subway Maintenance",
+  "title": "Maintenance Recording #7",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Vanished Station, up the stairs",
+  "notes": "Begin Power Lines"
+ },
+ {
+  "category": "Subway Maintenance",
+  "title": "Maintenance Recording #8",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Vanished Station, room with Tuning Device",
+  "notes": "Begin Power Lines"
+ },
+ {
+  "category": "Subway Maintenance",
+  "title": "Maintenance Recording #9",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Vanished Station, room with Calibration Unit",
+  "notes": "Begin Power Lines"
+ },
+ {
+  "category": "Subway Maintenance",
+  "title": "Clarke's ID Badge",
+  "type": "Document",
+  "region": "Central",
+  "location": "Tunnel en route to Vanished Station, next to dead body",
+  "notes": "Begin Power Lines"
+ },
+ {
+  "category": "The Patterning",
+  "title": "Zone Conditions",
+  "type": "Document",
+  "region": "Central",
+  "location": "Mobile Lab, South of Field Office",
+  "notes": "Level 01 Security Door"
+ },
+ {
+  "category": "The Patterning",
+  "title": "Pattern Barrier",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Mobile office, upper level - near Outside The Oldest House Fast Travel Door",
+  "notes": null
+ },
+ {
+  "category": "The Patterning",
+  "title": "Incident Report: Pattern Barrier",
+  "type": "Document",
+  "region": "Central",
+  "location": "Konstig near Personnel Access, South of Field Office",
+  "notes": "Level 02 Security Door"
+ },
+ {
+  "category": "The Patterning",
+  "title": "Notes On Pattern Victims",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Hospital. near Dr. Florez",
+  "notes": "After The House In Distress"
+ },
+ {
+  "category": "The Patterning",
+  "title": "Notes On Ambient Patterning",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Hospital, opposite side from Dr. Florez",
+  "notes": "After The House In Distress"
+ },
+ {
+  "category": "Resonant Entities",
+  "title": "Resonant Autopsy",
+  "type": "Document",
+  "region": "Central",
+  "location": "Road west of Field Office",
+  "notes": null
+ },
+ {
+  "category": "Resonant Entities",
+  "title": "Observations Report",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Command, on desk",
+  "notes": "Complete Enemy of My Enemy"
+ },
+ {
+  "category": "Resonant Entities",
+  "title": "Field Research On Resonant Entity: RE-ZD",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Command, on desk",
+  "notes": null
+ },
+ {
+  "category": "Resonant Entities",
+  "title": "Field Research On Resonant Entity: RE-WIZ",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Command, on desk",
+  "notes": "Complete The West Incursion Zone Resonant"
+ },
+ {
+  "category": "Resonant Entities",
+  "title": "Field Research On Resonant Entity: RE-ZC",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Command, on desk",
+  "notes": "Complete The Central Resonant"
+ },
+ {
+  "category": "Resonant Entities",
+  "title": "Field Research On Resonant Entity: RE-TP",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Command, on desk",
+  "notes": "Complete The Park Resonant"
+ },
+ {
+  "category": "Resonant Entities",
+  "title": "Field Research On Resonant Entity: RE-UN",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Command, on desk",
+  "notes": "Complete The Underpass Resonant"
+ },
+ {
+  "category": "Resonant Entities",
+  "title": "Field Research On Resonant Entity: RE-UZ",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Command, on desk",
+  "notes": "Complete The Unknown Resonant"
+ },
+ {
+  "category": "Simon Arish",
+  "title": "Medical Recommendation",
+  "type": "Document",
+  "region": "Central",
+  "location": "Watchtower, Zoe's Office",
+  "notes": "Exact method to spawn is unclear, may require: \n-Completing The Unknown Resonant\n-Examining memorial in Field Command\n-Exhausting all of Pope's dialogue"
+ },
+ {
+  "category": "Simon Arish",
+  "title": "Arish On Morale",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive, Office to right of Thomas Street Exit",
+  "notes": "Level 02 Security Door"
+ },
+ {
+  "category": "Simon Arish",
+  "title": "Arish's Note",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Field Command, on desk",
+  "notes": "After The House In Distress"
+ },
+ {
+  "category": "Simon Arish",
+  "title": "Arish's Private Log",
+  "type": "Audio Log",
+  "region": "Unknown",
+  "location": "Patterned Field Command, on desk",
+  "notes": null
+ },
+ {
+  "category": "Central Factory Investigation",
+  "title": "Injury Report: Factory Accident",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, bottom floor of Field Hospital",
+  "notes": null
+ },
+ {
+  "category": "Central Factory Investigation",
+  "title": "City Maintenance Observations",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Patterned Factory basement, near dead bodies",
+  "notes": null
+ },
+ {
+  "category": "Central Factory Investigation",
+  "title": "Factory Log #1",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Patterned Factory basement",
+  "notes": null
+ },
+ {
+  "category": "Central Factory Investigation",
+  "title": "Factory Log #2",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Patterned Factory basement",
+  "notes": null
+ },
+ {
+  "category": "Central Factory Investigation",
+  "title": "Factory Log #3",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Patterned Factory basement, makeshift living space",
+  "notes": null
+ },
+ {
+  "category": "Central Factory Investigation",
+  "title": "An Old Journal",
+  "type": "Document",
+  "region": "Central",
+  "location": "Patterned Factory basement, makeshift living space",
+  "notes": null
+ },
+ {
+  "category": "Central Factory Investigation",
+  "title": "FBC ID Badge",
+  "type": "Document",
+  "region": "Central",
+  "location": "Patterned Factory Basement, Deserter Boss Fight Room",
+  "notes": "Complete The Central Resonant"
+ },
+ {
+  "category": "West Incursion Records",
+  "title": "Operations Recommendation",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Office, Security Station, Third Floor",
+  "notes": null
+ },
+ {
+  "category": "West Incursion Records",
+  "title": "West Incursion Zone Checkpoint Memo",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "West Incursion Zone Checkpoint",
+  "notes": null
+ },
+ {
+  "category": "West Incursion Records",
+  "title": "Shanower's Recon Report",
+  "type": "Audio Log",
+  "region": "West Incursion Zone",
+  "location": "On rooftop, en route to Theater",
+  "notes": null
+ },
+ {
+  "category": "West Incursion Records",
+  "title": "Shanower's Final Report",
+  "type": "Audio Log",
+  "region": "West Incursion Zone",
+  "location": "Theater chasm, alley (below Empire Avenue Station on map)",
+  "notes": null
+ },
+ {
+  "category": "West Incursion Records",
+  "title": "Parking Garage Attendant's Report",
+  "type": "Audio Log",
+  "region": "West Incursion Zone",
+  "location": "Laundromat south of Parking Garage, accessible via Back Alley",
+  "notes": null
+ },
+ {
+  "category": "West Incursion Records",
+  "title": "West Incursion Zone Observations",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "At top of stairs leading down to Empire Avenue Station",
+  "notes": null
+ },
+ {
+  "category": "West Incursion Records",
+  "title": "Dance Hall Investigation",
+  "type": "Audio Log",
+  "region": "West Incursion Zone",
+  "location": "In front of patterned blood arrangement, south of Theater Hall",
+  "notes": null
+ },
+ {
+  "category": "West Incursion Records",
+  "title": "Streamer's Archive",
+  "type": "Audio Log",
+  "region": "West Incursion Zone",
+  "location": "Theater Hall, auditorium, on the right before initiating Resonant Fight",
+  "notes": null
+ },
+ {
+  "category": "West Incursion Records",
+  "title": "Werewolf Reinforcements",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Behind desk, House of Mirrors",
+  "notes": null
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Physicist's Log #1",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Next to The Spire Fast Travel Door",
+  "notes": null
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Physicist's Log #2",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Astral Plane, on path leading to locked door",
+  "notes": null
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Physicist's Log #3",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Astral Plane, branching path to left of locked doors, next to Astral Key",
+  "notes": null
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Physicist's Log #4",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "In between first and second locked doors",
+  "notes": "Requires Astral Key"
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Physicist's Log #5",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Astral plane, branching path closest to interest, underneath a platform on way to the key",
+  "notes": null
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Physicist's Log #6",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Astral Plane, branching path to right of locked doors, next to Astral Key",
+  "notes": null
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Physicist's Log #7",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Astral Plane, patterned apartment, before Resonant fight",
+  "notes": null
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Physicist's Log #8",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Next to The Physicist's dead body",
+  "notes": "Complete The Underpass Resonant"
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "A Collections Letter",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Astral Plane, branching path to left of locked doors, next to Astral Key",
+  "notes": null
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Letter From Howie",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Astral Plane, patterned apartment, before Resonant fight",
+  "notes": null
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Rejection Letter",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Astral Plane, patterned apartment, before Resonant fight",
+  "notes": null
+ },
+ {
+  "category": "Astral Plane Breach",
+  "title": "Astral Plane Observations",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House lobby, on a desk",
+  "notes": "Complete The Underpass Resonant"
+ },
+ {
+  "category": "Park Survey",
+  "title": "The Mold",
+  "type": "Document",
+  "region": "Central",
+  "location": "Molded checkpoint, road east of Patterned Factory",
+  "notes": "Requires Ignite/Inferno"
+ },
+ {
+  "category": "Park Survey",
+  "title": "A Note On Rules",
+  "type": "Document",
+  "region": "The Park",
+  "location": "The Park Checkpoint",
+  "notes": null
+ },
+ {
+  "category": "Park Survey",
+  "title": "Notes On The New Mold Strains",
+  "type": "Document",
+  "region": "The Park",
+  "location": "FBC Base, rooftop, on a desk",
+  "notes": null
+ },
+ {
+  "category": "Park Survey",
+  "title": "Research Notes On The Mold",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Underhill's Apartment",
+  "notes": "Part of New Growth"
+ },
+ {
+  "category": "Park Survey",
+  "title": "Research Memo",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Desk, roof of FBC base",
+  "notes": null
+ },
+ {
+  "category": "Park Survey",
+  "title": "A Farewell Note",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Past mold gate, en route to Resonant",
+  "notes": "During The Park Resonant"
+ },
+ {
+  "category": "Park Survey",
+  "title": "Resonant Entity Report (The Park)",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Pulse Fitness beneath FBC base",
+  "notes": "Complete The Park Resonant"
+ },
+ {
+  "category": "Park Survey",
+  "title": "An Angry Note",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Roof across from FBC Base",
+  "notes": "Ground Slam"
+ },
+ {
+  "category": "Park Survey",
+  "title": "Letter To Hannah",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Hannah's Apartment, on the desk",
+  "notes": null
+ },
+ {
+  "category": "Park Survey",
+  "title": "Medical Report: Hannah Garrett",
+  "type": "Document",
+  "region": "Central",
+  "location": "ER Medical Unit",
+  "notes": "During Carbon Copy: Part II"
+ },
+ {
+  "category": "Park Survey",
+  "title": "Note From Heidi",
+  "type": "Document",
+  "region": "Central",
+  "location": "ER Medical Unit",
+  "notes": "During Carbon Copy: Part II"
+ },
+ {
+  "category": "Dr. Raya Underhill",
+  "title": "Welcome Letter",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive, Underhill's Office",
+  "notes": "Level 06 Security Door - Part of New Growth"
+ },
+ {
+  "category": "Dr. Raya Underhill",
+  "title": "Underhill's Personal Notes",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive, Underhill's Office",
+  "notes": "Level 06 Security Door - Part of New Growth"
+ },
+ {
+  "category": "Dr. Raya Underhill",
+  "title": "Underhill's Memo",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Pulse Fitness beneath FBC base",
+  "notes": null
+ },
+ {
+  "category": "Dr. Raya Underhill",
+  "title": "Response From Pope",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Underhill's Lab",
+  "notes": "Part of New Growth"
+ },
+ {
+  "category": "Dr. Raya Underhill",
+  "title": "Underhill's Research Notes",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Central Executive, Underhill's Office",
+  "notes": "Level 06 Security Door - Part of New Growth"
+ },
+ {
+  "category": "Dr. Raya Underhill",
+  "title": "Underhill's Hypothesis",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Research Site, rooftop",
+  "notes": null
+ },
+ {
+  "category": "Dr. Raya Underhill",
+  "title": "The Mold Growth Stimulator",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Underhill's Lab",
+  "notes": "Part of New Growth"
+ },
+ {
+  "category": "Dr. Raya Underhill",
+  "title": "Busken's Note",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Pulse Fitness beneath FBC base",
+  "notes": null
+ },
+ {
+  "category": "Dr. Raya Underhill",
+  "title": "Underhill's Resignation Letter",
+  "type": "Document",
+  "region": "The Park",
+  "location": "On table at Research Site",
+  "notes": "Part of New Growth"
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Here Be Dragons",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "After descending stairs into Underpass, on a crate.",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "In Case Things Go Wrong",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Desks, first Underpass platform",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "The Sheer Scale Of The Underpass",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Research tarp, platform above Vendor",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Blazing A Trail",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Research tarp, platform north of the Spire",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Ayad Transmission",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Research Site, western office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Strange Lights",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Southern side of The Spire, near a chair",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Frequent Disagreements",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Southern Research Site (\"Another Research Site?\" on map), eastern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Everybody's So Damn Tired",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Southern Research Site (\"Another Research Site?\" on map), on desk near research team",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Note To Self",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Southern Research Site (\"Another Research Site?\" on map), railing, near research team",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Grist Hiss Recording",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Platform northeast of Radio Tower, near time fluctuation",
+  "notes": "Part of Recursions and Iterations"
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Waste Disposal",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Northwestern Research Site (\"…Research Site?\" on map), northern end",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Final Survivor",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Northwestern Research Site (\"…Research Site?\" on map), immediately left when arriving from south",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Scrawled Note",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Research Site surrounded by mold (\"Research Site… again\" on map), southern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "I Don't Mind Dying",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "East of \"Research Site… again\" on map, next to dead Dylan",
+  "notes": null
+ },
+ {
+  "category": "Underpass Accounts",
+  "title": "Grist's Final Words",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Near Deepest Underpass Fast Travel Door, next to dead Grist",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Schultz Expedition Log #1",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "The Spire, eastern edge",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "A Half-Filled Form",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "The Spire, Research Team Staging Area",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Ayad Engineering Log #1",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Platform south of Spire, near Halfway Trail Fast Travel Door",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Grist Research Log #1",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Research Site, southern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Schultz Expedition Log #2",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Research Site, western edge",
+  "notes": "After speaking with Ayad, during Recursions and Iterations"
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Steinbeck Psychiatry Report #1",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Research Site, near dead bodies",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Notes On Team Psychology",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Research Site, western office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Initial Findings",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Research Site, southern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Grist Research Log #2",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Southern Research Site (\"Another Research Site?\" on map), eastern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Steinbeck Psychiatry Report #2",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Southern Research Site (\"Another Research Site?\" on map), southern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Unable To Contact Pope",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Southern Research Site (\"Another Research Site?\" on map), southern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Persistent Memory Issues",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Southern Research Site (\"Another Research Site?\" on map), southern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Ayad Engineering Log #2",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Northwestern Research Site (\"…Research Site?\" on map), northwestern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Grist Research Log #3",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Northwestern Research Site (\"…Research Site?\" on map), near time fluctuation",
+  "notes": "Part of Recursions and Iterations"
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Schultz Expedition Log #3",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Northwestern Research Site (\"…Research Site?\" on map), northern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Notes On Patterning/Spacetime",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Northwestern Research Site (\"…Research Site?\" on map), on table near Grist",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Morale's In The Toilet",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Northwestern Research Site (\"…Research Site?\" on map), northern office",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Our Memories Aren't The Problem",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Northwestern Research Site (\"…Research Site?\" on map), northwestern office, after Grist appears",
+  "notes": "Possibly bugged (make sure to pick it up on your first visit)"
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "Steinbeck Psychiatry Report #3",
+  "type": "Audio Log",
+  "region": "Underpass",
+  "location": "Research Site surrounded by mold (\"Research Site… again\" on map), near center",
+  "notes": null
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "The Roots Of The Oldest House",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "When entering Oldest House from Deepest Underpass Fast Travel Door, on the left",
+  "notes": "Part of Maintenance Protocol"
+ },
+ {
+  "category": "Underpass Exploration",
+  "title": "On The Oldest House's Form",
+  "type": "Document",
+  "region": "Underpass",
+  "location": "Oldest House entrance, office on higher floor",
+  "notes": null
+ },
+ {
+  "category": "Altered Item Reports",
+  "title": "Field Panopticon Protocol",
+  "type": "Document",
+  "region": "Central",
+  "location": "Outside Field Panopticon",
+  "notes": null
+ },
+ {
+  "category": "Altered Item Reports",
+  "title": "Processing Altered Items",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Executive Research, Altered Item Storage Room",
+  "notes": "Accessible during The Complete Set"
+ },
+ {
+  "category": "Altered Item Reports",
+  "title": "Strip District \"Umbrella Guy\"",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Executive Research, Altered Item Storage Room",
+  "notes": "Accessible during The Complete Set"
+ },
+ {
+  "category": "Altered Item Reports",
+  "title": "Vintage Radio (AI94-KPE)",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Panopticon",
+  "notes": "Complete Panopticon Service Request"
+ },
+ {
+  "category": "Altered Item Reports",
+  "title": "Vintage Radio Hypotheses",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Panopticon",
+  "notes": "Complete Panopticon Service Request"
+ },
+ {
+  "category": "Altered Item Reports",
+  "title": "Vintage Radio Supplement",
+  "type": "Document",
+  "region": "Central",
+  "location": "Cafeteria, Field Office",
+  "notes": null
+ },
+ {
+  "category": "Altered Item Reports",
+  "title": "Instant Camera (AI96-KE)",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Panopticon",
+  "notes": "Complete Freeze Frame"
+ },
+ {
+  "category": "Altered Item Reports",
+  "title": "Rogue Item Alert",
+  "type": "Document",
+  "region": "Central",
+  "location": "Highest level of Field Office (float over from rooftop)",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "$89.45 Spells Hide",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Pulse Fitness, west of Museum of Curiosities",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "There's People In There",
+  "type": "Audio Log",
+  "region": "Downtown",
+  "location": "Auction House, room with paralegal",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "Mysterious Recording",
+  "type": "Audio Log",
+  "region": "Downtown",
+  "location": "Auction House, locker room",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "The SINKKI D50 Speaker Set",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Auction House, room with paralegal",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "Auction House Ledger",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Auction House, cafeteria",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "Warning Note",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Behind front desk, Museum of Curiosities",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "Museum Workers' Notes",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Front Desk, Museum of Curiosities",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "Noise Complaint",
+  "type": "Document",
+  "region": "Central",
+  "location": "Auction Buyer's Apartment",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "Exchange Location Note",
+  "type": "Document",
+  "region": "Central",
+  "location": "Auction Buyer's Apartment",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "Auction Purchase Receipt",
+  "type": "Document",
+  "region": "Central",
+  "location": "Atlantis Café with speaker, west of Auction Buyer's Apartment",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "Pete, Nina and Lester",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Collector's Apartment",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "Interested in Collectibles?",
+  "type": "Document",
+  "region": "Central",
+  "location": "Collector's Apartment",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "Museum Flyer",
+  "type": "Photo",
+  "region": "Central",
+  "location": "Across the street from the Collector's Apartment, near Speaker",
+  "notes": null
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "The SINKKI D50 Speaker Set (AI1201-UE)",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Executive Research, Altered Item Storage Room",
+  "notes": "Accessible during The Complete Set"
+ },
+ {
+  "category": "Altered Speakers",
+  "title": "False SINKKI Lead",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Oldest House, Executive Research, Altered Item Storage Room",
+  "notes": "Accessible during The Complete Set"
+ },
+ {
+  "category": "Dig Site Threshold",
+  "title": "Medic's Assessment Recording",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Field Hospital, Field Office",
+  "notes": null
+ },
+ {
+  "category": "Dig Site Threshold",
+  "title": "Dig Site Threshold Quarantine List",
+  "type": "Document",
+  "region": "Central",
+  "location": "Field Hospital, Field Office, inside locked cabinet",
+  "notes": "Code obtained as part of Crossing The Threshold"
+ },
+ {
+  "category": "Dig Site Threshold",
+  "title": "Team Lead's Expedition Log",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Dig Site Threshold",
+  "notes": null
+ },
+ {
+  "category": "Dig Site Threshold",
+  "title": "Threshold Site Recording",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Dig Site Threshold",
+  "notes": null
+ },
+ {
+  "category": "Dig Site Threshold",
+  "title": "Wilson's ID Badge",
+  "type": "Document",
+  "region": "Central",
+  "location": "Dig Site Threshold",
+  "notes": null
+ },
+ {
+  "category": "Dig Site Threshold",
+  "title": "Parabiologist's Notes",
+  "type": "Document",
+  "region": "Central",
+  "location": "Dig Site Threshold",
+  "notes": null
+ },
+ {
+  "category": "Dig Site Threshold",
+  "title": "Dig Site Threshold Note",
+  "type": "Document",
+  "region": "Central",
+  "location": "Dig Site Threshold",
+  "notes": null
+ },
+ {
+  "category": "Impermanence Threshold",
+  "title": "Dr. Grant's Voicemail",
+  "type": "Audio Log",
+  "region": "Central",
+  "location": "Central FBC Testing Facility (accessible via underground entrance at eastern construction site)",
+  "notes": null
+ },
+ {
+  "category": "Impermanence Threshold",
+  "title": "A Note From Dr. Milbeck's Cardiologist",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Downtown FBC Testing Facility",
+  "notes": "Complete Testing Facility puzzle"
+ },
+ {
+  "category": "Impermanence Threshold",
+  "title": "Testing Facility Coordinates",
+  "type": "Document",
+  "region": "Central",
+  "location": "Central FBC Testing Facility (accessible via underground entrance at eastern construction site)",
+  "notes": "Complete Testing Facility puzzle"
+ },
+ {
+  "category": "Impermanence Threshold",
+  "title": "Notes From Dr. Janson",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "West Excursion Testing Facility",
+  "notes": "Complete Testing Facility puzzle"
+ },
+ {
+  "category": "Impermanence Threshold",
+  "title": "Notes From Dr. Puchalski",
+  "type": "Document",
+  "region": "Central",
+  "location": "Central FBC Testing Facility (accessible via underground entrance at eastern construction site)",
+  "notes": "Complete Testing Facility puzzle"
+ },
+ {
+  "category": "Impermanence Threshold",
+  "title": "Notes From Dr. Roth",
+  "type": "Document",
+  "region": "The Park",
+  "location": "The Park Testing Facility",
+  "notes": "Complete Testing Facility puzzle"
+ },
+ {
+  "category": "Impermanence Threshold",
+  "title": "Notes From Technician Washland",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Evacuation Zone FBC Testing Facility",
+  "notes": "Complete Testing Facility Puzzle"
+ },
+ {
+  "category": "Impermanence Threshold",
+  "title": "Notes From Dr. Grant",
+  "type": "Document",
+  "region": "Unknown",
+  "location": "Unknown FBC Testing Facility",
+  "notes": "Complete Testing Facility Puzzle"
+ },
+ {
+  "category": "Impermanence Threshold",
+  "title": "Dr. Grant's Final Report",
+  "type": "Audio Log",
+  "region": "Unknown",
+  "location": "Automatically upon completion of Unsupervised Science",
+  "notes": null
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Report On Unidentified Female Subject",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Atlantis Café hidden bunker, northwest of Oldest House",
+  "notes": "Solve appliance puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Report On 34 Thomas Street",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Atlantis Café hidden bunker, northwest of Oldest House",
+  "notes": "Solve appliance puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Clarification Of Mandate",
+  "type": "Document",
+  "region": "Downtown",
+  "location": "Atlantis Café hidden bunker, northwest of Oldest House",
+  "notes": "Solve appliance puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Do Not Leave The Shelter",
+  "type": "Document",
+  "region": "Central",
+  "location": "Laundromat Hidden Bunker, west of East Park Station",
+  "notes": "Solve laundromat puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Visitation And Stay Protocol",
+  "type": "Document",
+  "region": "Central",
+  "location": "Laundromat Hidden Bunker, west of East Park Station",
+  "notes": "Solve laundromat puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "After-Action Summary",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Konsig Hidden Bunker, road east of Sinkhole",
+  "notes": "Solve painting puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Proposed Enforcement",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Konsig Hidden Bunker, road east of Sinkhole",
+  "notes": "Solve painting puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Workshop Journal Entries",
+  "type": "Document",
+  "region": "Evacuation Zone",
+  "location": "Konsig Hidden Bunker, road east of Sinkhole",
+  "notes": "Solve painting puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Notice of Decommissioning",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Atlantis Café hidden bunker, northeast of Research Site",
+  "notes": "Solve table reservation puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Fuck You, Larry Note",
+  "type": "Document",
+  "region": "The Park",
+  "location": "Atlantis Café hidden bunker, northeast of Research Site",
+  "notes": "Solve table reservation puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Steaming Open Envelopes",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Urban Fresh Mart Hidden Bunker, south of House of Mirrors Fast Travel Door",
+  "notes": "Solve soda dispenser puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Avoid The French Delegation",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Urban Fresh Mart Hidden Bunker, south of House of Mirrors Fast Travel Door",
+  "notes": "Solve soda dispenser puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Audit Outcome",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Urban Fresh Mart Hidden Bunker, south of House of Mirrors Fast Travel Door",
+  "notes": "Solve soda dispenser puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Procedure For Work Orders",
+  "type": "Document",
+  "region": "Unknown",
+  "location": "Pulse Fitness Secret Bunker, north part of Central Island, inverted",
+  "notes": "Solve exercise gear puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Hunka Love",
+  "type": "Document",
+  "region": "West Incursion Zone",
+  "location": "Urban Fresh Mart Hidden Bunker, south of House of Mirrors Fast Travel Door",
+  "notes": "Solve soda dispenser puzzle"
+ },
+ {
+  "category": "Secret Organization",
+  "title": "Surveillance Boredom",
+  "type": "Audio Log",
+  "region": "Downtown",
+  "location": "Atlantis Café hidden bunker, northwest of Oldest House",
+  "notes": "Solve appliance puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "Art Exhibition",
+  "type": "Photo",
+  "region": "Unknown",
+  "location": "Konsig along northern road, central island",
+  "notes": "Complete Art Exhibition puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "Beach Day",
+  "type": "Photo",
+  "region": "Downtown",
+  "location": "Construction site near Lookout Point on map",
+  "notes": "Complete Beach Day puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "The Cat Picnic",
+  "type": "Photo",
+  "region": "Central",
+  "location": "Courtyard east of Dig Site Threshold on map, near chessboards",
+  "notes": "Complete Cat Picnic puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "The Dragon and The Knight Sketch",
+  "type": "Photo",
+  "region": "The Park",
+  "location": "Park Valley Station Platform",
+  "notes": "Complete Dragon And The Knight Puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "Game Night",
+  "type": "Photo",
+  "region": "Unknown",
+  "location": "Southeastern island, Construction Site across from Paradise Pizza Place",
+  "notes": "Complete Game Night Puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "Dream House",
+  "type": "Photo",
+  "region": "Evacuation Zone",
+  "location": "On top of construction site east of Railyard Street Station",
+  "notes": "Solve Dream House puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "Live On Stage",
+  "type": "Photo",
+  "region": "Central",
+  "location": "Collector's Apartment",
+  "notes": "Finish One-Man Band Puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "Halloween Party",
+  "type": "Photo",
+  "region": "West Incursion Zone",
+  "location": "Rooftop directly ahead when entering the West Incursion Zone from the checkpoint",
+  "notes": "Finish Halloween Party Puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "Robotics",
+  "type": "Photo",
+  "region": "Evacuation Zone",
+  "location": "Warehouse to the right of the Survivalist's Bunker",
+  "notes": "Finish Robotics Puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "Rooftop Oasis",
+  "type": "Photo",
+  "region": "Downtown",
+  "location": "Rooftop north of \"Dense Patterning (Unscouted\" on map",
+  "notes": "Finish Rooftop Oasis Puzzle"
+ },
+ {
+  "category": "Dylan's Sketchbook",
+  "title": "Space Adventure",
+  "type": "Photo",
+  "region": "Underpass",
+  "location": "Top of platform with Mold (north of \"…research site?\" on map)",
+  "notes": "Finish Space Adventure Puzzle"
+ },
+ {
+  "category": "Season's Greetings",
+  "title": "Season's Greetings",
+  "type": "Photo",
+  "region": "Unknown",
+  "location": "Dylan's Apartment",
+  "notes": null
+ },
+ {
+  "category": "The Nightwatchman",
+  "title": "The Master Of Many Worlds",
+  "type": "Video",
+  "region": "Evacuation Zone",
+  "location": "Apartment Building south of Railyard Street Station, accessible via roof",
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Freighter - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Pursuer",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Elevated",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Collider",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Passenger",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Riveter - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Guard",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Ruiner",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Transporter",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Pursuer - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Distorted - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Freighter",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Transporter- Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": "If experiencing issues with obtaining this entry, try striking the killing blow on the Transporter itself directly, rather than on one of the Passengers."
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Focused",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Ruiner - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Charged",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Focused - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Thug",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Riveter",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Cluster",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Distorted",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Hiss Provoker",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hiss Research",
+  "title": "Vending Machine",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Mold Disperser",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Mold Host",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Spore Mother",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Mold Blight Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Mold Scrapper",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Mold Launcher",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Mold Spreader",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Bloomed Spore Mother",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Mold Plague",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Mold Blight",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Mold Plague - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Mold Research",
+  "title": "Mold Spitter",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Sequence",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Base",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Vector",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Axiom - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Vector - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Spike",
+  "type": "Document",
+  "region": null,
+  "location": "For some reason, this pops after you save Emily during the Hedron Link? Unsure if this is a bug or intentional.",
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Aggregate - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Aggregate",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Flux",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Axiom",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ },
+ {
+  "category": "Hedron Research",
+  "title": "Hedron Sequence - Apex",
+  "type": "Document",
+  "region": null,
+  "location": null,
+  "notes": null
+ }
+]

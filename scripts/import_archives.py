@@ -1,4 +1,5 @@
-"""Build data/archives.json from saved camzillasmom.com guide pages plus data/manual/*.json.
+"""Build data/archives.json from saved camzillasmom.com guide pages plus data/manual/*.json,
+cross-checked against data/sources/archive-sheet.json (community spreadsheet).
 
 Usage: python3 scripts/import_archives.py <dir with saved .html guide pages>
 """
@@ -34,14 +35,46 @@ ZONE_ORDER = ["Downtown", "Oldest House", "Prime Candidate Training", "Central",
               "Evacuation Zone", "The Park", "Underpass", "The Unknown", "Other"]
 
 
+# Guide headings that carry a location suffix; the in-game titles are shorter.
+TITLE_FIXES = {
+    "Medic’s Assessment Recording in the Field Hospital": "Medic’s Assessment Recording",
+    "Dig Site Threshold Quarantine List (Cabinet Code)": "Dig Site Threshold Quarantine List",
+    "Team Lead’s Expedition Log at the Threshold Dig Site": "Team Lead’s Expedition Log",
+    "Threshold Site Recording in the Mobile Research Station": "Threshold Site Recording",
+    "Wilson’s ID Badge on the White Lab Coat": "Wilson’s ID Badge",
+    "Parabiologist’s Notes at the Threshold Dig Site": "Parabiologist’s Notes",
+    "Dig Site Threshold Note in the Mobile Research Station": "Dig Site Threshold Note",
+}
+
+# Sheet spellings that differ from the guide for the same entry.
+SHEET_ALIASES = {"missingnotes1": "missionnotes1", "themoldgrowthstimulator": "themoldgrowthsimulator",
+                 "fuckyoularrynote": "fckyoularrynote"}
+SHEET_REGIONS = {"Unknown": "The Unknown"}
+
+
+def norm(s):
+    s = str(s).lower().replace("’", "'").replace("&", "and").replace("ü", "u")
+    return re.sub(r"[^a-z0-9]", "", s)
+
+
 def zone_of(loc, how):
     s = loc.lower()
+    for key, zone in [("prime candidate", "Prime Candidate Training"), ("oldest house rooftop", "Downtown"),
+                      ("underpass", "Underpass"), ("oldest house", "Oldest House"), ("central executive", "Oldest House")]:
+        if key in s:
+            return zone
+    # "Place, Zone": the part after the last comma names the zone.
+    if "," in s:
+        z = zone_of(s.rsplit(",", 1)[1], how)
+        if z != "Other":
+            return z
     rules = [
         ("prime candidate", "Prime Candidate Training"), ("underpass", "Underpass"), ("astral", "Underpass"),
         ("unknown", "The Unknown"), ("dylan’s apartment", "The Unknown"), ("dylan's apartment", "The Unknown"),
         ("oldest house rooftop", "Downtown"), ("oldest house", "Oldest House"), ("central executive", "Oldest House"),
         ("west incursion", "West Incursion Zone"), ("evacuation", "Evacuation Zone"), ("park", "The Park"),
         ("central", "Central"), ("downtown", "Downtown"), ("vanished station", "Central"),
+        ("east park station", "Central"),
     ]
     for key, zone in rules:
         if key in s:
@@ -96,6 +129,7 @@ def parse(lines):
 
 def main(src):
     src = Path(src)
+    sheet = json.loads((ROOT / "data/sources/archive-sheet.json").read_text())
     hub = parse(to_lines(src / "hub.html"))
     cats, items = [], []
     for order, (name, slug) in enumerate(CATEGORIES, 1):
@@ -107,7 +141,11 @@ def main(src):
         else:
             raw = parse(to_lines(src / (slug + ".html")))
         cats.append({"id": cid, "name": name, "order": order, "count": len(raw)})
+        rows = [r for r in sheet if norm(r["category"]) == norm(name)]
         for n, x in enumerate(raw, 1):
+            title = TITLE_FIXES.get(x["title"], x["title"])
+            k = norm(title)
+            row = next((r for r in rows if SHEET_ALIASES.get(norm(r["title"]), norm(r["title"])) == k), None)
             text = " ".join([x.get("quest", ""), x.get("unlocks", ""), x["how"]])
             flags = []
             if re.search(r"Game\+", text):
@@ -116,17 +154,30 @@ def main(src):
                 flags.append("post-story")
             if x.get("unverified"):
                 flags.append("unverified")
+            zone = zone_of(x["location"], x["how"])
+            alt = None
+            if row:
+                region = SHEET_REGIONS.get(row["region"], row["region"])
+                if zone == "Other" and region in ZONE_ORDER:
+                    zone = region
+                alt = {"type": row["type"], "region": region if region in ZONE_ORDER else "",
+                       "location": row["location"] or "", "notes": row["notes"] or ""}
+            else:
+                flags.append("not-in-sheet")
             items.append({
-                "id": f"{cid}-{n:02d}", "category": cid, "n": n, "title": x["title"],
-                "zone": zone_of(x["location"], x["how"]), "place": x["location"],
+                # Ids are the tick keys in the tracker's store: pinned ids survive reordering.
+                "id": x.get("id", f"{cid}-{n:02d}"), "category": cid, "n": n, "title": title,
+                "zone": zone, "place": x["location"],
                 "quest": x.get("quest", ""), "unlocks": x.get("unlocks", ""), "how": x["how"], "flags": flags,
+                "sheet": alt,
             })
     out = {
         "game": "Control Resonant",
         "set": "Archives > Collectibles",
         "total": len(items),
         "sources": ["https://camzillasmom.com/control-resonant-game-guides-collectibles-hub/",
-                    "https://mapmaster.io/games/control-resonant/guides/Altered%20Speakers%20Collectible"],
+                    "https://mapmaster.io/games/control-resonant/guides/Altered%20Speakers%20Collectible",
+                    "https://docs.google.com/spreadsheets/d/1Frm8FKQm6QdoGvSIMyh3rT-DXXHFGS1g"],
         "zones": ZONE_ORDER,
         "categories": cats,
         "items": items,
